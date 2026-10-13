@@ -945,3 +945,41 @@
     "category": "زمان"
   }
 ]
+  {
+    "article": "das",
+    "word": "Bett",
+    "plural": "Betten",
+    "fa": "تختخواب",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Spiegel",
+    "plural": "Spiegel",
+    "fa": "آینه",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Teppich",
+    "plural": "Teppiche",
+    "fa": "فرش",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Kissen",
+    "plural": "Kissen",
+    "fa": "بالش",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Decke",
+    "plural": "Decken",
+    "fa": "پتو، سقف",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "L
