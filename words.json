@@ -1,0 +1,947 @@
+[
+  {
+    "article": "der",
+    "word": "Tisch",
+    "plural": "Tische",
+    "fa": "میز",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Stuhl",
+    "plural": "Stühle",
+    "fa": "صندلی",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Schrank",
+    "plural": "Schränke",
+    "fa": "کمد",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Baum",
+    "plural": "Bäume",
+    "fa": "درخت",
+    "category": "طبیعت"
+  },
+  {
+    "article": "der",
+    "word": "Mann",
+    "plural": "Männer",
+    "fa": "مرد",
+    "category": "افراد"
+  },
+  {
+    "article": "der",
+    "word": "Kopf",
+    "plural": "Köpfe",
+    "fa": "سر",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Mund",
+    "plural": "Münder",
+    "fa": "دهان",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Zahn",
+    "plural": "Zähne",
+    "fa": "دندان",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Arm",
+    "plural": "Arme",
+    "fa": "بازو",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Rücken",
+    "plural": "Rücken",
+    "fa": "پشت، کمر",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Hals",
+    "plural": "Hälse",
+    "fa": "گردن",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Finger",
+    "plural": "Finger",
+    "fa": "انگشت",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Bauch",
+    "plural": "Bäuche",
+    "fa": "شکم",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Zug",
+    "plural": "Züge",
+    "fa": "قطار",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "der",
+    "word": "Bahnhof",
+    "plural": "Bahnhöfe",
+    "fa": "ایستگاه قطار",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "das",
+    "word": "Buch",
+    "plural": "Bücher",
+    "fa": "کتاب",
+    "category": "آموزش"
+  },
+  {
+    "article": "das",
+    "word": "Bild",
+    "plural": "Bilder",
+    "fa": "تصویر",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Sofa",
+    "plural": "Sofas",
+    "fa": "کاناپه",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Auto",
+    "plural": "Autos",
+    "fa": "ماشین",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "das",
+    "word": "Handy",
+    "plural": "Handys",
+    "fa": "تلفن همراه",
+    "category": "وسایل"
+  },
+  {
+    "article": "das",
+    "word": "Glas",
+    "plural": "Gläser",
+    "fa": "لیوان، شیشه",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Kind",
+    "plural": "Kinder",
+    "fa": "کودک",
+    "category": "افراد"
+  },
+  {
+    "article": "das",
+    "word": "Brot",
+    "plural": "Brote",
+    "fa": "نان",
+    "category": "غذا"
+  },
+  {
+    "article": "das",
+    "word": "Flugzeug",
+    "plural": "Flugzeuge",
+    "fa": "هواپیما",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "die",
+    "word": "Frau",
+    "plural": "Frauen",
+    "fa": "زن، خانم",
+    "category": "افراد"
+  },
+  {
+    "article": "die",
+    "word": "Blume",
+    "plural": "Blumen",
+    "fa": "گل",
+    "category": "طبیعت"
+  },
+  {
+    "article": "die",
+    "word": "Flasche",
+    "plural": "Flaschen",
+    "fa": "بطری",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Katze",
+    "plural": "Katzen",
+    "fa": "گربه",
+    "category": "حیوانات"
+  },
+  {
+    "article": "die",
+    "word": "Tasche",
+    "plural": "Taschen",
+    "fa": "کیف",
+    "category": "وسایل"
+  },
+  {
+    "article": "die",
+    "word": "Brille",
+    "plural": "Brillen",
+    "fa": "عینک",
+    "category": "وسایل"
+  },
+  {
+    "article": "die",
+    "word": "Jacke",
+    "plural": "Jacken",
+    "fa": "کاپشن",
+    "category": "لباس"
+  },
+  {
+    "article": "die",
+    "word": "Straße",
+    "plural": "Straßen",
+    "fa": "خیابان",
+    "category": "شهر"
+  },
+  {
+    "article": "die",
+    "word": "Stadt",
+    "plural": "Städte",
+    "fa": "شهر",
+    "category": "شهر"
+  },
+  {
+    "article": "die",
+    "word": "Milch",
+    "plural": "—",
+    "fa": "شیر",
+    "category": "غذا"
+  },
+  {
+    "article": "die",
+    "word": "Tomate",
+    "plural": "Tomaten",
+    "fa": "گوجه‌فرنگی",
+    "category": "غذا"
+  },
+  {
+    "article": "die",
+    "word": "Straßenbahn",
+    "plural": "Straßenbahnen",
+    "fa": "تراموا",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "der",
+    "word": "Fenster",
+    "plural": "Fenster",
+    "fa": "پنجره",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Becher",
+    "plural": "Becher",
+    "fa": "ماگ، لیوان دسته‌دار",
+    "category": "خانه"
+  },
+  {
+    "article": "der",
+    "word": "Bleistift",
+    "plural": "Bleistifte",
+    "fa": "مداد",
+    "category": "آموزش"
+  },
+  {
+    "article": "der",
+    "word": "Stift",
+    "plural": "Stifte",
+    "fa": "خودکار، قلم",
+    "category": "آموزش"
+  },
+  {
+    "article": "der",
+    "word": "Computer",
+    "plural": "Computer",
+    "fa": "رایانه",
+    "category": "اداری"
+  },
+  {
+    "article": "der",
+    "word": "Schreibtisch",
+    "plural": "Schreibtische",
+    "fa": "میز تحریر",
+    "category": "اداری"
+  },
+  {
+    "article": "der",
+    "word": "Drucker",
+    "plural": "Drucker",
+    "fa": "چاپگر",
+    "category": "اداری"
+  },
+  {
+    "article": "der",
+    "word": "Bus",
+    "plural": "Busse",
+    "fa": "اتوبوس",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "der",
+    "word": "Flughafen",
+    "plural": "Flughäfen",
+    "fa": "فرودگاه",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "der",
+    "word": "Fahrradweg",
+    "plural": "Fahrradwege",
+    "fa": "مسیر دوچرخه",
+    "category": "شهر"
+  },
+  {
+    "article": "der",
+    "word": "Park",
+    "plural": "Parks",
+    "fa": "پارک",
+    "category": "شهر"
+  },
+  {
+    "article": "der",
+    "word": "Garten",
+    "plural": "Gärten",
+    "fa": "باغ",
+    "category": "طبیعت"
+  },
+  {
+    "article": "der",
+    "word": "Fluss",
+    "plural": "Flüsse",
+    "fa": "رودخانه",
+    "category": "طبیعت"
+  },
+  {
+    "article": "der",
+    "word": "Berg",
+    "plural": "Berge",
+    "fa": "کوه",
+    "category": "طبیعت"
+  },
+  {
+    "article": "der",
+    "word": "Hund",
+    "plural": "Hunde",
+    "fa": "سگ",
+    "category": "حیوانات"
+  },
+  {
+    "article": "der",
+    "word": "Apfel",
+    "plural": "Äpfel",
+    "fa": "سیب",
+    "category": "غذا"
+  },
+  {
+    "article": "der",
+    "word": "Käse",
+    "plural": "—",
+    "fa": "پنیر",
+    "category": "غذا"
+  },
+  {
+    "article": "der",
+    "word": "Monat",
+    "plural": "Monate",
+    "fa": "ماه",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Montag",
+    "plural": "Montage",
+    "fa": "دوشنبه",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Morgen",
+    "plural": "Morgen",
+    "fa": "صبح",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Fuß",
+    "plural": "Füße",
+    "fa": "پا",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Ellenbogen",
+    "plural": "Ellenbogen",
+    "fa": "آرنج",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Oberschenkel",
+    "plural": "Oberschenkel",
+    "fa": "ران",
+    "category": "بدن"
+  },
+  {
+    "article": "der",
+    "word": "Kühlschrank",
+    "plural": "Kühlschränke",
+    "fa": "یخچال",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Tür",
+    "plural": "Türen",
+    "fa": "در",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Lampe",
+    "plural": "Lampen",
+    "fa": "چراغ",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Uhr",
+    "plural": "Uhren",
+    "fa": "ساعت",
+    "category": "وسایل"
+  },
+  {
+    "article": "die",
+    "word": "Küche",
+    "plural": "Küchen",
+    "fa": "آشپزخانه",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Wohnung",
+    "plural": "Wohnungen",
+    "fa": "آپارتمان",
+    "category": "خانه"
+  },
+  {
+    "article": "die",
+    "word": "Schule",
+    "plural": "Schulen",
+    "fa": "مدرسه",
+    "category": "آموزش"
+  },
+  {
+    "article": "die",
+    "word": "Universität",
+    "plural": "Universitäten",
+    "fa": "دانشگاه",
+    "category": "آموزش"
+  },
+  {
+    "article": "die",
+    "word": "Arbeit",
+    "plural": "Arbeiten",
+    "fa": "کار",
+    "category": "اداری"
+  },
+  {
+    "article": "die",
+    "word": "Bank",
+    "plural": "Banken",
+    "fa": "بانک",
+    "category": "اداری"
+  },
+  {
+    "article": "die",
+    "word": "Tastatur",
+    "plural": "Tastaturen",
+    "fa": "صفحه‌کلید",
+    "category": "اداری"
+  },
+  {
+    "article": "die",
+    "word": "Maus",
+    "plural": "Mäuse",
+    "fa": "ماوس",
+    "category": "اداری"
+  },
+  {
+    "article": "die",
+    "word": "Bahn",
+    "plural": "Bahnen",
+    "fa": "قطار/راه‌آهن",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "die",
+    "word": "U-Bahn",
+    "plural": "U-Bahnen",
+    "fa": "مترو",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "die",
+    "word": "Haltestelle",
+    "plural": "Haltestellen",
+    "fa": "ایستگاه",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "die",
+    "word": "Ampel",
+    "plural": "Ampeln",
+    "fa": "چراغ راهنمایی",
+    "category": "شهر"
+  },
+  {
+    "article": "die",
+    "word": "Brücke",
+    "plural": "Brücken",
+    "fa": "پل",
+    "category": "شهر"
+  },
+  {
+    "article": "die",
+    "word": "Natur",
+    "plural": "—",
+    "fa": "طبیعت",
+    "category": "طبیعت"
+  },
+  {
+    "article": "die",
+    "word": "Sonne",
+    "plural": "Sonnen",
+    "fa": "خورشید",
+    "category": "طبیعت"
+  },
+  {
+    "article": "die",
+    "word": "Wolke",
+    "plural": "Wolken",
+    "fa": "ابر",
+    "category": "طبیعت"
+  },
+  {
+    "article": "die",
+    "word": "Zeitung",
+    "plural": "Zeitungen",
+    "fa": "روزنامه",
+    "category": "رسانه"
+  },
+  {
+    "article": "die",
+    "word": "Banane",
+    "plural": "Bananen",
+    "fa": "موز",
+    "category": "غذا"
+  },
+  {
+    "article": "die",
+    "word": "Kartoffel",
+    "plural": "Kartoffeln",
+    "fa": "سیب‌زمینی",
+    "category": "غذا"
+  },
+  {
+    "article": "die",
+    "word": "Hand",
+    "plural": "Hände",
+    "fa": "دست",
+    "category": "بدن"
+  },
+  {
+    "article": "die",
+    "word": "Nase",
+    "plural": "Nasen",
+    "fa": "بینی",
+    "category": "بدن"
+  },
+  {
+    "article": "die",
+    "word": "Schulter",
+    "plural": "Schultern",
+    "fa": "شانه",
+    "category": "بدن"
+  },
+  {
+    "article": "die",
+    "word": "Hose",
+    "plural": "Hosen",
+    "fa": "شلوار",
+    "category": "لباس"
+  },
+  {
+    "article": "die",
+    "word": "Hemd",
+    "plural": "Hemden",
+    "fa": "پیراهن مردانه",
+    "category": "لباس"
+  },
+  {
+    "article": "die",
+    "word": "Socke",
+    "plural": "Socken",
+    "fa": "جوراب",
+    "category": "لباس"
+  },
+  {
+    "article": "die",
+    "word": "Farbe",
+    "plural": "Farben",
+    "fa": "رنگ",
+    "category": "آموزش"
+  },
+  {
+    "article": "das",
+    "word": "Haus",
+    "plural": "Häuser",
+    "fa": "خانه",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Zimmer",
+    "plural": "Zimmer",
+    "fa": "اتاق",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Bett",
+    "plural": "Betten",
+    "fa": "تخت",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Regal",
+    "plural": "Regale",
+    "fa": "قفسه",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Geschirr",
+    "plural": "—",
+    "fa": "ظروف",
+    "category": "خانه"
+  },
+  {
+    "article": "das",
+    "word": "Papier",
+    "plural": "Papiere",
+    "fa": "کاغذ",
+    "category": "اداری"
+  },
+  {
+    "article": "das",
+    "word": "Heft",
+    "plural": "Hefte",
+    "fa": "دفتر",
+    "category": "آموزش"
+  },
+  {
+    "article": "das",
+    "word": "Wörterbuch",
+    "plural": "Wörterbücher",
+    "fa": "فرهنگ لغت",
+    "category": "آموزش"
+  },
+  {
+    "article": "das",
+    "word": "Telefon",
+    "plural": "Telefone",
+    "fa": "تلفن",
+    "category": "وسایل"
+  },
+  {
+    "article": "das",
+    "word": "Fahrrad",
+    "plural": "Fahrräder",
+    "fa": "دوچرخه",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "das",
+    "word": "Schiff",
+    "plural": "Schiffe",
+    "fa": "کشتی",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "das",
+    "word": "Taxi",
+    "plural": "Taxis",
+    "fa": "تاکسی",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "das",
+    "word": "Ticket",
+    "plural": "Tickets",
+    "fa": "بلیت",
+    "category": "حمل‌ونقل"
+  },
+  {
+    "article": "das",
+    "word": "Dorf",
+    "plural": "Dörfer",
+    "fa": "روستا",
+    "category": "شهر"
+  },
+  {
+    "article": "das",
+    "word": "Land",
+    "plural": "Länder",
+    "fa": "کشور",
+    "category": "شهر"
+  },
+  {
+    "article": "das",
+    "word": "Meer",
+    "plural": "Meere",
+    "fa": "دریا",
+    "category": "طبیعت"
+  },
+  {
+    "article": "das",
+    "word": "Wasser",
+    "plural": "—",
+    "fa": "آب",
+    "category": "غذا"
+  },
+  {
+    "article": "das",
+    "word": "Obst",
+    "plural": "—",
+    "fa": "میوه",
+    "category": "غذا"
+  },
+  {
+    "article": "das",
+    "word": "Ei",
+    "plural": "Eier",
+    "fa": "تخم‌مرغ",
+    "category": "غذا"
+  },
+  {
+    "article": "das",
+    "word": "Fleisch",
+    "plural": "—",
+    "fa": "گوشت",
+    "category": "غذا"
+  },
+  {
+    "article": "das",
+    "word": "Gemüse",
+    "plural": "—",
+    "fa": "سبزیجات",
+    "category": "غذا"
+  },
+  {
+    "article": "das",
+    "word": "Gesicht",
+    "plural": "Gesichter",
+    "fa": "صورت",
+    "category": "بدن"
+  },
+  {
+    "article": "das",
+    "word": "Auge",
+    "plural": "Augen",
+    "fa": "چشم",
+    "category": "بدن"
+  },
+  {
+    "article": "das",
+    "word": "Ohr",
+    "plural": "Ohren",
+    "fa": "گوش",
+    "category": "بدن"
+  },
+  {
+    "article": "das",
+    "word": "Bein",
+    "plural": "Beine",
+    "fa": "پا",
+    "category": "بدن"
+  },
+  {
+    "article": "das",
+    "word": "Knie",
+    "plural": "Knie",
+    "fa": "زانو",
+    "category": "بدن"
+  },
+  {
+    "article": "das",
+    "word": "Kleid",
+    "plural": "Kleider",
+    "fa": "پیراهن زنانه",
+    "category": "لباس"
+  },
+  {
+    "article": "das",
+    "word": "T-Shirt",
+    "plural": "T-Shirts",
+    "fa": "تی‌شرت",
+    "category": "لباس"
+  },
+  {
+    "article": "das",
+    "word": "Material",
+    "plural": "Materialien",
+    "fa": "جنس، ماده",
+    "category": "آموزش"
+  },
+  {
+    "article": "das",
+    "word": "Holz",
+    "plural": "—",
+    "fa": "چوب",
+    "category": "مواد"
+  },
+  {
+    "article": "das",
+    "word": "Metall",
+    "plural": "Metalle",
+    "fa": "فلز",
+    "category": "مواد"
+  },
+  {
+    "article": "das",
+    "word": "Plastik",
+    "plural": "—",
+    "fa": "پلاستیک",
+    "category": "مواد"
+  },
+  {
+    "article": "das",
+    "word": "Leder",
+    "plural": "—",
+    "fa": "چرم",
+    "category": "مواد"
+  },
+  {
+    "article": "der",
+    "word": "Stoff",
+    "plural": "Stoffe",
+    "fa": "پارچه",
+    "category": "مواد"
+  },
+  {
+    "article": "der",
+    "word": "Januar",
+    "plural": "—",
+    "fa": "ژانویه",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Februar",
+    "plural": "—",
+    "fa": "فوریه",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "März",
+    "plural": "—",
+    "fa": "مارس",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "April",
+    "plural": "—",
+    "fa": "آوریل",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Mai",
+    "plural": "—",
+    "fa": "مه",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Juni",
+    "plural": "—",
+    "fa": "ژوئن",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Juli",
+    "plural": "—",
+    "fa": "ژوئیه",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "August",
+    "plural": "—",
+    "fa": "اوت",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "September",
+    "plural": "—",
+    "fa": "سپتامبر",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Oktober",
+    "plural": "—",
+    "fa": "اکتبر",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "November",
+    "plural": "—",
+    "fa": "نوامبر",
+    "category": "زمان"
+  },
+  {
+    "article": "der",
+    "word": "Dezember",
+    "plural": "—",
+    "fa": "دسامبر",
+    "category": "زمان"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "Deutsch Zauber - جادوی آلمانی",
+  "short_name": "Deutsch Zauber",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#172554",
+  "lang": "fa",
+  "dir": "rtl",
+  "description": "فلش‌کارت واژگان آلمانی با معنی فارسی، آرتیکل، جمع و تلفظ"
+}
