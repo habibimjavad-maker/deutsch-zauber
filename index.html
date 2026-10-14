@@ -160,7 +160,7 @@ const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[
 const isV=w=>w.type==='verb';
 const strip=s=>s.replace(/^(ich|du|er\/sie\/es|wir|ihr|sie|Sie) /,'');
 
-Promise.all([fetch('words.json').then(r=>r.json()),fetch('verbs.json').then(r=>r.json())])
+Promise.all([fetch('words.json',{cache:'no-cache'}).then(r=>r.json()),fetch('verbs.json',{cache:'no-cache'}).then(r=>r.json())])
 .then(([n,v])=>{n.forEach(x=>{x.type=x.type||'noun'});ALL=n.concat(v);init()})
 .catch(()=>{const e=$('#err');e.hidden=false;e.textContent='فهرست واژه‌ها بارگذاری نشد. فایل‌های words.json و verbs.json باید کنار index.html باشند و سایت از طریق میزبان وب باز شود.'});
 
