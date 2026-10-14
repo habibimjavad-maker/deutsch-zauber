@@ -97,6 +97,10 @@ footer{text-align:center;margin:26px 0 6px;color:var(--mut);font-size:13px}
 footer b{color:var(--gold);font-weight:800}
 footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
 .heart{display:inline-block;animation:beat 1.6s ease-in-out infinite}
+.reveal{font-size:17px;padding:13px 28px;border-radius:99px;margin-top:4px;box-shadow:0 0 0 0 #ffd66b88;animation:glow 2s infinite}
+@keyframes glow{70%{box-shadow:0 0 0 14px #ffd66b00}100%{box-shadow:0 0 0 0 #ffd66b00}}
+.sw{display:inline-block;width:32px;height:32px;border-radius:50%;margin-inline-end:10px;vertical-align:middle;box-shadow:0 0 0 2px #ffffff88,0 4px 18px #0008}
+.item .sw{width:20px;height:20px;margin:0;flex:none}
 </style>
 </head>
 <body>
@@ -157,7 +161,7 @@ const isV=w=>w.type==='verb';
 const strip=s=>s.replace(/^(ich|du|er\/sie\/es|wir|ihr|sie|Sie) /,'');
 
 Promise.all([fetch('words.json').then(r=>r.json()),fetch('verbs.json').then(r=>r.json())])
-.then(([n,v])=>{n.forEach(x=>x.type='noun');ALL=n.concat(v);init()})
+.then(([n,v])=>{n.forEach(x=>{x.type=x.type||'noun'});ALL=n.concat(v);init()})
 .catch(()=>{const e=$('#err');e.hidden=false;e.textContent='فهرست واژه‌ها بارگذاری نشد. فایل‌های words.json و verbs.json باید کنار index.html باشند و سایت از طریق میزبان وب باز شود.'});
 
 function init(){
@@ -183,21 +187,22 @@ function card(){
   front=`<span class="de vb">${esc(w.word)}</span>`;
   sub=`${esc(strip(w.indikativ.praesens.er_sie_es))} · ${esc(strip(w.indikativ.praeteritum.er_sie_es))} · ${esc(strip(w.indikativ.perfekt.er_sie_es))}`;
  }else{
-  front=`<span class="de"><span class="art ${w.article}">${w.article}</span> ${esc(w.word)}</span>`;
-  sub=w.plural&&w.plural!=='-'?`Plural: die ${esc(w.plural)}`:'Plural: —';
+  front=`<span class="de">${w.bg?`<i class="sw" style="background:${w.bg}"></i>`:''}${w.article?`<span class="art ${w.article}">${w.article}</span> `:''}${esc(w.word)}</span>`;
+  sub=w.sub?esc(w.sub):w.article?(w.plural&&w.plural!=='-'?`Plural: die ${esc(w.plural)}`:'Plural: —'):'';
  }
  el.innerHTML=`<span class="cnt">${idx+1} / ${deck.length}${st?' · '+({k:'✅',r:'🔁',h:'💪'}[st]):''}</span>
  <span class="tag">${esc(w.category)}</span>${front}<div class="sub">${sub}</div>
  <button class="speak" onclick="event.stopPropagation();say()">🔊</button>
- <div class="fa" id="fav"></div><div class="hint" id="hn">👁 برای دیدن معنی فارسی بزن</div>
+ <div class="fa" id="fav"></div><button class="gold reveal" id="hn" onclick="event.stopPropagation();flip()">👁 نمایش معنی فارسی</button>
  ${isV(w)?'<button class="gold" style="padding:8px 14px" onclick="event.stopPropagation();openV(deck[idx])">📖 جدول صرف</button>':''}`;
 }
-$('#card').onclick=()=>{const w=deck[idx];if(!w)return;shown=!shown;$('#fav').textContent=shown?w.fa:'';$('#hn').style.opacity=shown?0:1};
+function flip(){const w=deck[idx];if(!w)return;shown=!shown;const f=$('#fav');f.textContent=shown?w.fa:'';f.style.animation='none';f.offsetWidth;f.style.animation='';$('#hn').textContent=shown?'🙈 پنهان کردن معنی':'👁 نمایش معنی فارسی'}
+$('#card').onclick=flip;
 function step(d){if(!deck.length)return;idx=(idx+d+deck.length)%deck.length;card()}
 function shuf(){for(let i=deck.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[deck[i],deck[j]]=[deck[j],deck[i]]}idx=0;card()}
 function mark(s){const w=deck[idx];if(!w)return;P[key(w)]=s;save();prog();dict();if(s==='k')burst();step(-1)}
 function burst(){const r=$('#card').getBoundingClientRect(),E=['✨','⭐','💫','🌟','💜'];for(let i=0;i<16;i++){const e=document.createElement('span');e.className='pf';e.textContent=E[i%E.length];const a=Math.random()*6.28,d=60+Math.random()*110;e.style.cssText=`left:${r.left+r.width/2}px;top:${r.top+r.height/2}px;--dx:${Math.cos(a)*d}px;--dy:${Math.sin(a)*d-40}px`;document.body.append(e);setTimeout(()=>e.remove(),1000)}}
-function say(){const w=deck[idx];if(!w||!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance((isV(w)?'':w.article+' ')+w.word);u.lang='de-DE';u.rate=.85;speechSynthesis.cancel();speechSynthesis.speak(u)}
+function say(){const w=deck[idx];if(!w||!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance((isV(w)||!w.article?'':w.article+' ')+w.word);u.lang='de-DE';u.rate=.85;speechSynthesis.cancel();speechSynthesis.speak(u)}
 
 function dict(){
  if(!ALL.length)return;
@@ -205,7 +210,7 @@ function dict(){
  const r=ALL.filter(w=>(!c||w.category===c)&&(!q||w.word.toLowerCase().includes(q)||w.fa.includes(q)||(w.plural||'').toLowerCase().includes(q)));
  $('#dn').textContent=r.length+' واژه';
  $('#list').innerHTML=r.slice(0,300).map(w=>{const i=ALL.indexOf(w);
-  const b=isV(w)?'<span class="art vb" style="font-size:14px">فعل</span>':`<span class="art ${w.article}" style="font-size:16px">${w.article}</span>`;
+  const b=isV(w)?'<span class="art vb" style="font-size:14px">فعل</span>':w.article?`<span class="art ${w.article}" style="font-size:16px">${w.article}</span>`:(w.bg?`<i class="sw" style="background:${w.bg}"></i>`:`<span class="art vb" style="font-size:14px">${esc(w.tag||'کلمه')}</span>`);
   return `<div class="glass item" onclick="pick(${i})"><i class="dot ${P[key(w)]||''}"></i>${b}<b>${esc(w.word)}</b><span class="f">${esc(w.fa)}</span></div>`}).join('')
   +(r.length>300?'<div class="empty">برای دیدن بقیه جستجو کن…</div>':'');
 }
