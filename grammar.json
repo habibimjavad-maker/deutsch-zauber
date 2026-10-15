@@ -1,0 +1,399 @@
+[
+ {
+  "n": 1,
+  "m": 1,
+  "t": "معرفی و سلام — Ich heiße Miriam",
+  "lv": "A1",
+  "pts": [
+   "فعل با ich/du/er: ریشه + e / st / t (komme, kommst, kommt).",
+   "sein: bin, bist, ist.",
+   "جمله‌ی خبری: فعل جایگاه دوم.",
+   "سؤال با W: Woher? Wie? — حرف اضافه‌ی aus برای مبدأ."
+  ],
+  "ex": [
+   "Ich komme aus dem Iran. — من اهل ایران هستم.",
+   "Wie heißt du? – Ich heiße Sara. — اسمت چیست؟ – اسمم سارا است.",
+   "Woher kommen Sie? — اهل کجا هستید؟"
+  ]
+ },
+ {
+  "n": 2,
+  "m": 1,
+  "t": "شغل و اطلاعات شخصی — Was macht ihr beruflich?",
+  "lv": "A1",
+  "pts": [
+   "صرف جمع: wir/sie/Sie = مصدر؛ ihr = ریشه + t.",
+   "ریشه‌ی t/d: du arbeitest.",
+   "نفی با nicht (آخر جمله یا قبل از صفت).",
+   "حروف اضافه: als (شغل)، bei (شرکت)، in (شهر).",
+   "مؤنث شغل: + in (Lehrer → Lehrerin).",
+   "اعداد ۲۱ تا ۹۹: یکان + und + دهگان."
+  ],
+  "ex": [
+   "Ich arbeite als Ingenieur bei Siemens. — من به‌عنوان مهندس در زیمنس کار می‌کنم.",
+   "Wir wohnen in Köln. — ما در کلن زندگی می‌کنیم.",
+   "Er arbeitet nicht. — او کار نمی‌کند."
+  ]
+ },
+ {
+  "n": 3,
+  "m": 1,
+  "t": "خانواده و زبان‌ها — Das ist meine Schwester",
+  "lv": "A1",
+  "pts": [
+   "صفت ملکی: mein (مذکر/خنثی)، meine (مؤنث و جمع)؛ dein مثل آن.",
+   "سؤال بله/نه: پاسخ ja یا nein؛ اگر سؤال منفی بود و جواب «بله» (برعکس) = doch.",
+   "مالکیت نام‌ها: Annas Bruder.",
+   "sprechen: du sprichst, er spricht."
+  ],
+  "ex": [
+   "Mein Vater und meine Mutter wohnen hier. — پدر و مادرم اینجا زندگی می‌کنند.",
+   "Sprichst du kein Deutsch? – Doch! — آلمانی صحبت نمی‌کنی؟ – چرا!",
+   "Annas Schwester ist Ärztin. — خواهر آنا پزشک است."
+  ]
+ },
+ {
+  "n": 4,
+  "m": 2,
+  "t": "خرید و مبلمان — Das Bild ist so schön",
+  "lv": "A1",
+  "pts": [
+   "حرف تعریف معین: der (مذکر)، das (خنثی)، die (مؤنث/جمع).",
+   "ضمیر جایگزین: der→er، das→es، die→sie.",
+   "صفت بعد از sein تغییر نمی‌کند: Der Tisch ist schön.",
+   "اعداد ۱۰۰ تا میلیون؛ قیمت: Was kostet …?."
+  ],
+  "ex": [
+   "Der Stuhl ist neu. Er kostet 40 Euro. — صندلی نو است. ۴۰ یورو است.",
+   "Das Sofa ist schön. Es ist teuer. — مبل زیباست. گران است.",
+   "Die Lampe ist toll. Sie ist günstig. — چراغ عالی است. ارزان است."
+  ]
+ },
+ {
+  "n": 5,
+  "m": 2,
+  "t": "اشیا و رنگ‌ها — Ist das ein Tisch?",
+  "lv": "A1",
+  "pts": [
+   "حرف تعریف نامعین: ein (مذکر/خنثی)، eine (مؤنث).",
+   "نفی اسم با kein/kein/keine؛ نفی بقیه با nicht.",
+   "aus + جنس: aus Holz.",
+   "sehen: du siehst, er sieht.",
+   "درخواست تکرار: Wie bitte? / Noch einmal, bitte."
+  ],
+  "ex": [
+   "Das ist ein Tisch, aber kein Stuhl. — این یک میز است، نه صندلی.",
+   "Das ist eine Lampe aus Metall. — این یک چراغ فلزی است.",
+   "Ich sehe keinen Fehler. — من اشتباهی نمی‌بینم."
+  ]
+ },
+ {
+  "n": 6,
+  "m": 2,
+  "t": "اداره و فناوری؛ جمع و آکوزاتیو — Wir haben einen Termin",
+  "lv": "A1",
+  "pts": [
+   "جمع اسم‌ها پنج الگو دارد: -e، -n/-en، -er (با ¨)، ¨ بدون پسوند، بدون تغییر/‌-s.",
+   "آکوزاتیو: فقط مذکر عوض می‌شود: der→den، ein→einen، kein→keinen؛ مؤنث و خنثی ثابت.",
+   "فعل‌های haben/brauchen/kaufen آکوزاتیو می‌خواهند."
+  ],
+  "ex": [
+   "Ich brauche einen Computer. — من یک کامپیوتر لازم دارم.",
+   "Er hat keinen Drucker, aber ein Handy. — او چاپگر ندارد ولی موبایل دارد.",
+   "Das Buch – die Bücher — کتاب – کتاب‌ها"
+  ]
+ },
+ {
+  "n": 7,
+  "m": 3,
+  "t": "سرگرمی‌ها؛ فعل وجهی — Sie können super tanzen!",
+  "lv": "A1",
+  "pts": [
+   "فعل وجهی können: دومی در جمله، مصدر آخر جمله (Satzklammer).",
+   "تغییر ریشه (e→i/ie، a→ä): lesen: du liest; treffen: du triffst; fahren: du fährst.",
+   "قید تکرار: immer، oft، manchmal، selten، nie."
+  ],
+  "ex": [
+   "Ich kann gut schwimmen. — من خوب شنا می‌کنم.",
+   "Er liest oft Bücher. — او اغلب کتاب می‌خواند.",
+   "Sie fährt nie Fahrrad. — او هرگز دوچرخه‌سواری نمی‌کند."
+  ]
+ },
+ {
+  "n": 8,
+  "m": 3,
+  "t": "وقت و قرار — Ich habe leider keine Zeit",
+  "lv": "A1",
+  "pts": [
+   "جایگاه فعل: در جمله‌ی خبری و سؤال W دوم؛ در سؤال بله/نه اول.",
+   "زمان: am + روز (am Montag)، um + ساعت (um 8 Uhr)، von … bis.",
+   "wissen: ich weiß, du weißt.",
+   "ساعت: Es ist halb drei (۲:۳۰)."
+  ],
+  "ex": [
+   "Am Samstag habe ich Zeit. — شنبه وقت دارم.",
+   "Hast du um 18 Uhr Zeit? — ساعت ۶ وقت داری؟",
+   "Wie spät ist es? – Es ist viertel nach acht. — ساعت چند است؟ – هشت و ربع."
+  ]
+ },
+ {
+  "n": 9,
+  "m": 3,
+  "t": "غذا و رستوران — Ich mag Hamburger",
+  "lv": "A1",
+  "pts": [
+   "mögen: ich mag, du magst؛ möchte (مؤدبانه): ich möchte … + اسم یا مصدر.",
+   "essen: du isst؛ nehmen: du nimmst.",
+   "ترکیب اسم+اسم: حرف تعریف از کلمه‌ی آخر: der Apfel + der Saft = der Apfelsaft."
+  ],
+  "ex": [
+   "Ich möchte eine Suppe und einen Tee. — من یک سوپ و یک چای می‌خواهم.",
+   "Er mag keinen Fisch. — او ماهی دوست ندارد.",
+   "die Kartoffel + die Suppe = die Kartoffelsuppe — سوپ سیب‌زمینی"
+  ]
+ },
+ {
+  "n": 10,
+  "m": 4,
+  "t": "سفر؛ فعل‌های جداشدنی — Wann kommst du denn an?",
+  "lv": "A1",
+  "pts": [
+   "فعل جداشدنی: پیشوند آخر جمله می‌رود: Der Zug kommt um 8 an.",
+   "با فعل وجهی، مصدر کامل در آخر: Ich möchte dich anrufen.",
+   "نمونه‌ها: ankommen، anrufen، abholen، einsteigen، aussteigen."
+  ],
+  "ex": [
+   "Ich hole dich um 9 Uhr ab. — ساعت ۹ دنبالت می‌آیم.",
+   "Wann steigst du ein? — کی سوار می‌شوی؟",
+   "Ich muss meine Mutter anrufen. — باید به مادرم زنگ بزنم."
+  ]
+ },
+ {
+  "n": 11,
+  "m": 4,
+  "t": "گذشته؛ Perfekt با haben — Was haben Sie gestern gemacht?",
+  "lv": "A1",
+  "pts": [
+   "Perfekt = haben (حال) + Partizip II آخر جمله.",
+   "باقاعده: ge-…-t (gemacht)؛ بی‌قاعده: ge-…-en (gegessen).",
+   "جداشدنی: پیشوند + ge: eingekauft.",
+   "letzt-: letzte Woche.",
+   "زمان: von … bis، ab."
+  ],
+  "ex": [
+   "Ich habe gestern Fußball gespielt. — دیروز فوتبال بازی کردم.",
+   "Wir haben Pizza gegessen. — ما پیتزا خوردیم.",
+   "Er hat eingekauft. — او خرید کرد."
+  ]
+ },
+ {
+  "n": 12,
+  "m": 4,
+  "t": "فصل‌ها و سفر؛ Perfekt با sein — Im Frühling bin ich nach Hamburg gefahren",
+  "lv": "A1",
+  "pts": [
+   "فعل‌های حرکت/تغییر حالت با sein: ich bin gefahren/gegangen/geblieben.",
+   "Präteritum: sein → war، haben → hatte.",
+   "im + ماه/فصل (im Mai)، seit + Dativ (seit einem Jahr)، nach + شهر/کشور."
+  ],
+  "ex": [
+   "Ich bin nach Berlin gefahren. — من به برلین رفتم.",
+   "Gestern war ich müde. Ich hatte Kopfschmerzen. — دیروز خسته بودم. سردرد داشتم.",
+   "Seit einem Monat lerne ich Deutsch. — یک ماه است آلمانی یاد می‌گیرم."
+  ]
+ },
+ {
+  "n": 13,
+  "m": 5,
+  "t": "شهر؛ Dativ — Berlin gefällt mir",
+  "lv": "A1",
+  "pts": [
+   "es gibt + آکوزاتیو: Es gibt einen Park.",
+   "فعل‌های داتیوساز: gefallen، gehören، helfen، schmecken، passen.",
+   "ضمایر داتیو: mir، dir، ihm، ihr، uns، euch، ihnen/Ihnen."
+  ],
+  "ex": [
+   "Die Stadt gefällt mir. — شهر به من خوش می‌آید.",
+   "Das Buch gehört ihr. — این کتاب مال اوست.",
+   "In der Stadt gibt es ein Museum. — در شهر یک موزه هست."
+  ]
+ },
+ {
+  "n": 14,
+  "m": 5,
+  "t": "راه‌یابی — Vor dem Kaufhaus nach rechts",
+  "lv": "A1",
+  "pts": [
+   "حروف اضافه‌ی مکان با Dativ (کجا؟): vor، neben، an، hinter، zwischen، in، auf، über، unter + dem/der/dem.",
+   "راه: geradeaus، links، rechts، bis zur Ampel."
+  ],
+  "ex": [
+   "Die Bank ist neben dem Kino. — بانک کنار سینماست.",
+   "Gehen Sie geradeaus und dann rechts. — مستقیم بروید و بعد راست.",
+   "Wo ist die Post? – Hinter der Schule. — پست کجاست؟ – پشت مدرسه."
+  ]
+ },
+ {
+  "n": 15,
+  "m": 5,
+  "t": "خانه و اتاق — Ich finde ihr Zimmer schön",
+  "lv": "A1",
+  "pts": [
+   "صفت ملکی: sein (او مرد/خنثی)، ihr (او زن/آن‌ها)، unser، euer، Ihr.",
+   "در آکوزاتیو فقط مذکر عوض می‌شود: mein→meinen، ihr→ihren.",
+   "نظر دادن: Ich finde … schön."
+  ],
+  "ex": [
+   "Ich finde seinen Garten schön. — باغ او را زیبا می‌دانم.",
+   "Ihre Wohnung ist groß. — آپارتمان او بزرگ است.",
+   "Wir mögen unser Wohnzimmer. — ما اتاق نشیمنمان را دوست داریم."
+  ]
+ },
+ {
+  "n": 16,
+  "m": 6,
+  "t": "قرار و درخواست‌ها — Wir haben hier ein Problem",
+  "lv": "A1",
+  "pts": [
+   "زمان با Dativ: in (۲ ساعت دیگر)، vor (چند وقت قبل)، nach (بعد از).",
+   "پیشنهاد کمک: Kann ich Ihnen helfen؟ درخواست: Könnten Sie …؟ لغو/تعویق: absagen، verschieben، vereinbaren."
+  ],
+  "ex": [
+   "In einer Stunde habe ich Zeit. — یک ساعت دیگر وقت دارم.",
+   "Könnten Sie mir bitte helfen? — لطفاً می‌توانید به من کمک کنید؟",
+   "Ich muss den Termin absagen. — باید قرار را لغو کنم."
+  ]
+ },
+ {
+  "n": 17,
+  "m": 6,
+  "t": "برنامه‌ها و آرزوها — Ich will … werden",
+  "lv": "A1",
+  "pts": [
+   "wollen: ich will, du willst + مصدر آخر.",
+   "werden: ich werde, du wirst (شغل آینده: Ich werde Ärztin).",
+   "mit + Dativ، ohne + Akkusativ."
+  ],
+  "ex": [
+   "Ich will Deutsch lernen. — می‌خواهم آلمانی یاد بگیرم.",
+   "Er wird Lehrer. — او معلم می‌شود.",
+   "Ich fahre mit dem Bus, ohne Auto. — با اتوبوس می‌روم، بدون ماشین."
+  ]
+ },
+ {
+  "n": 18,
+  "m": 6,
+  "t": "سلامت — Ich soll diese Übung machen",
+  "lv": "A1",
+  "pts": [
+   "sollen: ich soll (توصیه/دستور دیگران).",
+   "امری Sie: مصدر + Sie: Nehmen Sie die Tabletten! درد: Mein Kopf tut weh.",
+   "/ Ich habe Bauchschmerzen.",
+   "توصیه خواستن: Was soll ich tun?."
+  ],
+  "ex": [
+   "Sie sollen viel Wasser trinken. — شما باید زیاد آب بنوشید.",
+   "Bleiben Sie im Bett! — در تخت بمانید!",
+   "Mein Rücken tut weh. — کمرم درد می‌کند."
+  ]
+ },
+ {
+  "n": 19,
+  "m": 7,
+  "t": "کارهای خانه؛ امری — Jetzt sei doch nicht gleich sauer!",
+  "lv": "A1",
+  "pts": [
+   "امری du: ریشه (Komm!)؛ ihr: ریشه + t (Kommt!)؛ بی‌قاعده: nimm، sprich، lies؛ sein: sei/seid.",
+   "ضمایر آکوزاتیو: mich، dich، ihn، sie، es، uns، euch، sie/Sie."
+  ],
+  "ex": [
+   "Räum bitte die Küche auf! — لطفاً آشپزخانه را مرتب کن!",
+   "Ich liebe dich. – Ich sehe ihn. — دوستت دارم. – او را می‌بینم.",
+   "Seid bitte leise! — لطفاً ساکت باشید!"
+  ]
+ },
+ {
+  "n": 20,
+  "m": 7,
+  "t": "ظاهر و شخصیت — Das Team sieht sehr sympathisch aus!",
+  "lv": "A1",
+  "pts": [
+   "Perfekt با فعل‌های جدانشدنی (be-، ver-، er-، ge-، ent-): Partizip II بدون ge: Ich habe verstanden.",
+   "پیشوند un- معنی را عکس می‌کند: freundlich → unfreundlich.",
+   "توصیف: Er sieht müde aus."
+  ],
+  "ex": [
+   "Der Film hat mir gefallen. — فیلم به من خوش آمد.",
+   "Sie ist unfreundlich. — او نامهربان است.",
+   "Ich habe das Buch bekommen. — من کتاب را گرفتم."
+  ]
+ },
+ {
+  "n": 21,
+  "m": 7,
+  "t": "قوانین — Darf man das?",
+  "lv": "A1",
+  "pts": [
+   "müssen: ضرورت؛ dürfen: اجازه.",
+   "نفی: nicht dürfen = ممنوع؛ nicht müssen = لازم نیست.",
+   "man = عمومی (Man darf hier nicht rauchen).",
+   "تأکید: sehr، ganz، total."
+  ],
+  "ex": [
+   "Hier darf man nicht parken. — اینجا نباید پارک کرد.",
+   "Du musst nicht kommen. — لازم نیست بیایی.",
+   "Das ist total wichtig! — این خیلی مهم است!"
+  ]
+ },
+ {
+  "n": 22,
+  "m": 8,
+  "t": "لباس؛ مقایسه — Mehr, mehr, mehr?",
+  "lv": "A1",
+  "pts": [
+   "مقایسه: صفت + er (schöner)، برترین: am + صفت + sten.",
+   "بی‌قاعده: gut–besser–am besten، viel–mehr–am meisten، gern–lieber–am liebsten.",
+   "als (از) / so … wie (به‌اندازه‌ی).",
+   "welch-؟ کدام؟ dieser = این."
+  ],
+  "ex": [
+   "Die Jacke ist teurer als die Hose. — ژاکت از شلوار گران‌تر است.",
+   "Welcher Pullover gefällt dir? — کدام پلیور را دوست داری؟",
+   "Das ist am schönsten. — این از همه قشنگ‌تر است."
+  ]
+ },
+ {
+  "n": 23,
+  "m": 8,
+  "t": "هوا — Es regnet. Na und?",
+  "lv": "A1",
+  "pts": [
+   "denn (چون): جمله‌ی عادی، فعل دوم: Ich bleibe zu Hause, denn es regnet.",
+   "حروف اضافه‌ی دوحالته: Wohin؟ + Akk (in die Stadt)، Wo؟ + Dat (in der Stadt).",
+   "-los = بدون: arbeitslos.",
+   "هوا: Es regnet/schneit/ist kalt."
+  ],
+  "ex": [
+   "Ich gehe nicht raus, denn es ist kalt. — بیرون نمی‌روم، چون سرد است.",
+   "Ich gehe in den Park. – Ich bin im Park. — به پارک می‌روم. – در پارک هستم.",
+   "Gute Reise! — سفر خوبی داشته باشی!"
+  ]
+ },
+ {
+  "n": 24,
+  "m": 8,
+  "t": "جشن‌ها؛ تاریخ؛ Konjunktiv II — Der erste Oktober war mein Glückstag!",
+  "lv": "A1",
+  "pts": [
+   "اعداد ترتیبی: تا ۱۹ با -te (erste، zweite، dritte، siebte، achte…)، از ۲۰ با -ste.",
+   "تاریخ: am + ترتیبی + en (am ersten Oktober).",
+   "آرزو با Konjunktiv II: würde + مصدر آخر: Ich würde gern reisen.",
+   "تبریک: Herzlichen Glückwunsch!."
+  ],
+  "ex": [
+   "Mein Geburtstag ist am dritten Mai. — تولدم سوم مه است.",
+   "Ich würde gern nach Wien fahren. — دوست دارم به وین بروم.",
+   "Herzlichen Glückwunsch zum Geburtstag! — تولدت مبارک!"
+  ]
+ }
+]

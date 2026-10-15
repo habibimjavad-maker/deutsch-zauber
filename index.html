@@ -114,6 +114,7 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
 .qo .ok{background:linear-gradient(135deg,#10b981cc,#059669cc);border-color:#7be8b0}
 .qo .bad{background:linear-gradient(135deg,#f43f5ecc,#be123ccc)}
 nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px;cursor:pointer;font-weight:600;list-style:none}.ex summary small{color:var(--mut);margin-inline-start:6px}.ph{display:flex;align-items:center;gap:8px;padding:10px 14px;border-top:1px dashed #ffffff22}.ph div{flex:1}.ph b{display:block;direction:ltr;text-align:left;font-size:16px}.ph span{color:var(--gold);font-size:14px}
+.gr{padding:2px 16px 14px}.gr ul{margin:4px 0;padding-inline-start:18px}.gr li{margin:6px 0;line-height:1.9;font-size:14px}.gx{direction:ltr;text-align:left;background:#ffffff0d;border-radius:12px;padding:8px 12px;margin-top:8px}.gx div{padding:2px 0;font-size:15px}.lv{background:var(--gold);color:#2b1700;border-radius:99px;padding:1px 8px;font-size:11px;font-weight:800}
 </style>
 </head>
 <body>
@@ -158,6 +159,7 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
  <div class="glass" id="qbox" style="padding:22px;text-align:center"><div class="fa" style="margin:6px 0">آماده‌ای؟ 🎯</div><div class="hint">۱۰ سؤال چهارگزینه‌ای؛ جواب‌هایت در «مرور هوشمند» ثبت می‌شود</div><div class="row"><button class="gold" onclick="qStart()">🎯 شروع آزمون</button></div></div>
 </section>
 <section id="t-exp" hidden><div class="list" id="exl" style="margin-top:14px"></div></section>
+<section id="t-gram" hidden><div class="list" id="grl" style="margin-top:14px"></div></section>
 <div class="err" id="err" hidden></div>
 <footer>ساخته‌شده با <span class="heart">💜</span> توسط <b id="by">محمد جواد حبیبی</b><small>Deutsch Zauber · نسخه ۳</small></footer>
 </div>
@@ -165,10 +167,11 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 <div class="sheet" id="sheet" onclick="if(event.target===this)closeV()"><div class="panel" id="panel"></div></div>
 
 <nav><div class="glass">
- <button class="on" data-t="cards">🃏 فلش‌کارت</button>
- <button data-t="dict">📚 لغت‌نامه</button>
+ <button class="on" data-t="cards">🃏 کارت</button>
+ <button data-t="dict">📚 لغت</button>
  <button data-t="quiz">🎯 آزمون</button>
- <button data-t="exp">💬 اصطلاحات</button>
+ <button data-t="exp">💬 عبارت</button>
+ <button data-t="gram">📖 گرامر</button>
  <button data-t="prog">📈 پیشرفت</button>
 </div></nav>
 
@@ -296,9 +299,10 @@ function qPick(i){
 }
 
 fetch('expressions.json',{cache:'no-cache'}).then(r=>r.json()).then(E=>{$('#exl').innerHTML=E.map(s=>`<details class="glass ex"><summary>${s.icon} ${esc(s.title)} <small>${s.items.length}</small></summary>${s.items.map(p=>`<div class="ph"><div><b>${esc(p[0])}</b><span>${esc(p[1])}</span></div><button class="speak" data-t="${esc(p[0])}" onclick="sayT(this)">🔊</button></div>`).join('')}</details>`).join('')}).catch(()=>{});
+fetch('grammar.json',{cache:'no-cache'}).then(r=>r.json()).then(G=>{$('#grl').innerHTML=G.map(g=>(g.n%3==1?`<div class="hint" style="margin:10px 4px 0">MODUL ${g.m}</div>`:'')+`<details class="glass ex"><summary>درس ${g.n} · ${esc(g.t)} <small class="lv">${g.lv}</small></summary><div class="gr"><ul>${g.pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><div class="gx">${g.ex.map(x=>`<div>${esc(x)}</div>`).join('')}</div></div></details>`).join('')}).catch(()=>{});
 function sayT(b){if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(b.dataset.t.replace(/…/g,''));u.lang='de-DE';u.rate=.85;speechSynthesis.cancel();speechSynthesis.speak(u)}
 function go(t){
- ['cards','dict','quiz','exp','prog'].forEach(x=>$('#t-'+x).hidden=x!==t);
+ ['cards','dict','quiz','exp','gram','prog'].forEach(x=>$('#t-'+x).hidden=x!==t);
  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));
  window.scrollTo(0,0);
 }
