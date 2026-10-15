@@ -1,0 +1,546 @@
+[
+ {
+  "icon": "👋",
+  "title": "سلام و احوال‌پرسی",
+  "items": [
+   [
+    "Hallo! / Guten Morgen! / Guten Tag!",
+    "سلام! صبح بخیر! روز بخیر!"
+   ],
+   [
+    "Guten Abend!",
+    "عصر بخیر!"
+   ],
+   [
+    "Wie geht's?",
+    "حالت چطوره؟"
+   ],
+   [
+    "Gut, danke. Und dir?",
+    "خوبم، ممنون. تو چطوری؟"
+   ],
+   [
+    "Tschüss! / Auf Wiedersehen!",
+    "خداحافظ!"
+   ],
+   [
+    "Bis später! / Bis morgen!",
+    "تا بعد! / تا فردا!"
+   ]
+  ]
+ },
+ {
+  "icon": "🤝",
+  "title": "آشنایی و معرفی خود",
+  "items": [
+   [
+    "Ich heiße …",
+    "اسم من … است."
+   ],
+   [
+    "Ich komme aus dem Iran.",
+    "من اهل ایران هستم."
+   ],
+   [
+    "Ich wohne in …",
+    "من در … زندگی می‌کنم."
+   ],
+   [
+    "Ich bin … Jahre alt.",
+    "من … ساله هستم."
+   ],
+   [
+    "Ich spreche Persisch und ein bisschen Deutsch.",
+    "من فارسی و کمی آلمانی صحبت می‌کنم."
+   ],
+   [
+    "Freut mich!",
+    "از آشنایی‌تان خوشحالم!"
+   ],
+   [
+    "Wie heißen Sie? / Woher kommen Sie?",
+    "اسم شما چیست؟ / اهل کجا هستید؟"
+   ]
+  ]
+ },
+ {
+  "icon": "🙏",
+  "title": "تشکر",
+  "items": [
+   [
+    "Danke schön! / Vielen Dank!",
+    "خیلی ممنون!"
+   ],
+   [
+    "Bitte schön! / Gern geschehen!",
+    "خواهش می‌کنم!"
+   ],
+   [
+    "Kein Problem!",
+    "مشکلی نیست!"
+   ],
+   [
+    "Nichts zu danken.",
+    "قابلی ندارد."
+   ]
+  ]
+ },
+ {
+  "icon": "🤔",
+  "title": "«متوجه نشدم»",
+  "items": [
+   [
+    "Wie bitte?",
+    "ببخشید؟ (چی گفتید؟)"
+   ],
+   [
+    "Können Sie das bitte wiederholen?",
+    "لطفاً می‌توانید تکرار کنید؟"
+   ],
+   [
+    "Sprechen Sie bitte langsamer.",
+    "لطفاً آهسته‌تر صحبت کنید."
+   ],
+   [
+    "Ich verstehe nicht.",
+    "متوجه نمی‌شوم."
+   ],
+   [
+    "Was bedeutet …?",
+    "… یعنی چه؟"
+   ],
+   [
+    "Wie sagt man … auf Deutsch?",
+    "… را به آلمانی چه می‌گویند؟"
+   ],
+   [
+    "Wie schreibt man das?",
+    "این را چطور می‌نویسند؟"
+   ]
+  ]
+ },
+ {
+  "icon": "🧭",
+  "title": "آدرس پرسیدن",
+  "items": [
+   [
+    "Entschuldigung, wo ist …?",
+    "ببخشید، … کجاست؟"
+   ],
+   [
+    "Wie komme ich zum Bahnhof?",
+    "چطور به ایستگاه قطار برسم؟"
+   ],
+   [
+    "Gehen Sie geradeaus.",
+    "مستقیم بروید."
+   ],
+   [
+    "Biegen Sie links / rechts ab.",
+    "به چپ / راست بپیچید."
+   ],
+   [
+    "Es ist neben / gegenüber der Bank.",
+    "کنار / روبه‌روی بانک است."
+   ],
+   [
+    "Ist es weit von hier?",
+    "از اینجا دور است؟"
+   ]
+  ]
+ },
+ {
+  "icon": "🚇",
+  "title": "مترو و حمل‌ونقل",
+  "items": [
+   [
+    "Eine Fahrkarte nach … bitte.",
+    "یک بلیت به … لطفاً."
+   ],
+   [
+    "Wann fährt der nächste Zug?",
+    "قطار بعدی کی حرکت می‌کند؟"
+   ],
+   [
+    "Von welchem Gleis fährt der Zug?",
+    "قطار از کدام سکو حرکت می‌کند؟"
+   ],
+   [
+    "Wo muss ich umsteigen?",
+    "کجا باید عوض کنم؟"
+   ],
+   [
+    "Hält dieser Bus am Hauptbahnhof?",
+    "این اتوبوس در ایستگاه مرکزی می‌ایستد؟"
+   ],
+   [
+    "Wie viel kostet die Fahrkarte?",
+    "بلیت چقدر است؟"
+   ]
+  ]
+ },
+ {
+  "icon": "💶",
+  "title": "قیمت پرسیدن",
+  "items": [
+   [
+    "Was kostet das?",
+    "این چقدر است؟"
+   ],
+   [
+    "Das ist zu teuer.",
+    "این خیلی گران است."
+   ],
+   [
+    "Haben Sie etwas Günstigeres?",
+    "چیز ارزان‌تری دارید؟"
+   ],
+   [
+    "Ich nehme das.",
+    "این را می‌گیرم."
+   ],
+   [
+    "Kann ich mit Karte zahlen?",
+    "می‌توانم با کارت پرداخت کنم؟"
+   ]
+  ]
+ },
+ {
+  "icon": "🎨",
+  "title": "جنس و رنگ اشیا",
+  "items": [
+   [
+    "Aus welchem Material ist das?",
+    "این از چه جنسی است؟"
+   ],
+   [
+    "Das ist aus Holz / Metall / Plastik / Leder.",
+    "از چوب / فلز / پلاستیک / چرم است."
+   ],
+   [
+    "In welcher Farbe gibt es das?",
+    "این در چه رنگی موجود است؟"
+   ],
+   [
+    "Haben Sie das in Blau?",
+    "این را به رنگ آبی دارید؟"
+   ]
+  ]
+ },
+ {
+  "icon": "💬",
+  "title": "نظر دادن درباره‌ی اشیا",
+  "items": [
+   [
+    "Das gefällt mir.",
+    "این را دوست دارم. (به نظرم خوب است)"
+   ],
+   [
+    "Das finde ich toll!",
+    "به نظرم عالی است!"
+   ],
+   [
+    "Das gefällt mir nicht.",
+    "این را دوست ندارم."
+   ],
+   [
+    "Wie findest du das?",
+    "به نظرت این چطور است؟"
+   ],
+   [
+    "Ich finde das zu teuer.",
+    "به نظرم این خیلی گران است."
+   ]
+  ]
+ },
+ {
+  "icon": "🙋",
+  "title": "درخواست داشتن",
+  "items": [
+   [
+    "Ich hätte gern einen Kaffee.",
+    "یک قهوه می‌خواهم. (مؤدبانه)"
+   ],
+   [
+    "Ich möchte bitte bezahlen.",
+    "می‌خواهم پرداخت کنم."
+   ],
+   [
+    "Können Sie mir bitte … geben?",
+    "لطفاً می‌توانید … را به من بدهید؟"
+   ],
+   [
+    "Kann ich … haben?",
+    "می‌توانم … داشته باشم؟"
+   ],
+   [
+    "Darf ich Sie etwas fragen?",
+    "اجازه هست چیزی بپرسم؟"
+   ]
+  ]
+ },
+ {
+  "icon": "🆘",
+  "title": "درخواست کمک",
+  "items": [
+   [
+    "Können Sie mir helfen?",
+    "می‌توانید به من کمک کنید؟"
+   ],
+   [
+    "Ich brauche Hilfe.",
+    "به کمک نیاز دارم."
+   ],
+   [
+    "Können Sie mir das erklären?",
+    "می‌توانید این را توضیح دهید؟"
+   ],
+   [
+    "Haben Sie einen Moment Zeit?",
+    "یک لحظه وقت دارید؟"
+   ],
+   [
+    "Ich habe ein Problem.",
+    "من مشکلی دارم."
+   ]
+  ]
+ },
+ {
+  "icon": "👍",
+  "title": "پاسخ مثبت به درخواست",
+  "items": [
+   [
+    "Ja, gern!",
+    "بله، با کمال میل!"
+   ],
+   [
+    "Ja, natürlich.",
+    "بله، حتماً."
+   ],
+   [
+    "Klar! / Kein Problem.",
+    "حتماً! / مشکلی نیست."
+   ],
+   [
+    "Das mache ich gern.",
+    "با میل انجامش می‌دهم."
+   ],
+   [
+    "Das ist eine gute Idee.",
+    "ایده‌ی خوبی است."
+   ]
+  ]
+ },
+ {
+  "icon": "👎",
+  "title": "پاسخ منفی به درخواست",
+  "items": [
+   [
+    "Nein, leider nicht.",
+    "نه، متأسفانه نه."
+   ],
+   [
+    "Das geht leider nicht.",
+    "متأسفانه نمی‌شود."
+   ],
+   [
+    "Tut mir leid, das kann ich nicht.",
+    "متأسفم، نمی‌توانم."
+   ],
+   [
+    "Nein, danke.",
+    "نه، ممنون."
+   ],
+   [
+    "Ich habe leider keine Zeit.",
+    "متأسفانه وقت ندارم."
+   ]
+  ]
+ },
+ {
+  "icon": "📞",
+  "title": "صحبت تلفنی",
+  "items": [
+   [
+    "Hallo, hier ist …",
+    "الو، من … هستم."
+   ],
+   [
+    "Kann ich bitte Herrn / Frau … sprechen?",
+    "می‌توانم لطفاً با آقای / خانم … صحبت کنم؟"
+   ],
+   [
+    "Einen Moment, bitte.",
+    "یک لحظه، لطفاً."
+   ],
+   [
+    "Er / Sie ist leider nicht da.",
+    "متأسفانه او نیست."
+   ],
+   [
+    "Kann ich eine Nachricht hinterlassen?",
+    "می‌توانم پیام بگذارم؟"
+   ],
+   [
+    "Ich rufe später noch einmal an.",
+    "بعداً دوباره زنگ می‌زنم."
+   ],
+   [
+    "Auf Wiederhören!",
+    "خداحافظ! (تلفنی)"
+   ]
+  ]
+ },
+ {
+  "icon": "📅",
+  "title": "قرار و لغو قرار",
+  "items": [
+   [
+    "Hast du am Samstag Zeit?",
+    "شنبه وقت داری؟"
+   ],
+   [
+    "Wollen wir uns treffen?",
+    "می‌خواهیم همدیگر را ببینیم؟"
+   ],
+   [
+    "Um wie viel Uhr?",
+    "ساعت چند؟"
+   ],
+   [
+    "Ich muss den Termin leider absagen.",
+    "متأسفانه باید قرار را لغو کنم."
+   ],
+   [
+    "Können wir den Termin verschieben?",
+    "می‌توانیم قرار را عقب بیندازیم؟"
+   ],
+   [
+    "Es tut mir leid, ich kann nicht kommen.",
+    "متأسفم، نمی‌توانم بیایم."
+   ]
+  ]
+ },
+ {
+  "icon": "⚽",
+  "title": "صحبت درباره‌ی سرگرمی‌ها",
+  "items": [
+   [
+    "Was machst du in deiner Freizeit?",
+    "اوقات فراغتت چه می‌کنی؟"
+   ],
+   [
+    "Mein Hobby ist Fotografieren.",
+    "سرگرمی من عکاسی است."
+   ],
+   [
+    "Ich spiele gern Fußball.",
+    "فوتبال بازی کردن را دوست دارم."
+   ],
+   [
+    "Ich höre gern Musik.",
+    "گوش دادن به موسیقی را دوست دارم."
+   ],
+   [
+    "Und du?",
+    "و تو؟"
+   ]
+  ]
+ },
+ {
+  "icon": "📍",
+  "title": "مکان مورد علاقه",
+  "items": [
+   [
+    "Mein Lieblingsort ist der Park.",
+    "مکان مورد علاقه‌ام پارک است."
+   ],
+   [
+    "Dort ist es ruhig und schön.",
+    "آنجا آرام و زیبا است."
+   ],
+   [
+    "Ich gehe oft dorthin.",
+    "من اغلب آنجا می‌روم."
+   ],
+   [
+    "Wo gehst du gern hin?",
+    "دوست داری کجا بروی؟"
+   ]
+  ]
+ },
+ {
+  "icon": "🔍",
+  "title": "توصیف اشیا",
+  "items": [
+   [
+    "Das ist groß / klein / neu / alt.",
+    "این بزرگ / کوچک / جدید / قدیمی است."
+   ],
+   [
+    "Es ist rund / eckig.",
+    "گرد / گوشه‌دار است."
+   ],
+   [
+    "Es ist aus Holz.",
+    "از چوب است."
+   ],
+   [
+    "Das gehört mir.",
+    "این مال من است."
+   ]
+  ]
+ },
+ {
+  "icon": "🏠",
+  "title": "توصیف خانه",
+  "items": [
+   [
+    "Meine Wohnung hat drei Zimmer.",
+    "آپارتمان من سه اتاق دارد."
+   ],
+   [
+    "Sie ist hell und gemütlich.",
+    "روشن و دنج است."
+   ],
+   [
+    "Das Wohnzimmer ist groß.",
+    "اتاق نشیمن بزرگ است."
+   ],
+   [
+    "Ich habe einen Balkon.",
+    "من یک بالکن دارم."
+   ],
+   [
+    "Sie liegt im zweiten Stock.",
+    "در طبقه‌ی دوم است."
+   ]
+  ]
+ },
+ {
+  "icon": "🧑",
+  "title": "توصیف آدم‌ها",
+  "items": [
+   [
+    "Er ist groß und schlank.",
+    "او قدبلند و لاغر است."
+   ],
+   [
+    "Sie hat lange, braune Haare.",
+    "او موهای بلند قهوه‌ای دارد."
+   ],
+   [
+    "Er hat blaue Augen.",
+    "او چشم‌های آبی دارد."
+   ],
+   [
+    "Sie ist nett und freundlich.",
+    "او مهربان و خوش‌برخورد است."
+   ],
+   [
+    "Er trägt eine Brille.",
+    "او عینک می‌زند."
+   ]
+  ]
+ }
+]

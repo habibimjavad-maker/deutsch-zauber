@@ -3803,7 +3803,7 @@
   "word": "mein",
   "plural": "-",
   "fa": "مال من",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "mein Buch = کتاب من"
@@ -3813,7 +3813,7 @@
   "word": "dein",
   "plural": "-",
   "fa": "مال تو",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "dein Buch = کتاب تو"
@@ -3823,7 +3823,7 @@
   "word": "sein",
   "plural": "-",
   "fa": "مال او (مرد/خنثی)",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "sein Buch = کتاب او"
@@ -3833,7 +3833,7 @@
   "word": "ihr",
   "plural": "-",
   "fa": "مال او (زن)؛ مال آن‌ها",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "ihr Buch = کتاب او / کتاب آن‌ها"
@@ -3843,7 +3843,7 @@
   "word": "unser",
   "plural": "-",
   "fa": "مال ما",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "unser Buch = کتاب ما"
@@ -3853,7 +3853,7 @@
   "word": "euer",
   "plural": "-",
   "fa": "مال شما (جمع)",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "euer Buch = کتاب شما"
@@ -3863,7 +3863,7 @@
   "word": "Ihr",
   "plural": "-",
   "fa": "مال شما (رسمی)",
-  "category": "ضمایر",
+  "category": "ضمایر ملکی",
   "type": "word",
   "tag": "ضمیر",
   "sub": "Ihr Buch = کتاب شما"
@@ -4651,5 +4651,4676 @@
   "type": "word",
   "tag": "عدد ترتیبی",
   "sub": "12. · der zwölfte Tag"
+ },
+ {
+  "article": "die",
+  "word": "Matratze",
+  "plural": "Matratzen",
+  "fa": "تشک",
+  "category": "خانه"
+ },
+ {
+  "article": "das",
+  "word": "Laken",
+  "plural": "Laken",
+  "fa": "ملافه",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Steckdose",
+  "plural": "Steckdosen",
+  "fa": "پریز",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Glühbirne",
+  "plural": "Glühbirnen",
+  "fa": "لامپ",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Wecker",
+  "plural": "Wecker",
+  "fa": "ساعت زنگ‌دار",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Fernseher",
+  "plural": "Fernseher",
+  "fa": "تلویزیون",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Aubergine",
+  "plural": "Auberginen",
+  "fa": "بادمجان",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Erbse",
+  "plural": "Erbsen",
+  "fa": "نخودفرنگی",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Linse",
+  "plural": "Linsen",
+  "fa": "عدس",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Feige",
+  "plural": "Feigen",
+  "fa": "انجیر",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Dattel",
+  "plural": "Datteln",
+  "fa": "خرما",
+  "category": "غذا"
+ },
+ {
+  "article": "der",
+  "word": "Granatapfel",
+  "plural": "Granatäpfel",
+  "fa": "انار",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Aprikose",
+  "plural": "Aprikosen",
+  "fa": "زردآلو",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Stimme",
+  "plural": "Stimmen",
+  "fa": "صدا",
+  "category": "بدن"
+ },
+ {
+  "article": "der",
+  "word": "Lehrer",
+  "plural": "Lehrer",
+  "fa": "معلم",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Arzt",
+  "plural": "Ärzte",
+  "fa": "پزشک",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Student",
+  "plural": "Studenten",
+  "fa": "دانشجو",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Esel",
+  "plural": "Esel",
+  "fa": "الاغ",
+  "category": "حیوانات"
+ },
+ {
+  "article": "der",
+  "word": "Adler",
+  "plural": "Adler",
+  "fa": "عقاب",
+  "category": "حیوانات"
+ },
+ {
+  "article": "die",
+  "word": "Taube",
+  "plural": "Tauben",
+  "fa": "کبوتر",
+  "category": "حیوانات"
+ },
+ {
+  "article": "der",
+  "word": "Delfin",
+  "plural": "Delfine",
+  "fa": "دلفین",
+  "category": "حیوانات"
+ },
+ {
+  "article": "der",
+  "word": "Hirsch",
+  "plural": "Hirsche",
+  "fa": "گوزن",
+  "category": "حیوانات"
+ },
+ {
+  "article": "die",
+  "word": "Welle",
+  "plural": "Wellen",
+  "fa": "موج",
+  "category": "طبیعت و آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Regenbogen",
+  "plural": "Regenbogen",
+  "fa": "رنگین‌کمان",
+  "category": "طبیعت و آب‌وهوا"
+ },
+ {
+  "article": "das",
+  "word": "Rathaus",
+  "plural": "Rathäuser",
+  "fa": "شهرداری",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Friedhof",
+  "plural": "Friedhöfe",
+  "fa": "قبرستان",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Fabrik",
+  "plural": "Fabriken",
+  "fa": "کارخانه",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Büro",
+  "plural": "Büros",
+  "fa": "دفتر کار",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Grenze",
+  "plural": "Grenzen",
+  "fa": "مرز",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Autobahn",
+  "plural": "Autobahnen",
+  "fa": "بزرگراه",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "der",
+  "word": "Verkehr",
+  "plural": "-",
+  "fa": "ترافیک",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "die",
+  "word": "Ausbildung",
+  "plural": "Ausbildungen",
+  "fa": "آموزش حرفه‌ای",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Erfahrung",
+  "plural": "Erfahrungen",
+  "fa": "تجربه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Mitternacht",
+  "plural": "-",
+  "fa": "نیمه‌شب",
+  "category": "زمان"
+ },
+ {
+  "article": "der",
+  "word": "Augenblick",
+  "plural": "Augenblicke",
+  "fa": "لحظه",
+  "category": "زمان"
+ },
+ {
+  "article": "das",
+  "word": "Jahrhundert",
+  "plural": "Jahrhunderte",
+  "fa": "قرن",
+  "category": "زمان"
+ },
+ {
+  "article": "das",
+  "word": "Feuerzeug",
+  "plural": "Feuerzeuge",
+  "fa": "فندک",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Geld",
+  "plural": "-",
+  "fa": "پول",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Münze",
+  "plural": "Münzen",
+  "fa": "سکه",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Geldbeutel",
+  "plural": "Geldbeutel",
+  "fa": "کیف پول",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Karte",
+  "plural": "Karten",
+  "fa": "کارت",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Brief",
+  "plural": "Briefe",
+  "fa": "نامه",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Paket",
+  "plural": "Pakete",
+  "fa": "بسته پستی",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Zeitung",
+  "plural": "Zeitungen",
+  "fa": "روزنامه",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Zeitschrift",
+  "plural": "Zeitschriften",
+  "fa": "مجله",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Partner",
+  "plural": "Partner",
+  "fa": "شریک؛ همراه",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Partnerin",
+  "plural": "Partnerinnen",
+  "fa": "شریک (زن)؛ همراه (زن)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Herr",
+  "plural": "Herren",
+  "fa": "آقا",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Mama",
+  "plural": "Mamas",
+  "fa": "مامان",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Papa",
+  "plural": "Papas",
+  "fa": "بابا",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Oma",
+  "plural": "Omas",
+  "fa": "مادربزرگ (محاوره‌ای)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Opa",
+  "plural": "Opas",
+  "fa": "پدربزرگ (محاوره‌ای)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Enkel",
+  "plural": "Enkel",
+  "fa": "نوه (پسر)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Enkelin",
+  "plural": "Enkelinnen",
+  "fa": "نوه (دختر)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Geschwister",
+  "plural": "Geschwister",
+  "fa": "خواهر و برادر (جمع)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Besucher",
+  "plural": "Besucher",
+  "fa": "بازدیدکننده؛ مهمان",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Single",
+  "plural": "Singles",
+  "fa": "مجرد",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Person",
+  "plural": "Personen",
+  "fa": "شخص",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Name",
+  "plural": "Namen",
+  "fa": "نام",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Vorname",
+  "plural": "Vornamen",
+  "fa": "نام (کوچک)",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Familienname",
+  "plural": "Familiennamen",
+  "fa": "نام خانوادگی",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Familienstand",
+  "plural": "-",
+  "fa": "وضعیت تأهل",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Herkunft",
+  "plural": "-",
+  "fa": "مبدأ؛ اصالت",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Alter",
+  "plural": "-",
+  "fa": "سن",
+  "category": "خانواده و آدم‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Ärztin",
+  "plural": "Ärztinnen",
+  "fa": "پزشک (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Doktor",
+  "plural": "Doktoren",
+  "fa": "دکتر",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Kellner",
+  "plural": "Kellner",
+  "fa": "گارسون",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Kellnerin",
+  "plural": "Kellnerinnen",
+  "fa": "گارسون (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Friseur",
+  "plural": "Friseure",
+  "fa": "آرایشگر",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Friseurin",
+  "plural": "Friseurinnen",
+  "fa": "آرایشگر (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Verkäufer",
+  "plural": "Verkäufer",
+  "fa": "فروشنده",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Verkäuferin",
+  "plural": "Verkäuferinnen",
+  "fa": "فروشنده (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Ingenieur",
+  "plural": "Ingenieure",
+  "fa": "مهندس",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Journalistin",
+  "plural": "Journalistinnen",
+  "fa": "روزنامه‌نگار (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Handwerker",
+  "plural": "Handwerker",
+  "fa": "صنعتگر؛ استادکار",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Kursleiter",
+  "plural": "Kursleiter",
+  "fa": "مدرس دوره",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Kursleiterin",
+  "plural": "Kursleiterinnen",
+  "fa": "مدرس دوره (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Rentnerin",
+  "plural": "Rentnerinnen",
+  "fa": "بازنشسته (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Studentin",
+  "plural": "Studentinnen",
+  "fa": "دانشجو (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Lehrerin",
+  "plural": "Lehrerinnen",
+  "fa": "معلم (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Kollegin",
+  "plural": "Kolleginnen",
+  "fa": "همکار (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Chefin",
+  "plural": "Chefinnen",
+  "fa": "رئیس (زن)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Job",
+  "plural": "Jobs",
+  "fa": "شغل؛ کار",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Stelle",
+  "plural": "Stellen",
+  "fa": "موقعیت شغلی؛ جا",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Team",
+  "plural": "Teams",
+  "fa": "تیم",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Praktikum",
+  "plural": "Praktika",
+  "fa": "کارآموزی",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Studium",
+  "plural": "Studien",
+  "fa": "تحصیل دانشگاهی",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Vorstellungsgespräch",
+  "plural": "Vorstellungsgespräche",
+  "fa": "مصاحبه‌ی استخدامی",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Interview",
+  "plural": "Interviews",
+  "fa": "مصاحبه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Text",
+  "plural": "Texte",
+  "fa": "متن",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Gespräch",
+  "plural": "Gespräche",
+  "fa": "گفتگو",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Gruppe",
+  "plural": "Gruppen",
+  "fa": "گروه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Tabelle",
+  "plural": "Tabellen",
+  "fa": "جدول",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Liste",
+  "plural": "Listen",
+  "fa": "فهرست",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Übung",
+  "plural": "Übungen",
+  "fa": "تمرین",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Zeile",
+  "plural": "Zeilen",
+  "fa": "سطر",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Regel",
+  "plural": "Regeln",
+  "fa": "قانون؛ قاعده",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Form",
+  "plural": "Formen",
+  "fa": "شکل؛ فرم",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Artikel",
+  "plural": "Artikel",
+  "fa": "حرف تعریف؛ مقاله",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Buchstabe",
+  "plural": "Buchstaben",
+  "fa": "حرف (الفبا)",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Alphabet",
+  "plural": "Alphabete",
+  "fa": "الفبا",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Seite",
+  "plural": "Seiten",
+  "fa": "صفحه؛ طرف",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Punkt",
+  "plural": "Punkte",
+  "fa": "نقطه؛ امتیاز",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Notiz",
+  "plural": "Notizen",
+  "fa": "یادداشت",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Kommentar",
+  "plural": "Kommentare",
+  "fa": "نظر؛ توضیح",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Lösung",
+  "plural": "Lösungen",
+  "fa": "راه‌حل؛ پاسخ",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Aussage",
+  "plural": "Aussagen",
+  "fa": "جمله‌ی خبری؛ اظهار",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Information",
+  "plural": "Informationen",
+  "fa": "اطلاعات",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Situation",
+  "plural": "Situationen",
+  "fa": "وضعیت؛ موقعیت",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Statistik",
+  "plural": "Statistiken",
+  "fa": "آمار",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Diagramm",
+  "plural": "Diagramme",
+  "fa": "نمودار",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Ausstellung",
+  "plural": "Ausstellungen",
+  "fa": "نمایشگاه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Marketing",
+  "plural": "-",
+  "fa": "بازاریابی",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Region",
+  "plural": "Regionen",
+  "fa": "منطقه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Kunst",
+  "plural": "Künste",
+  "fa": "هنر",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Medizin",
+  "plural": "-",
+  "fa": "پزشکی؛ دارو",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Praxis",
+  "plural": "Praxen",
+  "fa": "مطب؛ عمل",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Problem",
+  "plural": "Probleme",
+  "fa": "مشکل",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Hilfe",
+  "plural": "-",
+  "fa": "کمک",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Idee",
+  "plural": "Ideen",
+  "fa": "ایده",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Meinung",
+  "plural": "Meinungen",
+  "fa": "نظر؛ عقیده",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Tipp",
+  "plural": "Tipps",
+  "fa": "نکته؛ توصیه",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Ratschlag",
+  "plural": "Ratschläge",
+  "fa": "توصیه؛ پند",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Moment",
+  "plural": "Momente",
+  "fa": "لحظه",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Fall",
+  "plural": "Fälle",
+  "fa": "مورد؛ حالت دستوری",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Plan",
+  "plural": "Pläne",
+  "fa": "برنامه؛ نقشه",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Wunsch",
+  "plural": "Wünsche",
+  "fa": "آرزو؛ خواسته",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Traum",
+  "plural": "Träume",
+  "fa": "رؤیا",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Angst",
+  "plural": "Ängste",
+  "fa": "ترس",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Hunger",
+  "plural": "-",
+  "fa": "گرسنگی",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Lust",
+  "plural": "-",
+  "fa": "میل؛ حال‌وحوصله",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Spaß",
+  "plural": "Späße",
+  "fa": "لذت؛ سرگرمی",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "das",
+  "word": "Glück",
+  "plural": "-",
+  "fa": "خوش‌شانسی؛ شادی",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Entschuldigung",
+  "plural": "Entschuldigungen",
+  "fa": "عذرخواهی؛ ببخشید",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Dank",
+  "plural": "-",
+  "fa": "تشکر؛ سپاس",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Gruß",
+  "plural": "Grüße",
+  "fa": "سلام؛ درود",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Glückwunsch",
+  "plural": "Glückwünsche",
+  "fa": "تبریک",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "das",
+  "word": "Wiedersehen",
+  "plural": "-",
+  "fa": "دیدار دوباره",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Vorsicht",
+  "plural": "-",
+  "fa": "احتیاط",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Ordnung",
+  "plural": "-",
+  "fa": "نظم؛ مرتب بودن",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Witz",
+  "plural": "Witze",
+  "fa": "جوک",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "das",
+  "word": "Rätsel",
+  "plural": "Rätsel",
+  "fa": "معما",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Überraschung",
+  "plural": "Überraschungen",
+  "fa": "سورپرایز",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "der",
+  "word": "Charakter",
+  "plural": "Charaktere",
+  "fa": "شخصیت؛ خُلق",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Kritik",
+  "plural": "-",
+  "fa": "نقد",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Natur",
+  "plural": "-",
+  "fa": "طبیعت",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Umwelt",
+  "plural": "-",
+  "fa": "محیط‌زیست",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Welt",
+  "plural": "Welten",
+  "fa": "جهان",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "die",
+  "word": "Geschichte",
+  "plural": "Geschichten",
+  "fa": "داستان؛ تاریخ",
+  "category": "مفاهیم و احساسات"
+ },
+ {
+  "article": "das",
+  "word": "Hobby",
+  "plural": "Hobbys",
+  "fa": "سرگرمی",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Sport",
+  "plural": "-",
+  "fa": "ورزش",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Fußball",
+  "plural": "Fußbälle",
+  "fa": "فوتبال",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Tennis",
+  "plural": "-",
+  "fa": "تنیس",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Basketball",
+  "plural": "Basketbälle",
+  "fa": "بسکتبال",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Schach",
+  "plural": "-",
+  "fa": "شطرنج",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Ball",
+  "plural": "Bälle",
+  "fa": "توپ",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Ski",
+  "plural": "Skier",
+  "fa": "اسکی",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "die",
+  "word": "Gitarre",
+  "plural": "Gitarren",
+  "fa": "گیتار",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Marathon",
+  "plural": "Marathons",
+  "fa": "ماراتن",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Fitnessstudio",
+  "plural": "Fitnessstudios",
+  "fa": "باشگاه بدنسازی",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "die",
+  "word": "Disco",
+  "plural": "Discos",
+  "fa": "دیسکو",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Zoo",
+  "plural": "Zoos",
+  "fa": "باغ‌وحش",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Picknick",
+  "plural": "Picknicks",
+  "fa": "پیک‌نیک",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Fest",
+  "plural": "Feste",
+  "fa": "جشن",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Konzert",
+  "plural": "Konzerte",
+  "fa": "کنسرت",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Film",
+  "plural": "Filme",
+  "fa": "فیلم",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Spiel",
+  "plural": "Spiele",
+  "fa": "بازی",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "die",
+  "word": "Musik",
+  "plural": "-",
+  "fa": "موسیقی",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Lied",
+  "plural": "Lieder",
+  "fa": "آهنگ؛ ترانه",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Chor",
+  "plural": "Chöre",
+  "fa": "گروه کر",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Gedicht",
+  "plural": "Gedichte",
+  "fa": "شعر",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "der",
+  "word": "Würfel",
+  "plural": "Würfel",
+  "fa": "تاس؛ مکعب",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Geschenk",
+  "plural": "Geschenke",
+  "fa": "هدیه",
+  "category": "سرگرمی و ورزش"
+ },
+ {
+  "article": "das",
+  "word": "Tablet",
+  "plural": "Tablets",
+  "fa": "تبلت",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Smartphone",
+  "plural": "Smartphones",
+  "fa": "گوشی هوشمند",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Blog",
+  "plural": "Blogs",
+  "fa": "وبلاگ",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Netz",
+  "plural": "Netze",
+  "fa": "شبکه؛ اینترنت",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Kuli",
+  "plural": "Kulis",
+  "fa": "خودکار (محاوره‌ای)",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Kalender",
+  "plural": "Kalender",
+  "fa": "تقویم",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "der",
+  "word": "Zettel",
+  "plural": "Zettel",
+  "fa": "کاغذ یادداشت",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Plakat",
+  "plural": "Plakate",
+  "fa": "پوستر",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Schild",
+  "plural": "Schilder",
+  "fa": "تابلو",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Zimmer",
+  "plural": "Zimmer",
+  "fa": "اتاق",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Sessel",
+  "plural": "Sessel",
+  "fa": "مبل تک‌نفره",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Schreibtisch",
+  "plural": "Schreibtische",
+  "fa": "میز تحریر",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Aufzug",
+  "plural": "Aufzüge",
+  "fa": "آسانسور",
+  "category": "خانه"
+ },
+ {
+  "article": "das",
+  "word": "Erdgeschoss",
+  "plural": "Erdgeschosse",
+  "fa": "طبقه‌ی همکف",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Wohngemeinschaft",
+  "plural": "Wohngemeinschaften",
+  "fa": "خانه‌ی مشترک (WG)",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Haushalt",
+  "plural": "Haushalte",
+  "fa": "خانه‌داری؛ خانوار",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Hausordnung",
+  "plural": "Hausordnungen",
+  "fa": "مقررات ساختمان",
+  "category": "خانه"
+ },
+ {
+  "article": "der",
+  "word": "Abfall",
+  "plural": "Abfälle",
+  "fa": "زباله",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Möbel",
+  "plural": "Möbel",
+  "fa": "مبلمان (جمع)",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Altstadt",
+  "plural": "Altstädte",
+  "fa": "بافت قدیمی شهر",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Kaufhaus",
+  "plural": "Kaufhäuser",
+  "fa": "فروشگاه بزرگ",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Kiosk",
+  "plural": "Kioske",
+  "fa": "کیوسک",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Boutique",
+  "plural": "Boutiquen",
+  "fa": "بوتیک",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Tierpark",
+  "plural": "Tierparks",
+  "fa": "باغ‌وحش (تیرپارک)",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Tor",
+  "plural": "Tore",
+  "fa": "دروازه",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Mauer",
+  "plural": "Mauern",
+  "fa": "دیوار (بیرونی)",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Quadratmeter",
+  "plural": "Quadratmeter",
+  "fa": "مترمربع",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Kilometer",
+  "plural": "Kilometer",
+  "fa": "کیلومتر",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Euro",
+  "plural": "Euro",
+  "fa": "یورو",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Grad",
+  "plural": "Grade",
+  "fa": "درجه",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Hauptbahnhof",
+  "plural": "Hauptbahnhöfe",
+  "fa": "ایستگاه مرکزی قطار",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "die",
+  "word": "Bahn",
+  "plural": "Bahnen",
+  "fa": "راه‌آهن؛ قطار",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "der",
+  "word": "Bahnsteig",
+  "plural": "Bahnsteige",
+  "fa": "سکوی قطار",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "der",
+  "word": "Flug",
+  "plural": "Flüge",
+  "fa": "پرواز",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "das",
+  "word": "Gepäck",
+  "plural": "-",
+  "fa": "بار؛ چمدان‌ها",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "das",
+  "word": "Verkehrsmittel",
+  "plural": "Verkehrsmittel",
+  "fa": "وسیله‌ی حمل‌ونقل",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "die",
+  "word": "Kleidung",
+  "plural": "-",
+  "fa": "لباس‌ها",
+  "category": "لباس"
+ },
+ {
+  "article": "das",
+  "word": "Shirt",
+  "plural": "Shirts",
+  "fa": "تی‌شرت",
+  "category": "لباس"
+ },
+ {
+  "article": "die",
+  "word": "Sonnenbrille",
+  "plural": "Sonnenbrillen",
+  "fa": "عینک آفتابی",
+  "category": "لباس"
+ },
+ {
+  "article": "der",
+  "word": "Helm",
+  "plural": "Helme",
+  "fa": "کلاه ایمنی",
+  "category": "لباس"
+ },
+ {
+  "article": "die",
+  "word": "Wäsche",
+  "plural": "-",
+  "fa": "رخت؛ لباس‌های شستنی",
+  "category": "لباس"
+ },
+ {
+  "article": "das",
+  "word": "Obst",
+  "plural": "-",
+  "fa": "میوه (به‌طور کلی)",
+  "category": "غذا"
+ },
+ {
+  "article": "das",
+  "word": "Gemüse",
+  "plural": "-",
+  "fa": "سبزیجات",
+  "category": "غذا"
+ },
+ {
+  "article": "das",
+  "word": "Müsli",
+  "plural": "Müslis",
+  "fa": "موسلی",
+  "category": "غذا"
+ },
+ {
+  "article": "der",
+  "word": "Apfelkuchen",
+  "plural": "Apfelkuchen",
+  "fa": "کیک سیب",
+  "category": "غذا"
+ },
+ {
+  "article": "der",
+  "word": "Hamburger",
+  "plural": "Hamburger",
+  "fa": "همبرگر",
+  "category": "غذا"
+ },
+ {
+  "article": "der",
+  "word": "Apfelsaft",
+  "plural": "Apfelsäfte",
+  "fa": "آب‌سیب",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Rückenschmerzen",
+  "plural": "Rückenschmerzen",
+  "fa": "کمردرد",
+  "category": "سلامت"
+ },
+ {
+  "article": "die",
+  "word": "Halsschmerzen",
+  "plural": "Halsschmerzen",
+  "fa": "گلودرد",
+  "category": "سلامت"
+ },
+ {
+  "article": "die",
+  "word": "Ohrenschmerzen",
+  "plural": "Ohrenschmerzen",
+  "fa": "گوش‌درد",
+  "category": "سلامت"
+ },
+ {
+  "article": "die",
+  "word": "Bewegung",
+  "plural": "Bewegungen",
+  "fa": "حرکت؛ ورزش",
+  "category": "سلامت"
+ },
+ {
+  "article": "das",
+  "word": "Tier",
+  "plural": "Tiere",
+  "fa": "حیوان",
+  "category": "طبیعت و آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Jahreszeit",
+  "plural": "Jahreszeiten",
+  "fa": "فصل",
+  "category": "زمان"
+ },
+ {
+  "article": "die",
+  "word": "Uhrzeit",
+  "plural": "Uhrzeiten",
+  "fa": "ساعت (زمان روز)",
+  "category": "زمان"
+ },
+ {
+  "article": "die",
+  "word": "Tageszeit",
+  "plural": "Tageszeiten",
+  "fa": "زمان روز",
+  "category": "زمان"
+ },
+ {
+  "article": "das",
+  "word": "Viertel",
+  "plural": "Viertel",
+  "fa": "یک‌چهارم؛ ربع",
+  "category": "زمان"
+ },
+ {
+  "article": "das",
+  "word": "Sternzeichen",
+  "plural": "Sternzeichen",
+  "fa": "برج فلکی",
+  "category": "زمان"
+ },
+ {
+  "article": "der",
+  "word": "Zeitpunkt",
+  "plural": "Zeitpunkte",
+  "fa": "زمان مشخص؛ لحظه",
+  "category": "زمان"
+ },
+ {
+  "article": "das",
+  "word": "Plastik",
+  "plural": "-",
+  "fa": "پلاستیک",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "das",
+  "word": "Metall",
+  "plural": "Metalle",
+  "fa": "فلز",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "das",
+  "word": "Holz",
+  "plural": "Hölzer",
+  "fa": "چوب",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "das",
+  "word": "Leder",
+  "plural": "-",
+  "fa": "چرم",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "der",
+  "word": "Stoff",
+  "plural": "Stoffe",
+  "fa": "پارچه",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "die",
+  "word": "Baumwolle",
+  "plural": "-",
+  "fa": "پنبه",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "die",
+  "word": "Wolle",
+  "plural": "-",
+  "fa": "پشم",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "die",
+  "word": "Seide",
+  "plural": "-",
+  "fa": "ابریشم",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "das",
+  "word": "Gummi",
+  "plural": "-",
+  "fa": "لاستیک (لاستیک نرم)",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "das",
+  "word": "Eisen",
+  "plural": "-",
+  "fa": "آهن",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "der",
+  "word": "Stahl",
+  "plural": "-",
+  "fa": "فولاد",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "der",
+  "word": "Karton",
+  "plural": "Kartons",
+  "fa": "مقوا",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "die",
+  "word": "Keramik",
+  "plural": "Keramiken",
+  "fa": "سرامیک",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "der",
+  "word": "Beton",
+  "plural": "-",
+  "fa": "بتن",
+  "category": "جنس و مواد"
+ },
+ {
+  "article": "",
+  "word": "Deutschland",
+  "plural": "-",
+  "fa": "آلمان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Deutschland."
+ },
+ {
+  "article": "",
+  "word": "Österreich",
+  "plural": "-",
+  "fa": "اتریش",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Österreich."
+ },
+ {
+  "article": "",
+  "word": "Italien",
+  "plural": "-",
+  "fa": "ایتالیا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Italien."
+ },
+ {
+  "article": "",
+  "word": "Spanien",
+  "plural": "-",
+  "fa": "اسپانیا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Spanien."
+ },
+ {
+  "article": "",
+  "word": "Frankreich",
+  "plural": "-",
+  "fa": "فرانسه",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Frankreich."
+ },
+ {
+  "article": "",
+  "word": "Portugal",
+  "plural": "-",
+  "fa": "پرتغال",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Portugal."
+ },
+ {
+  "article": "",
+  "word": "Australien",
+  "plural": "-",
+  "fa": "استرالیا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Australien."
+ },
+ {
+  "article": "",
+  "word": "England",
+  "plural": "-",
+  "fa": "انگلستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus England."
+ },
+ {
+  "article": "",
+  "word": "Russland",
+  "plural": "-",
+  "fa": "روسیه",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Russland."
+ },
+ {
+  "article": "",
+  "word": "Polen",
+  "plural": "-",
+  "fa": "لهستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Polen."
+ },
+ {
+  "article": "",
+  "word": "Griechenland",
+  "plural": "-",
+  "fa": "یونان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Griechenland."
+ },
+ {
+  "article": "",
+  "word": "China",
+  "plural": "-",
+  "fa": "چین",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus China."
+ },
+ {
+  "article": "",
+  "word": "Indien",
+  "plural": "-",
+  "fa": "هند",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Indien."
+ },
+ {
+  "article": "",
+  "word": "Japan",
+  "plural": "-",
+  "fa": "ژاپن",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Japan."
+ },
+ {
+  "article": "",
+  "word": "Brasilien",
+  "plural": "-",
+  "fa": "برزیل",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Brasilien."
+ },
+ {
+  "article": "",
+  "word": "Syrien",
+  "plural": "-",
+  "fa": "سوریه",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Syrien."
+ },
+ {
+  "article": "",
+  "word": "Afghanistan",
+  "plural": "-",
+  "fa": "افغانستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Afghanistan."
+ },
+ {
+  "article": "",
+  "word": "Pakistan",
+  "plural": "-",
+  "fa": "پاکستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Pakistan."
+ },
+ {
+  "article": "",
+  "word": "Ägypten",
+  "plural": "-",
+  "fa": "مصر",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Ägypten."
+ },
+ {
+  "article": "",
+  "word": "Eritrea",
+  "plural": "-",
+  "fa": "اریتره",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Eritrea."
+ },
+ {
+  "article": "die",
+  "word": "Schweiz",
+  "plural": "-",
+  "fa": "سوئیس",
+  "category": "کشورها و زبان‌ها",
+  "sub": "Ich komme aus der Schweiz."
+ },
+ {
+  "article": "die",
+  "word": "Türkei",
+  "plural": "-",
+  "fa": "ترکیه",
+  "category": "کشورها و زبان‌ها",
+  "sub": "Ich komme aus der Türkei."
+ },
+ {
+  "article": "der",
+  "word": "Iran",
+  "plural": "-",
+  "fa": "ایران",
+  "category": "کشورها و زبان‌ها",
+  "sub": "Ich komme aus dem Iran."
+ },
+ {
+  "article": "der",
+  "word": "Irak",
+  "plural": "-",
+  "fa": "عراق",
+  "category": "کشورها و زبان‌ها",
+  "sub": "Ich komme aus dem Irak."
+ },
+ {
+  "article": "",
+  "word": "Europa",
+  "plural": "-",
+  "fa": "اروپا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "قاره",
+  "sub": "Europa ist ein Kontinent."
+ },
+ {
+  "article": "",
+  "word": "Asien",
+  "plural": "-",
+  "fa": "آسیا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "قاره",
+  "sub": "Asien ist ein Kontinent."
+ },
+ {
+  "article": "",
+  "word": "Afrika",
+  "plural": "-",
+  "fa": "آفریقا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "قاره",
+  "sub": "Afrika ist ein Kontinent."
+ },
+ {
+  "article": "",
+  "word": "Amerika",
+  "plural": "-",
+  "fa": "آمریکا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "قاره",
+  "sub": "Amerika ist ein Kontinent."
+ },
+ {
+  "article": "",
+  "word": "Deutsch",
+  "plural": "-",
+  "fa": "آلمانی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Deutsch."
+ },
+ {
+  "article": "",
+  "word": "Englisch",
+  "plural": "-",
+  "fa": "انگلیسی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Englisch."
+ },
+ {
+  "article": "",
+  "word": "Spanisch",
+  "plural": "-",
+  "fa": "اسپانیایی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Spanisch."
+ },
+ {
+  "article": "",
+  "word": "Französisch",
+  "plural": "-",
+  "fa": "فرانسوی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Französisch."
+ },
+ {
+  "article": "",
+  "word": "Italienisch",
+  "plural": "-",
+  "fa": "ایتالیایی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Italienisch."
+ },
+ {
+  "article": "",
+  "word": "Türkisch",
+  "plural": "-",
+  "fa": "ترکی (استانبولی)",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Türkisch."
+ },
+ {
+  "article": "",
+  "word": "Persisch",
+  "plural": "-",
+  "fa": "فارسی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Persisch."
+ },
+ {
+  "article": "",
+  "word": "Arabisch",
+  "plural": "-",
+  "fa": "عربی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Arabisch."
+ },
+ {
+  "article": "",
+  "word": "Russisch",
+  "plural": "-",
+  "fa": "روسی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Russisch."
+ },
+ {
+  "article": "",
+  "word": "Kurdisch",
+  "plural": "-",
+  "fa": "کردی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "زبان",
+  "sub": "Ich spreche Kurdisch."
+ },
+ {
+  "article": "das",
+  "word": "Geschirr",
+  "plural": "-",
+  "fa": "ظروف",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Plastiktüte",
+  "plural": "Plastiktüten",
+  "fa": "کیسه‌ی پلاستیکی",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Kaffeemaschine",
+  "plural": "Kaffeemaschinen",
+  "fa": "قهوه‌ساز",
+  "category": "خانه"
+ },
+ {
+  "article": "das",
+  "word": "Dachgeschoss",
+  "plural": "Dachgeschosse",
+  "fa": "طبقه‌ی زیر شیروانی",
+  "category": "خانه"
+ },
+ {
+  "article": "das",
+  "word": "Arbeitszimmer",
+  "plural": "Arbeitszimmer",
+  "fa": "اتاق کار",
+  "category": "خانه"
+ },
+ {
+  "article": "die",
+  "word": "Speisekarte",
+  "plural": "Speisekarten",
+  "fa": "منوی غذا",
+  "category": "غذا"
+ },
+ {
+  "article": "der",
+  "word": "Nusskuchen",
+  "plural": "Nusskuchen",
+  "fa": "کیک گردویی",
+  "category": "غذا"
+ },
+ {
+  "article": "die",
+  "word": "Locke",
+  "plural": "Locken",
+  "fa": "فر مو",
+  "category": "بدن"
+ },
+ {
+  "article": "der",
+  "word": "Bart",
+  "plural": "Bärte",
+  "fa": "ریش",
+  "category": "بدن"
+ },
+ {
+  "article": "das",
+  "word": "Tuch",
+  "plural": "Tücher",
+  "fa": "پارچه؛ دستمال گردن",
+  "category": "لباس"
+ },
+ {
+  "article": "das",
+  "word": "Kopftuch",
+  "plural": "Kopftücher",
+  "fa": "روسری",
+  "category": "لباس"
+ },
+ {
+  "article": "der",
+  "word": "Strumpf",
+  "plural": "Strümpfe",
+  "fa": "جوراب بلند",
+  "category": "لباس"
+ },
+ {
+  "article": "die",
+  "word": "Bluse",
+  "plural": "Blusen",
+  "fa": "بلوز",
+  "category": "لباس"
+ },
+ {
+  "article": "der",
+  "word": "Laden",
+  "plural": "Läden",
+  "fa": "مغازه",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Brunnen",
+  "plural": "Brunnen",
+  "fa": "چشمه؛ فواره",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Hochhaus",
+  "plural": "Hochhäuser",
+  "fa": "برج؛ ساختمان بلند",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Kindergarten",
+  "plural": "Kindergärten",
+  "fa": "مهدکودک",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Ort",
+  "plural": "Orte",
+  "fa": "مکان",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Wohnort",
+  "plural": "Wohnorte",
+  "fa": "محل سکونت",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Hauptstadt",
+  "plural": "Hauptstädte",
+  "fa": "پایتخت",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Einwohner",
+  "plural": "Einwohner",
+  "fa": "ساکن؛ شهروند",
+  "category": "شهر و مکان‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Busfahrt",
+  "plural": "Busfahrten",
+  "fa": "سفر با اتوبوس",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "die",
+  "word": "Route",
+  "plural": "Routen",
+  "fa": "مسیر",
+  "category": "حمل‌ونقل"
+ },
+ {
+  "article": "die",
+  "word": "Visitenkarte",
+  "plural": "Visitenkarten",
+  "fa": "کارت ویزیت",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Teeküche",
+  "plural": "Teeküchen",
+  "fa": "آبدارخانه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Semester",
+  "plural": "Semester",
+  "fa": "ترم تحصیلی",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Aussprache",
+  "plural": "-",
+  "fa": "تلفظ",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Gegenteil",
+  "plural": "Gegenteile",
+  "fa": "ضد؛ برعکس",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Formular",
+  "plural": "Formulare",
+  "fa": "فرم",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Meeting",
+  "plural": "Meetings",
+  "fa": "جلسه",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "der",
+  "word": "Start",
+  "plural": "Starts",
+  "fa": "شروع",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "das",
+  "word": "Thema",
+  "plural": "Themen",
+  "fa": "موضوع",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Rolle",
+  "plural": "Rollen",
+  "fa": "نقش",
+  "category": "کار و مدرسه"
+ },
+ {
+  "article": "die",
+  "word": "Reparatur",
+  "plural": "Reparaturen",
+  "fa": "تعمیر",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Website",
+  "plural": "Websites",
+  "fa": "وب‌سایت",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Maschine",
+  "plural": "Maschinen",
+  "fa": "دستگاه؛ ماشین",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "WLAN",
+  "plural": "-",
+  "fa": "وای‌فای",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Forum",
+  "plural": "Foren",
+  "fa": "انجمن",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Sprachnachricht",
+  "plural": "Sprachnachrichten",
+  "fa": "پیام صوتی",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Serie",
+  "plural": "Serien",
+  "fa": "سریال",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "das",
+  "word": "Medium",
+  "plural": "Medien",
+  "fa": "رسانه",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Adresse",
+  "plural": "Adressen",
+  "fa": "آدرس",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Nummer",
+  "plural": "Nummern",
+  "fa": "شماره",
+  "category": "وسایل و فناوری"
+ },
+ {
+  "article": "die",
+  "word": "Salbe",
+  "plural": "Salben",
+  "fa": "پماد",
+  "category": "سلامت"
+ },
+ {
+  "article": "der",
+  "word": "Notdienst",
+  "plural": "Notdienste",
+  "fa": "خدمات اضطراری",
+  "category": "سلامت"
+ },
+ {
+  "article": "der",
+  "word": "Patient",
+  "plural": "Patienten",
+  "fa": "بیمار",
+  "category": "سلامت"
+ },
+ {
+  "article": "der",
+  "word": "Preis",
+  "plural": "Preise",
+  "fa": "قیمت",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "das",
+  "word": "Sonderangebot",
+  "plural": "Sonderangebote",
+  "fa": "تخفیف ویژه",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "die",
+  "word": "Kasse",
+  "plural": "Kassen",
+  "fa": "صندوق",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "der",
+  "word": "Cent",
+  "plural": "Cent",
+  "fa": "سنت",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "die",
+  "word": "Rechnung",
+  "plural": "Rechnungen",
+  "fa": "صورت‌حساب",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "das",
+  "word": "Angebot",
+  "plural": "Angebote",
+  "fa": "پیشنهاد؛ عرضه",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "die",
+  "word": "Öffnungszeit",
+  "plural": "Öffnungszeiten",
+  "fa": "ساعت کاری",
+  "category": "خرید و پول"
+ },
+ {
+  "article": "das",
+  "word": "Weihnachten",
+  "plural": "-",
+  "fa": "کریسمس",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Ostern",
+  "plural": "-",
+  "fa": "عید پاک",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Silvester",
+  "plural": "-",
+  "fa": "شب سال نو میلادی",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Party",
+  "plural": "Partys",
+  "fa": "مهمانی",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Feier",
+  "plural": "Feiern",
+  "fa": "جشن؛ مراسم",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Einladung",
+  "plural": "Einladungen",
+  "fa": "دعوت‌نامه",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Grillfest",
+  "plural": "Grillfeste",
+  "fa": "جشن کباب",
+  "category": "جشن‌ها و مناسبت‌ها"
+ },
+ {
+  "article": "das",
+  "word": "Leben",
+  "plural": "-",
+  "fa": "زندگی",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "die",
+  "word": "Freizeit",
+  "plural": "-",
+  "fa": "اوقات فراغت",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "die",
+  "word": "Sache",
+  "plural": "Sachen",
+  "fa": "چیز؛ موضوع",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "der",
+  "word": "Grund",
+  "plural": "Gründe",
+  "fa": "دلیل",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "das",
+  "word": "Gefühl",
+  "plural": "Gefühle",
+  "fa": "احساس",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "die",
+  "word": "Fähigkeit",
+  "plural": "Fähigkeiten",
+  "fa": "توانایی",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "der",
+  "word": "Unterschied",
+  "plural": "Unterschiede",
+  "fa": "تفاوت",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "die",
+  "word": "Wahrheit",
+  "plural": "-",
+  "fa": "حقیقت",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "das",
+  "word": "Treffen",
+  "plural": "Treffen",
+  "fa": "دیدار؛ جلسه",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "der",
+  "word": "Steckbrief",
+  "plural": "Steckbriefe",
+  "fa": "معرفی کوتاه؛ پروفایل",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "das",
+  "word": "Kompliment",
+  "plural": "Komplimente",
+  "fa": "تعارف؛ تعریف",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "das",
+  "word": "Stück",
+  "plural": "Stücke",
+  "fa": "تکه؛ قطعه",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "das",
+  "word": "Geräusch",
+  "plural": "Geräusche",
+  "fa": "صدا؛ سروصدا",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "die",
+  "word": "Aktivität",
+  "plural": "Aktivitäten",
+  "fa": "فعالیت",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "das",
+  "word": "Instrument",
+  "plural": "Instrumente",
+  "fa": "ساز؛ ابزار",
+  "category": "واژه‌های عمومی"
+ },
+ {
+  "article": "",
+  "word": "Liechtenstein",
+  "plural": "-",
+  "fa": "لیختن‌اشتاین",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Liechtenstein."
+ },
+ {
+  "article": "",
+  "word": "Irland",
+  "plural": "-",
+  "fa": "ایرلند",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Irland."
+ },
+ {
+  "article": "",
+  "word": "Schweden",
+  "plural": "-",
+  "fa": "سوئد",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Schweden."
+ },
+ {
+  "article": "",
+  "word": "Norwegen",
+  "plural": "-",
+  "fa": "نروژ",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Norwegen."
+ },
+ {
+  "article": "",
+  "word": "Dänemark",
+  "plural": "-",
+  "fa": "دانمارک",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Dänemark."
+ },
+ {
+  "article": "",
+  "word": "Finnland",
+  "plural": "-",
+  "fa": "فنلاند",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Finnland."
+ },
+ {
+  "article": "",
+  "word": "Tschechien",
+  "plural": "-",
+  "fa": "چک",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Tschechien."
+ },
+ {
+  "article": "",
+  "word": "Ungarn",
+  "plural": "-",
+  "fa": "مجارستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Ungarn."
+ },
+ {
+  "article": "die",
+  "word": "Ukraine",
+  "plural": "-",
+  "fa": "اوکراین",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus der Ukraine."
+ },
+ {
+  "article": "",
+  "word": "Rumänien",
+  "plural": "-",
+  "fa": "رومانی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Rumänien."
+ },
+ {
+  "article": "",
+  "word": "Bulgarien",
+  "plural": "-",
+  "fa": "بلغارستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Bulgarien."
+ },
+ {
+  "article": "",
+  "word": "Serbien",
+  "plural": "-",
+  "fa": "صربستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Serbien."
+ },
+ {
+  "article": "",
+  "word": "Kroatien",
+  "plural": "-",
+  "fa": "کرواسی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Kroatien."
+ },
+ {
+  "article": "die",
+  "word": "Niederlande",
+  "plural": "-",
+  "fa": "هلند",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus den Niederlanden."
+ },
+ {
+  "article": "",
+  "word": "Belgien",
+  "plural": "-",
+  "fa": "بلژیک",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Belgien."
+ },
+ {
+  "article": "",
+  "word": "Luxemburg",
+  "plural": "-",
+  "fa": "لوکزامبورگ",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Luxemburg."
+ },
+ {
+  "article": "",
+  "word": "Südkorea",
+  "plural": "-",
+  "fa": "کره‌ی جنوبی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Südkorea."
+ },
+ {
+  "article": "",
+  "word": "Thailand",
+  "plural": "-",
+  "fa": "تایلند",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Thailand."
+ },
+ {
+  "article": "",
+  "word": "Vietnam",
+  "plural": "-",
+  "fa": "ویتنام",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Vietnam."
+ },
+ {
+  "article": "",
+  "word": "Indonesien",
+  "plural": "-",
+  "fa": "اندونزی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Indonesien."
+ },
+ {
+  "article": "die",
+  "word": "Philippinen",
+  "plural": "-",
+  "fa": "فیلیپین",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus den Philippinen."
+ },
+ {
+  "article": "der",
+  "word": "Libanon",
+  "plural": "-",
+  "fa": "لبنان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus dem Libanon."
+ },
+ {
+  "article": "",
+  "word": "Israel",
+  "plural": "-",
+  "fa": "اسرائیل",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Israel."
+ },
+ {
+  "article": "",
+  "word": "Jordanien",
+  "plural": "-",
+  "fa": "اردن",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Jordanien."
+ },
+ {
+  "article": "",
+  "word": "Saudi-Arabien",
+  "plural": "-",
+  "fa": "عربستان سعودی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Saudi-Arabien."
+ },
+ {
+  "article": "",
+  "word": "Marokko",
+  "plural": "-",
+  "fa": "مراکش",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Marokko."
+ },
+ {
+  "article": "",
+  "word": "Tunesien",
+  "plural": "-",
+  "fa": "تونس",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Tunesien."
+ },
+ {
+  "article": "",
+  "word": "Algerien",
+  "plural": "-",
+  "fa": "الجزایر",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Algerien."
+ },
+ {
+  "article": "",
+  "word": "Nigeria",
+  "plural": "-",
+  "fa": "نیجریه",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Nigeria."
+ },
+ {
+  "article": "",
+  "word": "Südafrika",
+  "plural": "-",
+  "fa": "آفریقای جنوبی",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Südafrika."
+ },
+ {
+  "article": "",
+  "word": "Argentinien",
+  "plural": "-",
+  "fa": "آرژانتین",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Argentinien."
+ },
+ {
+  "article": "",
+  "word": "Mexiko",
+  "plural": "-",
+  "fa": "مکزیک",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Mexiko."
+ },
+ {
+  "article": "",
+  "word": "Kolumbien",
+  "plural": "-",
+  "fa": "کلمبیا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Kolumbien."
+ },
+ {
+  "article": "",
+  "word": "Kuba",
+  "plural": "-",
+  "fa": "کوبا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Kuba."
+ },
+ {
+  "article": "",
+  "word": "Kanada",
+  "plural": "-",
+  "fa": "کانادا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Kanada."
+ },
+ {
+  "article": "die",
+  "word": "USA",
+  "plural": "-",
+  "fa": "ایالات متحده‌ی آمریکا",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus den USA."
+ },
+ {
+  "article": "",
+  "word": "Neuseeland",
+  "plural": "-",
+  "fa": "نیوزیلند",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Neuseeland."
+ },
+ {
+  "article": "",
+  "word": "Armenien",
+  "plural": "-",
+  "fa": "ارمنستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Armenien."
+ },
+ {
+  "article": "",
+  "word": "Aserbaidschan",
+  "plural": "-",
+  "fa": "جمهوری آذربایجان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Aserbaidschan."
+ },
+ {
+  "article": "",
+  "word": "Georgien",
+  "plural": "-",
+  "fa": "گرجستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Georgien."
+ },
+ {
+  "article": "",
+  "word": "Kasachstan",
+  "plural": "-",
+  "fa": "قزاقستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Kasachstan."
+ },
+ {
+  "article": "",
+  "word": "Usbekistan",
+  "plural": "-",
+  "fa": "ازبکستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Usbekistan."
+ },
+ {
+  "article": "",
+  "word": "Tadschikistan",
+  "plural": "-",
+  "fa": "تاجیکستان",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "کشور",
+  "sub": "Ich komme aus Tadschikistan."
+ },
+ {
+  "article": "",
+  "word": "Amerika",
+  "plural": "-",
+  "fa": "آمریکا (قاره)",
+  "category": "کشورها و زبان‌ها",
+  "type": "word",
+  "tag": "قاره",
+  "sub": "der Kontinent = قاره"
+ },
+ {
+  "article": "",
+  "word": "mich",
+  "plural": "-",
+  "fa": "من را",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Er sieht mich."
+ },
+ {
+  "article": "",
+  "word": "dich",
+  "plural": "-",
+  "fa": "تو را",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich sehe dich."
+ },
+ {
+  "article": "",
+  "word": "ihn",
+  "plural": "-",
+  "fa": "او را (مرد)",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich kenne ihn."
+ },
+ {
+  "article": "",
+  "word": "sie",
+  "plural": "-",
+  "fa": "او را (زن)",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich liebe sie."
+ },
+ {
+  "article": "",
+  "word": "es",
+  "plural": "-",
+  "fa": "آن را",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich habe es."
+ },
+ {
+  "article": "",
+  "word": "uns",
+  "plural": "-",
+  "fa": "ما را",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Er besucht uns."
+ },
+ {
+  "article": "",
+  "word": "euch",
+  "plural": "-",
+  "fa": "شما را (جمع)",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich rufe euch an."
+ },
+ {
+  "article": "",
+  "word": "sie",
+  "plural": "-",
+  "fa": "آن‌ها را",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich sehe sie."
+ },
+ {
+  "article": "",
+  "word": "Sie",
+  "plural": "-",
+  "fa": "شما را (رسمی)",
+  "category": "ضمایر آکوزاتیو",
+  "type": "word",
+  "tag": "ضمیر Akk",
+  "sub": "Ich verstehe Sie."
+ },
+ {
+  "article": "",
+  "word": "mir",
+  "plural": "-",
+  "fa": "به من",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Er hilft mir."
+ },
+ {
+  "article": "",
+  "word": "dir",
+  "plural": "-",
+  "fa": "به تو",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Das gehört dir."
+ },
+ {
+  "article": "",
+  "word": "ihm",
+  "plural": "-",
+  "fa": "به او (مرد/خنثی)",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Ich gebe ihm das Buch."
+ },
+ {
+  "article": "",
+  "word": "ihr",
+  "plural": "-",
+  "fa": "به او (زن)",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Ich danke ihr."
+ },
+ {
+  "article": "",
+  "word": "uns",
+  "plural": "-",
+  "fa": "به ما",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Sie zeigt uns das Haus."
+ },
+ {
+  "article": "",
+  "word": "euch",
+  "plural": "-",
+  "fa": "به شما (جمع)",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Ich schicke euch eine Mail."
+ },
+ {
+  "article": "",
+  "word": "ihnen",
+  "plural": "-",
+  "fa": "به آن‌ها",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Ich antworte ihnen."
+ },
+ {
+  "article": "",
+  "word": "Ihnen",
+  "plural": "-",
+  "fa": "به شما (رسمی)",
+  "category": "ضمایر داتیو",
+  "type": "word",
+  "tag": "ضمیر Dat",
+  "sub": "Ich gratuliere Ihnen."
+ },
+ {
+  "article": "",
+  "word": "durch",
+  "plural": "-",
+  "fa": "از میان",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: durch den Park"
+ },
+ {
+  "article": "",
+  "word": "für",
+  "plural": "-",
+  "fa": "برای",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: Das ist für dich."
+ },
+ {
+  "article": "",
+  "word": "gegen",
+  "plural": "-",
+  "fa": "علیه؛ حدود (زمان)",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: gegen die Wand"
+ },
+ {
+  "article": "",
+  "word": "ohne",
+  "plural": "-",
+  "fa": "بدون",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: ohne Zucker"
+ },
+ {
+  "article": "",
+  "word": "um",
+  "plural": "-",
+  "fa": "دور؛ ساعت",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: um 8 Uhr"
+ },
+ {
+  "article": "",
+  "word": "bis",
+  "plural": "-",
+  "fa": "تا",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: bis morgen"
+ },
+ {
+  "article": "",
+  "word": "entlang",
+  "plural": "-",
+  "fa": "در امتداد",
+  "category": "حروف اضافه · آکوزاتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Akk",
+  "sub": "+ Akk: die Straße entlang"
+ },
+ {
+  "article": "",
+  "word": "aus",
+  "plural": "-",
+  "fa": "از (درون)؛ جنس",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: aus dem Haus"
+ },
+ {
+  "article": "",
+  "word": "bei",
+  "plural": "-",
+  "fa": "نزد؛ در محل",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: bei meiner Mutter"
+ },
+ {
+  "article": "",
+  "word": "mit",
+  "plural": "-",
+  "fa": "با",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: mit dem Bus"
+ },
+ {
+  "article": "",
+  "word": "nach",
+  "plural": "-",
+  "fa": "بعد از؛ به (شهر)",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: nach Berlin"
+ },
+ {
+  "article": "",
+  "word": "seit",
+  "plural": "-",
+  "fa": "از (زمان) تاکنون",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: seit einem Jahr"
+ },
+ {
+  "article": "",
+  "word": "von",
+  "plural": "-",
+  "fa": "از؛ مال",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: von meinem Freund"
+ },
+ {
+  "article": "",
+  "word": "zu",
+  "plural": "-",
+  "fa": "به (سمت)",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: zum Arzt"
+ },
+ {
+  "article": "",
+  "word": "gegenüber",
+  "plural": "-",
+  "fa": "روبه‌روی",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: gegenüber der Bank"
+ },
+ {
+  "article": "",
+  "word": "ab",
+  "plural": "-",
+  "fa": "از (زمان)",
+  "category": "حروف اضافه · داتیو",
+  "type": "word",
+  "tag": "حرف اضافه + Dat",
+  "sub": "+ Dat: ab Montag"
+ },
+ {
+  "article": "",
+  "word": "an",
+  "plural": "-",
+  "fa": "کنار؛ به",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich gehe an die Tür. · Dat (کجا؟): Ich stehe an der Tür."
+ },
+ {
+  "article": "",
+  "word": "auf",
+  "plural": "-",
+  "fa": "روی",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich lege es auf den Tisch. · Dat (کجا؟): Es liegt auf dem Tisch."
+ },
+ {
+  "article": "",
+  "word": "hinter",
+  "plural": "-",
+  "fa": "پشت",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich gehe hinter das Haus. · Dat (کجا؟): Es ist hinter dem Haus."
+ },
+ {
+  "article": "",
+  "word": "in",
+  "plural": "-",
+  "fa": "در؛ به داخل",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich gehe in die Schule. · Dat (کجا؟): Ich bin in der Schule."
+ },
+ {
+  "article": "",
+  "word": "neben",
+  "plural": "-",
+  "fa": "کنار",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich stelle es neben das Sofa. · Dat (کجا؟): Es steht neben dem Sofa."
+ },
+ {
+  "article": "",
+  "word": "über",
+  "plural": "-",
+  "fa": "بالای؛ درباره",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich hänge es über das Bett. · Dat (کجا؟): Es hängt über dem Bett."
+ },
+ {
+  "article": "",
+  "word": "unter",
+  "plural": "-",
+  "fa": "زیر",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich lege es unter den Tisch. · Dat (کجا؟): Es liegt unter dem Tisch."
+ },
+ {
+  "article": "",
+  "word": "vor",
+  "plural": "-",
+  "fa": "جلوی؛ قبل از",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich gehe vor die Tür. · Dat (کجا؟): Ich stehe vor der Tür."
+ },
+ {
+  "article": "",
+  "word": "zwischen",
+  "plural": "-",
+  "fa": "بین",
+  "category": "حروف اضافه · دوحالته",
+  "type": "word",
+  "tag": "Akk یا Dat",
+  "sub": "Akk (به کجا؟): Ich stelle es zwischen die Stühle. · Dat (کجا؟): Es steht zwischen den Stühlen."
+ },
+ {
+  "article": "",
+  "word": "hier",
+  "plural": "-",
+  "fa": "اینجا",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "dort",
+  "plural": "-",
+  "fa": "آنجا",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "oben",
+  "plural": "-",
+  "fa": "بالا",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "unten",
+  "plural": "-",
+  "fa": "پایین",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "links",
+  "plural": "-",
+  "fa": "چپ",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "rechts",
+  "plural": "-",
+  "fa": "راست",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "geradeaus",
+  "plural": "-",
+  "fa": "مستقیم",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "draußen",
+  "plural": "-",
+  "fa": "بیرون",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "drinnen",
+  "plural": "-",
+  "fa": "داخل",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "immer",
+  "plural": "-",
+  "fa": "همیشه",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "oft",
+  "plural": "-",
+  "fa": "اغلب",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "manchmal",
+  "plural": "-",
+  "fa": "گاهی",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "selten",
+  "plural": "-",
+  "fa": "به‌ندرت",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "nie",
+  "plural": "-",
+  "fa": "هرگز",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "jetzt",
+  "plural": "-",
+  "fa": "الان",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "gleich",
+  "plural": "-",
+  "fa": "همین حالا؛ فوراً",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "bald",
+  "plural": "-",
+  "fa": "به‌زودی",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "schon",
+  "plural": "-",
+  "fa": "قبلاً؛ همین الان",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "noch",
+  "plural": "-",
+  "fa": "هنوز",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "dann",
+  "plural": "-",
+  "fa": "سپس",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "danach",
+  "plural": "-",
+  "fa": "بعد از آن",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "zuerst",
+  "plural": "-",
+  "fa": "اول",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "später",
+  "plural": "-",
+  "fa": "بعداً",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "früh",
+  "plural": "-",
+  "fa": "زود",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "spät",
+  "plural": "-",
+  "fa": "دیر",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "sehr",
+  "plural": "-",
+  "fa": "خیلی",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "ziemlich",
+  "plural": "-",
+  "fa": "نسبتاً",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "auch",
+  "plural": "-",
+  "fa": "هم؛ همچنین",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "nur",
+  "plural": "-",
+  "fa": "فقط",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "vielleicht",
+  "plural": "-",
+  "fa": "شاید",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "wirklich",
+  "plural": "-",
+  "fa": "واقعاً",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "leider",
+  "plural": "-",
+  "fa": "متأسفانه",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "gern",
+  "plural": "-",
+  "fa": "با میل؛ دوست دارم",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "zusammen",
+  "plural": "-",
+  "fa": "با هم",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "allein",
+  "plural": "-",
+  "fa": "تنها",
+  "category": "قید",
+  "type": "word",
+  "tag": "قید"
+ },
+ {
+  "article": "",
+  "word": "groß",
+  "plural": "-",
+  "fa": "بزرگ",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ klein"
+ },
+ {
+  "article": "",
+  "word": "klein",
+  "plural": "-",
+  "fa": "کوچک",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ groß"
+ },
+ {
+  "article": "",
+  "word": "lang",
+  "plural": "-",
+  "fa": "بلند؛ طولانی",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ kurz"
+ },
+ {
+  "article": "",
+  "word": "kurz",
+  "plural": "-",
+  "fa": "کوتاه",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ lang"
+ },
+ {
+  "article": "",
+  "word": "neu",
+  "plural": "-",
+  "fa": "جدید",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ alt"
+ },
+ {
+  "article": "",
+  "word": "alt",
+  "plural": "-",
+  "fa": "قدیمی؛ پیر",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ neu"
+ },
+ {
+  "article": "",
+  "word": "gut",
+  "plural": "-",
+  "fa": "خوب",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schlecht"
+ },
+ {
+  "article": "",
+  "word": "schlecht",
+  "plural": "-",
+  "fa": "بد",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ gut"
+ },
+ {
+  "article": "",
+  "word": "schön",
+  "plural": "-",
+  "fa": "زیبا",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ hässlich"
+ },
+ {
+  "article": "",
+  "word": "hässlich",
+  "plural": "-",
+  "fa": "زشت",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schön"
+ },
+ {
+  "article": "",
+  "word": "teuer",
+  "plural": "-",
+  "fa": "گران",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ billig"
+ },
+ {
+  "article": "",
+  "word": "billig",
+  "plural": "-",
+  "fa": "ارزان",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ teuer"
+ },
+ {
+  "article": "",
+  "word": "schnell",
+  "plural": "-",
+  "fa": "سریع",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ langsam"
+ },
+ {
+  "article": "",
+  "word": "langsam",
+  "plural": "-",
+  "fa": "آهسته",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schnell"
+ },
+ {
+  "article": "",
+  "word": "heiß",
+  "plural": "-",
+  "fa": "داغ",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ kalt"
+ },
+ {
+  "article": "",
+  "word": "kalt",
+  "plural": "-",
+  "fa": "سرد",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ heiß"
+ },
+ {
+  "article": "",
+  "word": "schwer",
+  "plural": "-",
+  "fa": "سنگین؛ سخت",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ leicht"
+ },
+ {
+  "article": "",
+  "word": "leicht",
+  "plural": "-",
+  "fa": "سبک؛ آسان",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schwer"
+ },
+ {
+  "article": "",
+  "word": "einfach",
+  "plural": "-",
+  "fa": "ساده",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schwierig"
+ },
+ {
+  "article": "",
+  "word": "schwierig",
+  "plural": "-",
+  "fa": "دشوار",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ einfach"
+ },
+ {
+  "article": "",
+  "word": "laut",
+  "plural": "-",
+  "fa": "پرسروصدا",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ leise"
+ },
+ {
+  "article": "",
+  "word": "leise",
+  "plural": "-",
+  "fa": "آرام",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ laut"
+ },
+ {
+  "article": "",
+  "word": "sauber",
+  "plural": "-",
+  "fa": "تمیز",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schmutzig"
+ },
+ {
+  "article": "",
+  "word": "schmutzig",
+  "plural": "-",
+  "fa": "کثیف",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ sauber"
+ },
+ {
+  "article": "",
+  "word": "voll",
+  "plural": "-",
+  "fa": "پر",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ leer"
+ },
+ {
+  "article": "",
+  "word": "leer",
+  "plural": "-",
+  "fa": "خالی",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ voll"
+ },
+ {
+  "article": "",
+  "word": "offen",
+  "plural": "-",
+  "fa": "باز",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ geschlossen"
+ },
+ {
+  "article": "",
+  "word": "geschlossen",
+  "plural": "-",
+  "fa": "بسته",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ offen"
+ },
+ {
+  "article": "",
+  "word": "richtig",
+  "plural": "-",
+  "fa": "درست",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ falsch"
+ },
+ {
+  "article": "",
+  "word": "falsch",
+  "plural": "-",
+  "fa": "غلط",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ richtig"
+ },
+ {
+  "article": "",
+  "word": "jung",
+  "plural": "-",
+  "fa": "جوان",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ alt"
+ },
+ {
+  "article": "",
+  "word": "alt",
+  "plural": "-",
+  "fa": "پیر",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ jung"
+ },
+ {
+  "article": "",
+  "word": "glücklich",
+  "plural": "-",
+  "fa": "خوشحال",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ traurig"
+ },
+ {
+  "article": "",
+  "word": "traurig",
+  "plural": "-",
+  "fa": "غمگین",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ glücklich"
+ },
+ {
+  "article": "",
+  "word": "gesund",
+  "plural": "-",
+  "fa": "سالم",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ krank"
+ },
+ {
+  "article": "",
+  "word": "krank",
+  "plural": "-",
+  "fa": "بیمار",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ gesund"
+ },
+ {
+  "article": "",
+  "word": "interessant",
+  "plural": "-",
+  "fa": "جالب",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ langweilig"
+ },
+ {
+  "article": "",
+  "word": "langweilig",
+  "plural": "-",
+  "fa": "کسل‌کننده",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ interessant"
+ },
+ {
+  "article": "",
+  "word": "dick",
+  "plural": "-",
+  "fa": "چاق؛ ضخیم",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ dünn"
+ },
+ {
+  "article": "",
+  "word": "dünn",
+  "plural": "-",
+  "fa": "لاغر؛ نازک",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ dick"
+ },
+ {
+  "article": "",
+  "word": "breit",
+  "plural": "-",
+  "fa": "پهن",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ schmal"
+ },
+ {
+  "article": "",
+  "word": "schmal",
+  "plural": "-",
+  "fa": "باریک",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ breit"
+ },
+ {
+  "article": "",
+  "word": "hoch",
+  "plural": "-",
+  "fa": "بلند (ارتفاع)",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ niedrig"
+ },
+ {
+  "article": "",
+  "word": "niedrig",
+  "plural": "-",
+  "fa": "کوتاه (ارتفاع)",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت",
+  "sub": "↔ hoch"
+ },
+ {
+  "article": "",
+  "word": "nett",
+  "plural": "-",
+  "fa": "مهربان",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "freundlich",
+  "plural": "-",
+  "fa": "دوستانه",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "lustig",
+  "plural": "-",
+  "fa": "بامزه",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "müde",
+  "plural": "-",
+  "fa": "خسته",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "hungrig",
+  "plural": "-",
+  "fa": "گرسنه",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "wichtig",
+  "plural": "-",
+  "fa": "مهم",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "bequem",
+  "plural": "-",
+  "fa": "راحت",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "gemütlich",
+  "plural": "-",
+  "fa": "دنج",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "warm",
+  "plural": "-",
+  "fa": "گرم",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "kühl",
+  "plural": "-",
+  "fa": "خنک",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "rund",
+  "plural": "-",
+  "fa": "گرد",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "eckig",
+  "plural": "-",
+  "fa": "گوشه‌دار؛ مربعی",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "schlank",
+  "plural": "-",
+  "fa": "اندام‌دار؛ باریک",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "lecker",
+  "plural": "-",
+  "fa": "خوشمزه",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "ruhig",
+  "plural": "-",
+  "fa": "آرام؛ ساکت",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "freundlich",
+  "plural": "-",
+  "fa": "مهربان؛ خوش‌برخورد",
+  "category": "صفت",
+  "type": "word",
+  "tag": "صفت"
+ },
+ {
+  "article": "",
+  "word": "A a",
+  "plural": "-",
+  "fa": "آ",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "A wie Apfel"
+ },
+ {
+  "article": "",
+  "word": "B b",
+  "plural": "-",
+  "fa": "بِه",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "B wie Banane"
+ },
+ {
+  "article": "",
+  "word": "C c",
+  "plural": "-",
+  "fa": "تْسِه",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "C wie Computer"
+ },
+ {
+  "article": "",
+  "word": "D d",
+  "plural": "-",
+  "fa": "دِه",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "D wie Dach"
+ },
+ {
+  "article": "",
+  "word": "E e",
+  "plural": "-",
+  "fa": "اِه",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "E wie Esel"
+ },
+ {
+  "article": "",
+  "word": "F f",
+  "plural": "-",
+  "fa": "اِف",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "F wie Fisch"
+ },
+ {
+  "article": "",
+  "word": "G g",
+  "plural": "-",
+  "fa": "گِه",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "G wie Garten"
+ },
+ {
+  "article": "",
+  "word": "H h",
+  "plural": "-",
+  "fa": "هاا",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "H wie Haus"
+ },
+ {
+  "article": "",
+  "word": "I i",
+  "plural": "-",
+  "fa": "ای",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "I wie Insel"
+ },
+ {
+  "article": "",
+  "word": "J j",
+  "plural": "-",
+  "fa": "یوت",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "J wie Jacke"
+ },
+ {
+  "article": "",
+  "word": "K k",
+  "plural": "-",
+  "fa": "کا",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "K wie Katze"
+ },
+ {
+  "article": "",
+  "word": "L l",
+  "plural": "-",
+  "fa": "اِل",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "L wie Lampe"
+ },
+ {
+  "article": "",
+  "word": "M m",
+  "plural": "-",
+  "fa": "اِم",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "M wie Mutter"
+ },
+ {
+  "article": "",
+  "word": "N n",
+  "plural": "-",
+  "fa": "اِن",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "N wie Nase"
+ },
+ {
+  "article": "",
+  "word": "O o",
+  "plural": "-",
+  "fa": "اُ",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "O wie Ohr"
+ },
+ {
+  "article": "",
+  "word": "P p",
+  "plural": "-",
+  "fa": "په",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "P wie Papier"
+ },
+ {
+  "article": "",
+  "word": "Q q",
+  "plural": "-",
+  "fa": "کو",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "Q wie Quelle"
+ },
+ {
+  "article": "",
+  "word": "R r",
+  "plural": "-",
+  "fa": "اِر",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "R wie Rose"
+ },
+ {
+  "article": "",
+  "word": "S s",
+  "plural": "-",
+  "fa": "اِس",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "S wie Sonne"
+ },
+ {
+  "article": "",
+  "word": "T t",
+  "plural": "-",
+  "fa": "ته",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "T wie Tisch"
+ },
+ {
+  "article": "",
+  "word": "U u",
+  "plural": "-",
+  "fa": "او",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "U wie Uhr"
+ },
+ {
+  "article": "",
+  "word": "V v",
+  "plural": "-",
+  "fa": "فاو",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "V wie Vogel"
+ },
+ {
+  "article": "",
+  "word": "W w",
+  "plural": "-",
+  "fa": "وِه",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "W wie Wasser"
+ },
+ {
+  "article": "",
+  "word": "X x",
+  "plural": "-",
+  "fa": "ایکس",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "X wie Xylophon"
+ },
+ {
+  "article": "",
+  "word": "Y y",
+  "plural": "-",
+  "fa": "اوپسیلون",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "Y wie Yoga"
+ },
+ {
+  "article": "",
+  "word": "Z z",
+  "plural": "-",
+  "fa": "تْسِت",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "Z wie Zug"
+ },
+ {
+  "article": "",
+  "word": "Ä ä",
+  "plural": "-",
+  "fa": "اِ (آ-اِ)",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "Ä wie Äpfel"
+ },
+ {
+  "article": "",
+  "word": "Ö ö",
+  "plural": "-",
+  "fa": "اُ (گرد)",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "Ö wie Öl"
+ },
+ {
+  "article": "",
+  "word": "Ü ü",
+  "plural": "-",
+  "fa": "اوو (گرد)",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "Ü wie Übung"
+ },
+ {
+  "article": "",
+  "word": "ß",
+  "plural": "-",
+  "fa": "اِس‌تْسِت",
+  "category": "الفبا",
+  "type": "word",
+  "tag": "حرف",
+  "sub": "ß wie Straße"
  }
 ]

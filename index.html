@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#172554">
 <meta name="author" content="محمد جواد حبیبی">
+<meta name="description" content="یادگیری آلمانی با فلش‌کارت، آزمون و جدول صرف افعال؛ بیش از ۶۰۰ واژه و ۲۵۰ فعل">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Deutsch Zauber ✨ جادوی آلمانی">
+<meta property="og:description" content="یادگیری آلمانی با فلش‌کارت، آزمون و جدول صرف افعال · ساخته‌ی محمد جواد حبیبی">
+<meta property="og:image" content="https://habibimjavad-maker.github.io/deutsch-zauber/og-image.png">
+<meta property="og:url" content="https://habibimjavad-maker.github.io/deutsch-zauber/">
+<meta property="og:locale" content="fa_IR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://habibimjavad-maker.github.io/deutsch-zauber/og-image.png">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -101,6 +110,10 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
 @keyframes glow{70%{box-shadow:0 0 0 14px #ffd66b00}100%{box-shadow:0 0 0 0 #ffd66b00}}
 .sw{display:inline-block;width:32px;height:32px;border-radius:50%;margin-inline-end:10px;vertical-align:middle;box-shadow:0 0 0 2px #ffffff88,0 4px 18px #0008}
 .item .sw{width:20px;height:20px;margin:0;flex:none}
+.qo{display:grid;gap:10px;margin-top:12px}.qo button{padding:15px;font-size:17px}
+.qo .ok{background:linear-gradient(135deg,#10b981cc,#059669cc);border-color:#7be8b0}
+.qo .bad{background:linear-gradient(135deg,#f43f5ecc,#be123ccc)}
+nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px;cursor:pointer;font-weight:600;list-style:none}.ex summary small{color:var(--mut);margin-inline-start:6px}.ph{display:flex;align-items:center;gap:8px;padding:10px 14px;border-top:1px dashed #ffffff22}.ph div{flex:1}.ph b{display:block;direction:ltr;text-align:left;font-size:16px}.ph span{color:var(--gold);font-size:14px}
 </style>
 </head>
 <body>
@@ -109,7 +122,8 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
 <header><div class="flags"><svg class="flag" viewBox="0 0 30 20" role="img" aria-label="ایران"><rect width="30" height="6.7" fill="#239f40"/><rect y="6.67" width="30" height="6.7" fill="#fff"/><rect y="13.33" width="30" height="6.7" fill="#da0000"/><circle cx="15" cy="10" r="2.4" fill="none" stroke="#da0000" stroke-width="1.1"/><path d="M15 7.3v5.4" stroke="#da0000" stroke-width="1"/></svg><span class="arrow">⇄</span><svg class="flag" viewBox="0 0 30 20" role="img" aria-label="Deutschland"><rect width="30" height="6.7" fill="#111"/><rect y="6.67" width="30" height="6.7" fill="#dd0000"/><rect y="13.33" width="30" height="6.7" fill="#ffce00"/></svg></div><h1>✨ Deutsch Zauber</h1><p>جادوی آلمانی · هر روز یک قدم جلوتر</p></header>
 
 <section id="t-cards">
- <div class="filters"><select id="fc"></select><select id="fa"></select></div>
+ <div class="filters"><select id="fm"><option value="">📚 همه‌ی کارت‌ها</option><option value="smart">🧠 مرور هوشمند</option></select></div>
+ <div class="filters" style="margin-top:0"><select id="fc"></select><select id="fa"></select></div>
  <div class="glass card" id="card" title="برای دیدن معنی بزن"></div>
  <div class="row">
   <button class="b-h" onclick="mark('h')">💪 سخته</button>
@@ -117,9 +131,9 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
   <button class="b-k" onclick="mark('k')">✅ بلدم</button>
  </div>
  <div class="row">
-  <button onclick="step(1)">→ قبلی</button>
+  <button onclick="step(-1)">→ قبلی</button>
   <button class="gold" onclick="shuf()">🔀 مخلوط</button>
-  <button onclick="step(-1)">بعدی ←</button>
+  <button onclick="step(1)">بعدی ←</button>
  </div>
 </section>
 
@@ -136,8 +150,14 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
   <div class="glass stat"><b id="sR">0</b><span>برای مرور</span></div>
  </div>
  <div class="glass" style="padding:16px"><div class="hint">پیشرفت کلی</div><div class="bar"><i id="pb"></i></div><div class="hint" id="pt"></div></div>
+ <div class="hint" id="due" style="text-align:center;margin:12px"></div>
  <div class="row"><button class="b-h" onclick="resetP()">🗑 پاک‌کردن پیشرفت</button></div>
 </section>
+<section id="t-quiz" hidden>
+ <div class="filters" style="margin-top:14px"><select id="qc"></select><select id="qd"><option value="de">آلمانی ← فارسی</option><option value="fa">فارسی ← آلمانی</option></select></div>
+ <div class="glass" id="qbox" style="padding:22px;text-align:center"><div class="fa" style="margin:6px 0">آماده‌ای؟ 🎯</div><div class="hint">۱۰ سؤال چهارگزینه‌ای؛ جواب‌هایت در «مرور هوشمند» ثبت می‌شود</div><div class="row"><button class="gold" onclick="qStart()">🎯 شروع آزمون</button></div></div>
+</section>
+<section id="t-exp" hidden><div class="list" id="exl" style="margin-top:14px"></div></section>
 <div class="err" id="err" hidden></div>
 <footer>ساخته‌شده با <span class="heart">💜</span> توسط <b id="by">محمد جواد حبیبی</b><small>Deutsch Zauber · نسخه ۳</small></footer>
 </div>
@@ -147,6 +167,8 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
 <nav><div class="glass">
  <button class="on" data-t="cards">🃏 فلش‌کارت</button>
  <button data-t="dict">📚 لغت‌نامه</button>
+ <button data-t="quiz">🎯 آزمون</button>
+ <button data-t="exp">💬 اصطلاحات</button>
  <button data-t="prog">📈 پیشرفت</button>
 </div></nav>
 
@@ -154,10 +176,12 @@ footer small{display:block;margin-top:3px;opacity:.6;font-size:11px}
 const $=s=>document.querySelector(s);
 let ALL=[],deck=[],idx=0,shown=false,P={};
 try{P=JSON.parse(localStorage.getItem('dz2')||'{}')}catch(e){}
-const save=()=>{try{localStorage.setItem('dz2',JSON.stringify(P))}catch(e){}};
+let L={};try{L=JSON.parse(localStorage.getItem('dz3')||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem('dz2',JSON.stringify(P));localStorage.setItem('dz3',JSON.stringify(L))}catch(e){}};
 const key=w=>w.word+'|'+w.fa;
 const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const isV=w=>w.type==='verb';
+const KS=w=>w.kasus?' · '+({Akk:'آکوزاتیوساز (+Akk)',Dat:'داتیوساز (+Dat)','Akk+Dat':'آکوزاتیو + داتیو'}[w.kasus]):'';
 const strip=s=>s.replace(/^(ich|du|er\/sie\/es|wir|ihr|sie|Sie) /,'');
 
 Promise.all([fetch('words.json',{cache:'no-cache'}).then(r=>r.json()),fetch('verbs.json',{cache:'no-cache'}).then(r=>r.json())])
@@ -169,18 +193,21 @@ function init(){
  const opt=(l,a)=>`<option value="">${l}</option>`+a.map(c=>`<option>${esc(c)}</option>`).join('');
  $('#fc').innerHTML=opt('همه دسته‌ها',cats);
  $('#dc').innerHTML=opt('همه دسته‌ها',cats);
+ $('#qc').innerHTML=opt('همه دسته‌ها',cats);
  $('#fa').innerHTML='<option value="">همه</option><option>der</option><option>die</option><option>das</option><option value="verb">افعال</option>';
- $('#fc').onchange=$('#fa').onchange=()=>{mk();idx=0;card()};
+ $('#fc').onchange=$('#fa').onchange=$('#fm').onchange=()=>{mk();idx=0;card();smartLabel()};
  $('#q').oninput=$('#dc').onchange=dict;
- mk();card();dict();prog();
+ mk();card();dict();prog();smartLabel();
 }
-function mk(){
- const c=$('#fc').value,a=$('#fa').value;
- deck=ALL.filter(w=>(!c||w.category===c)&&(!a||(a==='verb'?isV(w):w.article===a)));
-}
+const DAY=864e5,IV=[0,1,3,7,14,30];
+function sched(w,s){const k=key(w);let b=(L[k]||{b:0}).b;b=s==='k'?Math.min(b+1,5):s==='h'?0:Math.max(1,b-1);L[k]={b,t:Date.now()+(b?IV[b]*DAY:6e5)}}
+function baseDeck(){const c=$('#fc').value,a=$('#fa').value;return ALL.filter(w=>(!c||w.category===c)&&(!a||(a==='verb'?isV(w):w.article===a)))}
+function smartDeck(b){const n=Date.now();return b.filter(w=>L[key(w)]&&L[key(w)].t<=n).sort((x,y)=>L[key(x)].b-L[key(y)].b).concat(b.filter(w=>!L[key(w)]).slice(0,15))}
+function mk(){const b=baseDeck();deck=$('#fm').value==='smart'?smartDeck(b):b}
+function smartLabel(){const o=$('#fm').options[1];if(o)o.textContent='🧠 مرور هوشمند ('+smartDeck(baseDeck()).length+')'}
 function card(){
  const el=$('#card'),w=deck[idx];shown=false;
- if(!w){el.innerHTML='<div class="empty">این فیلتر فعلاً واژه‌ای ندارد؛ دستهٔ دیگری را انتخاب کن.</div>';return}
+ if(!w){el.innerHTML=$('#fm').value==='smart'?'<div class="empty">🎉 مرورهای امروز تمام شد!<br>فردا دوباره بیا، یا حالت «همه‌ی کارت‌ها» را انتخاب کن.</div>':'<div class="empty">این فیلتر فعلاً واژه‌ای ندارد؛ دستهٔ دیگری را انتخاب کن.</div>';return}
  const st=P[key(w)]||'';
  let front,sub;
  if(isV(w)){
@@ -191,7 +218,7 @@ function card(){
   sub=w.sub?esc(w.sub):w.article?(w.plural&&w.plural!=='-'?`Plural: die ${esc(w.plural)}`:'Plural: —'):'';
  }
  el.innerHTML=`<span class="cnt">${idx+1} / ${deck.length}${st?' · '+({k:'✅',r:'🔁',h:'💪'}[st]):''}</span>
- <span class="tag">${esc(w.category)}</span>${front}<div class="sub">${sub}</div>
+ <span class="tag">${esc(w.category)}${isV(w)?KS(w):''}</span>${front}<div class="sub">${sub}</div>
  <button class="speak" onclick="event.stopPropagation();say()">🔊</button>
  <div class="fa" id="fav"></div><button class="gold reveal" id="hn" onclick="event.stopPropagation();flip()">👁 نمایش معنی فارسی</button>
  ${isV(w)?'<button class="gold" style="padding:8px 14px" onclick="event.stopPropagation();openV(deck[idx])">📖 جدول صرف</button>':''}`;
@@ -200,7 +227,8 @@ function flip(){const w=deck[idx];if(!w)return;shown=!shown;const f=$('#fav');f.
 $('#card').onclick=flip;
 function step(d){if(!deck.length)return;idx=(idx+d+deck.length)%deck.length;card()}
 function shuf(){for(let i=deck.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[deck[i],deck[j]]=[deck[j],deck[i]]}idx=0;card()}
-function mark(s){const w=deck[idx];if(!w)return;P[key(w)]=s;save();prog();dict();if(s==='k')burst();step(-1)}
+function mark(s){const w=deck[idx];if(!w)return;P[key(w)]=s;sched(w,s);save();prog();dict();if(s==='k')burst();
+ if($('#fm').value==='smart'){deck.splice(idx,1);if(s==='h')deck.splice(Math.min(idx+3,deck.length),0,w);if(idx>=deck.length)idx=0;card();smartLabel()}else step(1)}
 function burst(){const r=$('#card').getBoundingClientRect(),E=['✨','⭐','💫','🌟','💜'];for(let i=0;i<16;i++){const e=document.createElement('span');e.className='pf';e.textContent=E[i%E.length];const a=Math.random()*6.28,d=60+Math.random()*110;e.style.cssText=`left:${r.left+r.width/2}px;top:${r.top+r.height/2}px;--dx:${Math.cos(a)*d}px;--dy:${Math.sin(a)*d-40}px`;document.body.append(e);setTimeout(()=>e.remove(),1000)}}
 function say(){const w=deck[idx];if(!w||!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance((isV(w)||!w.article?'':w.article+' ')+w.word);u.lang='de-DE';u.rate=.85;speechSynthesis.cancel();speechSynthesis.speak(u)}
 
@@ -215,7 +243,7 @@ function dict(){
   +(r.length>300?'<div class="empty">برای دیدن بقیه جستجو کن…</div>':'');
 }
 function pick(i){const w=ALL[i];if(isV(w))return openV(w);
- $('#fc').value='';$('#fa').value='';mk();idx=Math.max(0,deck.indexOf(w));go('cards');card()}
+ $('#fc').value='';$('#fa').value='';$('#fm').value='';mk();idx=Math.max(0,deck.indexOf(w));go('cards');card()}
 
 const TN={praesens:'Präsens',praeteritum:'Präteritum',perfekt:'Perfekt',plusquamperfekt:'Plusquamperfekt',futur1:'Futur I',futur2:'Futur II',konjunktiv1_praesens:'Konjunktiv I · Präsens',konjunktiv2_praeteritum:'Konjunktiv II · Präteritum'};
 const tcard=(h,o,pers)=>`<div class="tc"><h4>${h}</h4>${Object.entries(o).map(([k,v])=>{let a=k,b=v;if(pers){const i=v.indexOf(' ');a=v.slice(0,i);b=v.slice(i+1)}return `<div><em>${esc(a)}</em>${esc(b)}</div>`}).join('')}</div>`;
@@ -223,29 +251,54 @@ let cur,grp='indikativ';
 function openV(w){cur=w;grp='indikativ';viewV();$('#sheet').classList.add('on')}
 function closeV(){$('#sheet').classList.remove('on')}
 function viewV(){
- const w=cur,G=[['indikativ','Indikativ'],['konjunktiv1','Konjunktiv I'],['konjunktiv2','Konjunktiv II']];
+ const w=cur,G=[['indikativ','Präsens · Präteritum']];
  if(w.imperativ)G.push(['imperativ','Imperativ']);
- if(w.passiv)G.push(['passiv','Passiv']);
  G.push(['formen','Formen']);
  let body='';
- if(grp==='imperativ')body=`<div class="tg">${tcard('Imperativ',w.imperativ)}</div>`;
+ if(grp==='imperativ')body=`<div class="tg">${tcard('Imperativ',{du:w.imperativ.du,ihr:w.imperativ.ihr,Sie:w.imperativ.Sie})}</div>`;
  else if(grp==='formen')body=`<div class="tg">${tcard('Infinitiv & Partizip',{Infinitiv:w.infinitiv.praesens,'Infinitiv Perfekt':w.infinitiv.perfekt,'zu-Infinitiv':w.infinitiv.zu,'Partizip I':w.partizip.praesens,'Partizip II':w.partizip.perfekt,'Hilfsverb':w.aux})}</div>`;
- else body=`<div class="tg">${Object.entries(w[grp]).map(([k,o])=>tcard(TN[k]||k,o,true)).join('')}</div>`;
+ else body=`<div class="tg">${Object.entries(w[grp]).filter(([k])=>k==='praesens'||k==='praeteritum').map(([k,o])=>tcard(TN[k]||k,o,true)).join('')}</div>`;
  $('#panel').innerHTML=`<button class="x" onclick="closeV()">✕</button>
  <h2><span class="vb">${esc(w.word)}</span></h2>
- <div class="sub" style="text-align:center">${esc(w.fa)} · ${w.aux}${w.separable?' · جداشدنی: '+esc(w.separable):''}</div>
+ <div class="sub" style="text-align:center">${esc(w.fa)} · ${w.aux}${KS(w)}${w.separable?' · جداشدنی: '+esc(w.separable):''}</div>
  <div class="tabs">${G.map(([k,n])=>`<button class="${k===grp?'on':''}" onclick="grp='${k}';viewV()">${n}</button>`).join('')}</div>${body}`;
 }
 
 function prog(){
  const t=ALL.length,k=ALL.filter(w=>P[key(w)]==='k').length,r=ALL.filter(w=>P[key(w)]==='r'||P[key(w)]==='h').length;
  $('#sT').textContent=t;$('#sK').textContent=k;$('#sR').textContent=r;
- const p=t?Math.round(k/t*100):0;$('#pb').style.width=p+'%';const L=[[0,'🌱 تازه‌کار'],[25,'📘 دانش‌آموز'],[75,'🧭 کاشف'],[150,'🪄 جادوگر'],[300,'🐉 استاد'],[500,'👑 افسانه‌ای']];const lv=L.filter(x=>k>=x[0]).pop();$('#pt').textContent=p+'٪ از واژه‌ها را بلدی · سطح تو: '+lv[1];
+ const p=t?Math.round(k/t*100):0;$('#pb').style.width=p+'%';const L=[[0,'🌱 تازه‌کار'],[25,'📘 دانش‌آموز'],[75,'🧭 کاشف'],[150,'🪄 جادوگر'],[300,'🐉 استاد'],[500,'👑 افسانه‌ای']];const lv=L.filter(x=>k>=x[0]).pop();$('#pt').textContent=p+'٪ از واژه‌ها را بلدی · سطح تو: '+lv[1];const nw=Date.now();$('#due').textContent='🧠 کارت‌های آمادهٔ مرور امروز: '+ALL.filter(w=>L[key(w)]&&L[key(w)].t<=nw).length;
 }
-function resetP(){if(confirm('همهٔ پیشرفتت پاک شود؟')){P={};save();prog();dict();card()}}
+function resetP(){if(confirm('همهٔ پیشرفتت پاک شود؟')){P={};L={};save();prog();dict();mk();idx=0;card();smartLabel()}}
 
+const shuf2=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const lab=w=>isV(w)||!w.article?w.word:w.article+' '+w.word;
+let Q=null;
+function qStart(){
+ const c=$('#qc').value;let pool=ALL.filter(w=>!c||w.category===c);if(pool.length<4)pool=ALL;
+ Q={qs:shuf2(pool.slice()).slice(0,10),i:0,ok:0,d:$('#qd').value};qShow();
+}
+function qShow(){
+ const b=$('#qbox');
+ if(Q.i>=Q.qs.length){const r=Q.ok/Q.qs.length;b.innerHTML=`<div class="de" style="font-size:46px">${Q.ok} / ${Q.qs.length}</div><div class="fa" style="margin:10px 0">${r>=.9?'🏆 عالی بود!':r>=.6?'👏 آفرین!':'💪 باز هم تمرین کن!'}</div><div class="row"><button class="gold" onclick="qStart()">🔁 آزمون تازه</button><button onclick="go('cards')">🃏 فلش‌کارت</button></div>`;prog();smartLabel();return}
+ const w=Q.qs[Q.i],de=Q.d==='de',f=x=>de?x.fa:lab(x),ans=f(w);
+ const same=ALL.filter(x=>x!==w&&isV(x)===isV(w)&&f(x)!==ans),o3=[],seen=new Set([ans]);
+ for(const x of shuf2(same.filter(x=>x.category===w.category)).concat(shuf2(same.filter(x=>x.category!==w.category)))){const l=f(x);if(!seen.has(l)){seen.add(l);o3.push(l)}if(o3.length===3)break}
+ Q.w=w;Q.ans=ans;Q.done=false;Q.opts=shuf2([ans,...o3]);
+ b.innerHTML=`<div class="hint">سؤال ${Q.i+1} از ${Q.qs.length} · ✅ ${Q.ok}</div><div class="${de?'de':'fa'}" style="margin:16px 0">${esc(de?lab(w):w.fa)}</div><div class="qo" style="direction:${de?'rtl':'ltr'}">${Q.opts.map((o,i)=>`<button onclick="qPick(${i})">${esc(o)}</button>`).join('')}</div><div id="qn" class="row"></div>`;
+}
+function qPick(i){
+ if(Q.done)return;Q.done=true;const ok=Q.opts[i]===Q.ans;
+ document.querySelectorAll('.qo button').forEach((x,j)=>{if(Q.opts[j]===Q.ans)x.classList.add('ok');else if(j===i)x.classList.add('bad')});
+ if(ok){Q.ok++;sched(Q.w,'k')}else{sched(Q.w,'h');P[key(Q.w)]='h'}
+ save();
+ $('#qn').innerHTML=`<button class="gold" onclick="Q.i++;qShow()">${Q.i+1>=Q.qs.length?'🏁 نتیجه':'بعدی ←'}</button>`;
+}
+
+fetch('expressions.json',{cache:'no-cache'}).then(r=>r.json()).then(E=>{$('#exl').innerHTML=E.map(s=>`<details class="glass ex"><summary>${s.icon} ${esc(s.title)} <small>${s.items.length}</small></summary>${s.items.map(p=>`<div class="ph"><div><b>${esc(p[0])}</b><span>${esc(p[1])}</span></div><button class="speak" data-t="${esc(p[0])}" onclick="sayT(this)">🔊</button></div>`).join('')}</details>`).join('')}).catch(()=>{});
+function sayT(b){if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(b.dataset.t.replace(/…/g,''));u.lang='de-DE';u.rate=.85;speechSynthesis.cancel();speechSynthesis.speak(u)}
 function go(t){
- ['cards','dict','prog'].forEach(x=>$('#t-'+x).hidden=x!==t);
+ ['cards','dict','quiz','exp','prog'].forEach(x=>$('#t-'+x).hidden=x!==t);
  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));
  window.scrollTo(0,0);
 }
