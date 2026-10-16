@@ -5,15 +5,20 @@
   "t": "معرفی و سلام — Ich heiße Danyar",
   "lv": "A1",
   "pts": [
-   "فعل با ich/du/er: ریشه + e / st / t (komme, kommst, kommt).",
-   "sein: bin, bist, ist.",
-   "جمله‌ی خبری: فعل جایگاه دوم.",
-   "سؤال با W: Woher? Wie? — حرف اضافه‌ی aus برای مبدأ."
+   "① هر جمله‌ی آلمانی یک «فعل» (کار) دارد، مثل heißen (نام داشتن) یا kommen (آمدن). قانون اول: فعل همیشه جای دوم جمله می‌نشیند. Ich (جای ۱) heiße (جای ۲) Delsa.",
+   "② فعل مثل لباس است؛ برای هر آدم یک «شکل» می‌پوشد. به این کار می‌گویند «صرف کردن». برای ساختنش: مصدر (kommen) را بگیر و -en آخرش را بینداز؛ می‌ماند «ریشه»: komm.",
+   "③ حالا به ریشه یک پایان می‌چسبانیم: برای ich (من) → e: ich komme. برای du (تو) → st: du kommst. برای er/sie/es (او) → t: er kommt.",
+   "④ فعل sein (بودن) از هیچ قاعده‌ای پیروی نمی‌کند؛ باید حفظش کنی: ich bin، du bist، er/sie/es ist.",
+   "⑤ سؤال با کلمه‌ی پرسشی: اول کلمه‌ی پرسشی، بعد فعل (باز هم جای دوم!). Wie heißt du؟ = اسمت چیست؟ Woher kommst du؟ = اهل کجایی؟",
+   "⑥ aus یعنی «اهل / از». نام بیشتر کشورها حرف تعریف ندارد: Ich komme aus Deutschland. ولی برای ایران می‌گویند: aus dem Iran.",
+   "💡 یادت بماند: ich ← پایان e، du ← پایان st، er ← پایان t."
   ],
   "ex": [
-   "Ich komme aus dem Iran. — من اهل ایران هستم.",
-   "Wie heißt du? – Ich heiße Delnaz. — اسمت چیست؟ – اسمم دلناز است.",
-   "Woher kommen Sie? — اهل کجا هستید؟"
+   "Ich heiße Delsa. — اسم من دلسا است.",
+   "Wie heißt du? — اسمت چیست؟",
+   "Woher kommst du? – Ich komme aus dem Iran. — اهل کجایی؟ – اهل ایران هستم.",
+   "Danyar kommt aus Deutschland. — دانیار اهل آلمان است.",
+   "Ich bin Delnaz. — من دلناز هستم."
   ]
  },
  {
@@ -22,16 +27,19 @@
   "t": "شغل و اطلاعات شخصی — Was macht ihr beruflich?",
   "lv": "A1",
   "pts": [
-   "صرف جمع: wir/sie/Sie = مصدر؛ ihr = ریشه + t.",
-   "ریشه‌ی t/d: du arbeitest.",
-   "نفی با nicht (آخر جمله یا قبل از صفت).",
-   "حروف اضافه: als (شغل)، bei (شرکت)، in (شهر).",
-   "مؤنث شغل: + in (Lehrer → Lehrerin).",
-   "اعداد ۲۱ تا ۹۹: یکان + und + دهگان."
+   "① در بخش قبل برای «من، تو، او» پایان‌ها را دیدیم. حالا بقیه: wir (ما)، ihr (شما، چند دوست)، sie (آن‌ها)، Sie (شما، مؤدبانه).",
+   "② wir و sie و Sie: دقیقاً مثل مصدر. مصدر wohnen است، پس: wir wohnen، sie wohnen، Sie wohnen.",
+   "③ ihr (چند نفر که با آن‌ها راحتی): ریشه + t. ihr wohnt. Sie با S بزرگ یعنی «شما» برای یک آدم محترم یا غریبه؛ مثل «شما» در فارسی.",
+   "④ اگر ریشه به d یا t ختم شود، یک e وسط می‌گذاریم تا تلفظش ممکن شود: arbeiten → du arbeitest، er arbeitet، ihr arbeitet.",
+   "⑤ شغل را بدون حرف تعریف می‌گوییم: Ich bin Lehrer. برای زن، -in اضافه می‌کنیم: Lehrer (معلم، مرد) ← Lehrerin (معلم، زن).",
+   "⑥ جمله‌ی منفی با nicht: Ich arbeite nicht. nicht معمولاً آخر جمله می‌آید.",
+   "⑦ عدد ۲۱ به بعد را برعکس فارسی می‌خوانیم: اول یکان، بعد und، بعد دهگان. ۲۱ = ein + und + zwanzig = einundzwanzig."
   ],
   "ex": [
-   "Ich arbeite als Ingenieur bei Siemens. — من به‌عنوان مهندس در زیمنس کار می‌کنم.",
    "Wir wohnen in Köln. — ما در کلن زندگی می‌کنیم.",
+   "Delsa und Delnaz arbeiten in Berlin. — دلسا و دلناز در برلین کار می‌کنند.",
+   "Ihr wohnt hier. — شما (چند نفر) اینجا زندگی می‌کنید.",
+   "Ich bin Lehrerin. — من معلم هستم. (زن)",
    "Er arbeitet nicht. — او کار نمی‌کند."
   ]
  },
@@ -41,15 +49,18 @@
   "t": "خانواده و زبان‌ها — Das ist meine Schwester",
   "lv": "A1",
   "pts": [
-   "صفت ملکی: mein (مذکر/خنثی)، meine (مؤنث و جمع)؛ dein مثل آن.",
-   "سؤال بله/نه: پاسخ ja یا nein؛ اگر سؤال منفی بود و جواب «بله» (برعکس) = doch.",
-   "مالکیت نام‌ها: Delsas Bruder.",
-   "sprechen: du sprichst, er spricht."
+   "① mein یعنی «مال من» و dein یعنی «مال تو». قبل از اسم می‌آیند، مثل «پدرِ من».",
+   "② اگر اسم مذکر (der) یا خنثی (das) است: mein. اگر مؤنث (die) است یا جمع: meine. → mein Vater، mein Kind؛ meine Mutter، meine Eltern.",
+   "③ سؤال بله/نه: فعل می‌پرد اول جمله. Kommst du? جواب: Ja یا Nein.",
+   "④ اگر سؤال منفی باشد، مثل Kommst du nicht؟ (نمی‌آیی؟) و جوابت مثبت است، می‌گویی «Doch!» یعنی «چرا!». Doch جواب «بله» به سؤال منفی است.",
+   "⑤ مالکیت اسم: فقط یک s به آخر نام می‌چسبانیم، بدون آپوستروف: Delsas Mutter = مادرِ دلسا.",
+   "⑥ فعل sprechen (صحبت کردن) در du و er وسطش عوض می‌شود: ich spreche، du sprichst، er spricht (e ← i)."
   ],
   "ex": [
    "Mein Vater und meine Mutter wohnen hier. — پدر و مادرم اینجا زندگی می‌کنند.",
    "Sprichst du kein Deutsch? – Doch! — آلمانی صحبت نمی‌کنی؟ – چرا!",
-   "Delsas Schwester ist Ärztin. — خواهر دلسا پزشک است."
+   "Delsas Schwester ist Ärztin. — خواهر دلسا پزشک است.",
+   "Danyar spricht gut Deutsch. — دانیار خوب آلمانی صحبت می‌کند."
   ]
  },
  {
@@ -58,14 +69,16 @@
   "t": "خرید و مبلمان — Das Bild ist so schön",
   "lv": "A1",
   "pts": [
-   "حرف تعریف معین: der (مذکر)، das (خنثی)، die (مؤنث/جمع).",
-   "ضمیر جایگزین: der→er، das→es، die→sie.",
-   "صفت بعد از sein تغییر نمی‌کند: Der Tisch ist schön.",
-   "اعداد ۱۰۰ تا میلیون؛ قیمت: Was kostet …?."
+   "① در آلمانی هر اسم یک جنسیت دارد: der (مذکر)، die (مؤنث)، das (خنثی). این ربطی به زن و مرد واقعی ندارد: der Tisch (میز) «مذکر» است!",
+   "② هیچ‌وقت اسم را تنها یاد نگیر. «der Tisch» را یک کلمه حساب کن، مثل اسم + برچسب.",
+   "③ به‌جای اسم می‌توانیم ضمیر بگذاریم: der ← er، die ← sie، das ← es. Der Tisch ist neu. Er ist braun. (er = میز)",
+   "④ صفتی که بعد از ist می‌آید هیچ تغییری نمی‌کند: Der Tisch ist schön. Die Lampe ist schön. Das Bild ist schön.",
+   "⑤ قیمت: Was kostet der Tisch؟ — Er kostet 50 Euro. (برای die: Was kostet die Lampe؟ — Sie kostet…)",
+   "⑥ عددهای بزرگ را چسبیده می‌نویسند: 200 = zweihundert، 1000 = tausend."
   ],
   "ex": [
    "Der Stuhl ist neu. Er kostet 40 Euro. — صندلی نو است. ۴۰ یورو است.",
-   "Das Sofa ist schön. Es ist teuer. — مبل زیباست. گران است.",
+   "Das Sofa ist schön. Es ist teuer. — مبل زیبا است. گران است.",
    "Die Lampe ist toll. Sie ist günstig. — چراغ عالی است. ارزان است."
   ]
  },
@@ -75,16 +88,18 @@
   "t": "اشیا و رنگ‌ها — Ist das ein Tisch?",
   "lv": "A1",
   "pts": [
-   "حرف تعریف نامعین: ein (مذکر/خنثی)، eine (مؤنث).",
-   "نفی اسم با kein/kein/keine؛ نفی بقیه با nicht.",
-   "aus + جنس: aus Holz.",
-   "sehen: du siehst, er sieht.",
-   "درخواست تکرار: Wie bitte? / Noch einmal, bitte."
+   "① ein/eine یعنی «یک». برای مذکر و خنثی ein، برای مؤنث eine: ein Tisch، ein Kind، eine Lampe.",
+   "② برای گفتن «نیست» دو ابزار داریم: kein و nicht. kein یعنی «هیچ… (نیست)»: kein Tisch، kein Kind، keine Lampe. مثل ein است فقط یک k جلویش.",
+   "③ قانون ساده: اگر اسم، ein داشت یا هیچ حرف تعریفی نداشت → kein. در بقیه‌ی حالت‌ها (فعل، صفت، حرف تعریف der/die/das) → nicht.",
+   "④ aus + جنس یعنی «از …»: ein Tisch aus Holz = میزی از چوب.",
+   "⑤ sehen (دیدن) هم مثل sprechen وسطش عوض می‌شود: du siehst، er sieht.",
+   "⑥ اگر نفهمیدی چه گفتند: Wie bitte؟ = ببخشید؟ یا Noch einmal, bitte. = لطفاً یک بار دیگر."
   ],
   "ex": [
-   "Das ist ein Tisch, aber kein Stuhl. — این یک میز است، نه صندلی.",
-   "Das ist eine Lampe aus Metall. — این یک چراغ فلزی است.",
-   "Ich sehe keinen Fehler. — من اشتباهی نمی‌بینم."
+   "Das ist ein Tisch, aber kein Stuhl. — این میز است، صندلی نیست.",
+   "Das ist eine Lampe aus Metall. — این چراغی فلزی است.",
+   "Ich sehe keinen Fehler. — اشتباهی نمی‌بینم.",
+   "Der Tisch ist nicht neu. — میز نو نیست."
   ]
  },
  {
@@ -93,14 +108,16 @@
   "t": "اداره و فناوری؛ جمع و آکوزاتیو — Wir haben einen Termin",
   "lv": "A1",
   "pts": [
-   "جمع اسم‌ها پنج الگو دارد: -e، -n/-en، -er (با ¨)، ¨ بدون پسوند، بدون تغییر/‌-s.",
-   "آکوزاتیو: فقط مذکر عوض می‌شود: der→den، ein→einen، kein→keinen؛ مؤنث و خنثی ثابت.",
-   "فعل‌های haben/brauchen/kaufen آکوزاتیو می‌خواهند."
+   "① جمع اسم‌ها در آلمانی چند شکل دارد و باید همراه خود اسم یاد گرفته شود: Tisch → Tische (-e)، Lampe → Lampen (-n)، Kind → Kinder (-er)، Apfel → Äpfel (فقط دو نقطه)، Auto → Autos (-s).",
+   "② در جمع، حرف تعریف برای همه‌ی اسم‌ها یکی است: die. die Tische، die Lampen، die Kinder.",
+   "③ «مفعول» چیزی است که کار روی آن انجام می‌شود: Ich brauche einen Computer. چه چیزی را لازم دارم؟ کامپیوتر. این حالت اسمش «آکوزاتیو» است.",
+   "④ خبر خوب: در آکوزاتیو فقط مذکر عوض می‌شود! der ← den، ein ← einen، kein ← keinen. مؤنث و خنثی همان می‌مانند.",
+   "⑤ راه تشخیص: بپرس «Wen oder was؟» (چه کسی را یا چه چیزی را؟). جوابش مفعول است."
   ],
   "ex": [
    "Ich brauche einen Computer. — من یک کامپیوتر لازم دارم.",
-   "Er hat keinen Drucker, aber ein Handy. — او چاپگر ندارد ولی موبایل دارد.",
-   "Das Buch – die Bücher — کتاب – کتاب‌ها"
+   "Danyar hat keinen Drucker, aber ein Handy. — دانیار چاپگر ندارد ولی موبایل دارد.",
+   "Ich kaufe die Lampe und den Tisch. — چراغ و میز را می‌خرم."
   ]
  },
  {
@@ -109,13 +126,14 @@
   "t": "سرگرمی‌ها؛ فعل وجهی — Sie können super tanzen!",
   "lv": "A1",
   "pts": [
-   "فعل وجهی können: دومی در جمله، مصدر آخر جمله (Satzklammer).",
-   "تغییر ریشه (e→i/ie، a→ä): lesen: du liest; treffen: du triffst; fahren: du fährst.",
-   "قید تکرار: immer، oft، manchmal، selten، nie."
+   "① فعل‌هایی مثل können (توانستن) به یک «همکار» نیاز دارند. قانون: können جای دوم می‌نشیند و فعل اصلی (به شکل مصدر) می‌رود آخر جمله: Ich kann schwimmen.",
+   "② صرف können: ich kann، du kannst، er kann، wir können، ihr könnt، sie können. (در ich و er پایان ندارد!)",
+   "③ بعضی فعل‌ها در du و er وسطشان عوض می‌شود: lesen → du liest، er liest. fahren → du fährst، er fährt. treffen → du triffst، er trifft.",
+   "④ قیدهای تکرار (از زیاد تا هرگز): immer > oft > manchmal > selten > nie. بعد از فعل می‌آیند: Ich fahre oft Fahrrad."
   ],
   "ex": [
-   "Ich kann gut schwimmen. — من خوب شنا می‌کنم.",
-   "Er liest oft Bücher. — او اغلب کتاب می‌خواند.",
+   "Delnaz kann gut tanzen. — دلناز خوب می‌رقصد.",
+   "Danyar liest oft Bücher. — دانیار اغلب کتاب می‌خواند.",
    "Sie fährt nie Fahrrad. — او هرگز دوچرخه‌سواری نمی‌کند."
   ]
  },
@@ -125,15 +143,17 @@
   "t": "وقت و قرار — Ich habe leider keine Zeit",
   "lv": "A1",
   "pts": [
-   "جایگاه فعل: در جمله‌ی خبری و سؤال W دوم؛ در سؤال بله/نه اول.",
-   "زمان: am + روز (am Montag)، um + ساعت (um 8 Uhr)، von … bis.",
-   "wissen: ich weiß, du weißt.",
-   "ساعت: Es ist halb drei (۲:۳۰)."
+   "① قانون طلایی: در جمله‌ی خبری فعل همیشه جای دوم است، حتی اگر جمله را با زمان شروع کنی: Am Samstag (جای ۱) habe (جای ۲) ich Zeit.",
+   "② سؤال بله/نه: فعل اول. سؤال با W: کلمه‌ی پرسشی جای اول، فعل جای دوم.",
+   "③ زمان: am + روز (am Montag)، um + ساعت (um 8 Uhr)، von … bis (از … تا).",
+   "④ ساعت: halb drei = ۲:۳۰ (نیمِ سه، یعنی نیم‌ساعت مانده به سه!). viertel nach = ربع گذشته. viertel vor = ربع مانده.",
+   "⑤ wissen (دانستن) بی‌قاعده است: ich weiß، du weißt، er weiß."
   ],
   "ex": [
    "Am Samstag habe ich Zeit. — شنبه وقت دارم.",
    "Hast du um 18 Uhr Zeit? — ساعت ۶ وقت داری؟",
-   "Wie spät ist es? – Es ist viertel nach acht. — ساعت چند است؟ – هشت و ربع."
+   "Wie spät ist es? – Es ist viertel nach acht. — ساعت چند است؟ – هشت و ربع.",
+   "Delsa und Danyar treffen sich um drei. — دلسا و دانیار ساعت سه همدیگر را می‌بینند."
   ]
  },
  {
@@ -142,14 +162,15 @@
   "t": "غذا و رستوران — Ich mag Hamburger",
   "lv": "A1",
   "pts": [
-   "mögen: ich mag, du magst؛ möchte (مؤدبانه): ich möchte … + اسم یا مصدر.",
-   "essen: du isst؛ nehmen: du nimmst.",
-   "ترکیب اسم+اسم: حرف تعریف از کلمه‌ی آخر: der Apfel + der Saft = der Apfelsaft."
+   "① ich mag = «دوست دارم» (چیزی را). ich möchte = «می‌خواهم» (مؤدبانه، مثل «میل دارم»): Ich mag Pizza. Ich möchte einen Tee.",
+   "② möchte هم مثل können است: جای دوم می‌نشیند و فعل اصلی (مصدر) می‌رود آخر: Ich möchte Kaffee trinken.",
+   "③ فعل‌های بی‌قاعده: essen → du isst، er isst. nehmen → du nimmst، er nimmt.",
+   "④ کلمه‌ی مرکب: دو اسم را به هم می‌چسبانیم و حرف تعریف را از «آخرین» کلمه می‌گیریم: der Apfel + der Saft = der Apfelsaft. die Kartoffel + die Suppe = die Kartoffelsuppe."
   ],
   "ex": [
-   "Ich möchte eine Suppe und einen Tee. — من یک سوپ و یک چای می‌خواهم.",
+   "Ich möchte eine Suppe und einen Tee. — یک سوپ و یک چای می‌خواهم.",
    "Er mag keinen Fisch. — او ماهی دوست ندارد.",
-   "die Kartoffel + die Suppe = die Kartoffelsuppe — سوپ سیب‌زمینی"
+   "Delnaz isst einen Apfel. — دلناز یک سیب می‌خورد."
   ]
  },
  {
@@ -158,14 +179,16 @@
   "t": "سفر؛ فعل‌های جداشدنی — Wann kommst du denn an?",
   "lv": "A1",
   "pts": [
-   "فعل جداشدنی: پیشوند آخر جمله می‌رود: Der Zug kommt um 8 an.",
-   "با فعل وجهی، مصدر کامل در آخر: Ich möchte dich anrufen.",
-   "نمونه‌ها: ankommen، anrufen، abholen، einsteigen، aussteigen."
+   "① بعضی فعل‌ها دو تکه‌اند: «پیشوند + فعل». مثلاً an|kommen (رسیدن)، auf|stehen (بلند شدن)، ab|holen (دنبال کسی رفتن).",
+   "② در جمله این دو تکه از هم جدا می‌شوند: تکه‌ی فعل جای دوم می‌نشیند و پیشوند می‌پرد به آخر جمله. Der Zug kommt um 8 Uhr an.",
+   "③ وقتی فعل کمکی (مثل muss، kann) داریم، فعل به‌صورت یک تکه (مصدر) آخر جمله می‌آید: Ich muss meine Mutter anrufen.",
+   "💡 اگر در آخر جمله یک پیشوند تنها دیدی (an، auf، ab، ein، aus…) بدان که به فعل جای دوم تعلق دارد."
   ],
   "ex": [
    "Ich hole dich um 9 Uhr ab. — ساعت ۹ دنبالت می‌آیم.",
    "Wann steigst du ein? — کی سوار می‌شوی؟",
-   "Ich muss meine Mutter anrufen. — باید به مادرم زنگ بزنم."
+   "Ich muss Danyar anrufen. — باید به دانیار زنگ بزنم.",
+   "Der Zug kommt um acht an. — قطار ساعت هشت می‌رسد."
   ]
  },
  {
