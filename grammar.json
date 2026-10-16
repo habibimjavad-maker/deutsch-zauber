@@ -2,7 +2,7 @@
  {
   "n": 1,
   "m": 1,
-  "t": "معرفی و سلام — Ich heiße Miriam",
+  "t": "معرفی و سلام — Ich heiße Danyar",
   "lv": "A1",
   "pts": [
    "فعل با ich/du/er: ریشه + e / st / t (komme, kommst, kommt).",
@@ -12,7 +12,7 @@
   ],
   "ex": [
    "Ich komme aus dem Iran. — من اهل ایران هستم.",
-   "Wie heißt du? – Ich heiße Sara. — اسمت چیست؟ – اسمم سارا است.",
+   "Wie heißt du? – Ich heiße Delnaz. — اسمت چیست؟ – اسمم دلناز است.",
    "Woher kommen Sie? — اهل کجا هستید؟"
   ]
  },
@@ -43,13 +43,13 @@
   "pts": [
    "صفت ملکی: mein (مذکر/خنثی)، meine (مؤنث و جمع)؛ dein مثل آن.",
    "سؤال بله/نه: پاسخ ja یا nein؛ اگر سؤال منفی بود و جواب «بله» (برعکس) = doch.",
-   "مالکیت نام‌ها: Annas Bruder.",
+   "مالکیت نام‌ها: Delsas Bruder.",
    "sprechen: du sprichst, er spricht."
   ],
   "ex": [
    "Mein Vater und meine Mutter wohnen hier. — پدر و مادرم اینجا زندگی می‌کنند.",
    "Sprichst du kein Deutsch? – Doch! — آلمانی صحبت نمی‌کنی؟ – چرا!",
-   "Annas Schwester ist Ärztin. — خواهر آنا پزشک است."
+   "Delsas Schwester ist Ärztin. — خواهر دلسا پزشک است."
   ]
  },
  {
@@ -394,6 +394,98 @@
    "Mein Geburtstag ist am dritten Mai. — تولدم سوم مه است.",
    "Ich würde gern nach Wien fahren. — دوست دارم به وین بروم.",
    "Herzlichen Glückwunsch zum Geburtstag! — تولدت مبارک!"
+  ]
+ },
+ {
+  "n": 25,
+  "m": 9,
+  "t": "Wo? Wohin? — حروف اضافه‌ی مکان و جهت",
+  "lv": "A1",
+  "pts": [
+   "حروف دوحالته (an، auf، hinter، in، neben، über، unter، vor، zwischen): Wo؟ (کجا؟ ثابت) = Dativ؛ Wohin؟ (به کجا؟ حرکت) = Akkusativ.",
+   "Dativ: dem (مذکر/خنثی)، der (مؤنث)؛ Akkusativ: den، das، die.",
+   "oben بالا، unten پایین، vorn جلو، hinten عقب، links چپ، rechts راست، geradeaus مستقیم.",
+   "über die Straße = از عرض خیابان (Akk)؛ nach rechts / nach links = به راست / به چپ؛ nach + شهر/کشور: nach Berlin.",
+   "Entlang: die Straße entlang. Bis zu: bis zur Ampel (zu + Dativ)."
+  ],
+  "ex": [
+   "Der Ball liegt auf dem Tisch. (Wo?)",
+   "Delsa legt den Ball auf den Tisch. (Wohin?)",
+   "Danyar steht vor der Tür und hinter dem Auto.",
+   "Gehen Sie über die Straße und dann nach rechts.",
+   "Das Café ist zwischen der Bank und dem Kino."
+  ],
+  "vis": "prep"
+ },
+ {
+  "n": 26,
+  "m": 9,
+  "t": "Die Uhrzeit — ساعت گفتن",
+  "lv": "A1",
+  "pts": [
+   "سؤال: Wie spät ist es؟ / Wie viel Uhr ist es؟ — جواب: Es ist drei Uhr.",
+   "روزمره: viertel nach (ربع بعد) = ۱۵ دقیقه؛ viertel vor (ربع به) = ۴۵؛ halb + ساعت بعدی = نیم ساعت قبل از آن (halb vier = ۳:۳۰ !).",
+   "۵ و ۱۰ دقیقه: fünf/zehn nach drei = ۳:۰۵/۳:۱۰؛ fünf vor halb vier = ۳:۲۵؛ fünf nach halb vier = ۳:۳۵.",
+   "رسمی (اعلامیه، قطار): ساعت + Uhr + دقیقه: 15:45 = fünfzehn Uhr fünfundvierzig.",
+   "زمان وقوع: um + ساعت: Der Zug fährt um acht Uhr ab."
+  ],
+  "ex": [
+   "Es ist halb vier. (۳:۳۰)",
+   "Delnaz kommt um viertel nach neun.",
+   "Wir treffen uns um 18.30 Uhr.",
+   "Der Film beginnt um zwanzig Uhr."
+  ],
+  "vis": "clock"
+ },
+ {
+  "n": 27,
+  "m": 9,
+  "t": "Ja, Nein, Doch — جواب مثبت و منفی",
+  "lv": "A1",
+  "pts": [
+   "سؤال مثبت: Ja یا Nein.",
+   "سؤال منفی (…nicht / kein): «چرا» = Doch؛ «نه» = Nein.",
+   "نفی: nicht (فعل، صفت، قید) و kein (اسم بدون حرف تعریف یا با ein). nie = هرگز، nichts = هیچ‌چیز، niemand = هیچ‌کس.",
+   "پاسخ مثبت: Ja, gern. / Klar! / Natürlich. — پاسخ منفی: Nein, leider nicht. / Das geht leider nicht."
+  ],
+  "ex": [
+   "Kommst du nicht? – Doch, ich komme.",
+   "Hast du keine Zeit? – Nein, leider nicht.",
+   "Ich habe nie Zeit und niemand hilft mir."
+  ]
+ },
+ {
+  "n": 28,
+  "m": 9,
+  "t": "Das Datum — تاریخ",
+  "lv": "A1",
+  "pts": [
+   "ترتیبی‌ها: تا ۱۹ با -te (vierte، zehnte)، استثنا: erste، dritte، siebte، achte؛ از ۲۰ با -ste (zwanzigste).",
+   "پرسش: Der Wievielte ist heute؟ — جواب: Heute ist der fünfzehnte Oktober.",
+   "«در تاریخ»: am + ترتیبی + en: am ersten Mai؛ ماه: im Mai.",
+   "نوشتن: 15.10.2026 (روز.ماه.سال)؛ سال: 2026 = zweitausendsechsundzwanzig."
+  ],
+  "ex": [
+   "Delsa hat am zehnten Mai Geburtstag.",
+   "Danyar fährt am dritten Juli nach Wien.",
+   "Berlin, den 15.10.2026"
+  ]
+ },
+ {
+  "n": 29,
+  "m": 9,
+  "t": "Zahlen — خواندن عددها",
+  "lv": "A1",
+  "pts": [
+   "۱۳–۱۹: عدد + zehn (sechzehn، siebzehn بدون ـs/ـen).",
+   "۲۱–۹۹: اول یکان، بعد und، بعد دهگان: einundzwanzig، vierunddreißig.",
+   "صدگان و هزارگان یک‌کلمه‌اند و بعد از hundert هیچ und نمی‌آید: 345 = dreihundertfünfundvierzig.",
+   "اعشار با ویرگول: 3,5 = drei Komma fünf؛ قیمت: 2,50 € = zwei Euro fünfzig."
+  ],
+  "ex": [
+   "Der Stuhl kostet neunundvierzig Euro.",
+   "Mein Haus hat zweitausend Quadratmeter?! – Nein, zweihundert!",
+   "2026 = zweitausendsechsundzwanzig"
   ]
  }
 ]

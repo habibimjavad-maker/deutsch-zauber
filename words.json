@@ -564,14 +564,14 @@
   "word": "Melone",
   "plural": "Melonen",
   "fa": "خربزه",
-  "category": "غذا"
+  "category": "صیفی‌جات"
  },
  {
   "article": "die",
   "word": "Wassermelone",
   "plural": "Wassermelonen",
   "fa": "هندوانه",
-  "category": "غذا"
+  "category": "صیفی‌جات"
  },
  {
   "article": "der",
@@ -599,14 +599,14 @@
   "word": "Tomate",
   "plural": "Tomaten",
   "fa": "گوجه‌فرنگی",
-  "category": "غذا"
+  "category": "صیفی‌جات"
  },
  {
   "article": "die",
   "word": "Gurke",
   "plural": "Gurken",
   "fa": "خیار",
-  "category": "غذا"
+  "category": "صیفی‌جات"
  },
  {
   "article": "die",
@@ -921,7 +921,7 @@
   "word": "Paprika",
   "plural": "Paprikas",
   "fa": "فلفل دلمه‌ای",
-  "category": "غذا"
+  "category": "صیفی‌جات"
  },
  {
   "article": "der",
@@ -4699,7 +4699,7 @@
   "word": "Aubergine",
   "plural": "Auberginen",
   "fa": "بادمجان",
-  "category": "غذا"
+  "category": "صیفی‌جات"
  },
  {
   "article": "die",
@@ -9322,5 +9322,1768 @@
   "type": "word",
   "tag": "حرف",
   "sub": "ß wie Straße"
+ },
+ {
+  "article": "das",
+  "word": "Kopfkissen",
+  "plural": "Kopfkissen",
+  "fa": "بالش سر",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "die",
+  "word": "Bettdecke",
+  "plural": "Bettdecken",
+  "fa": "لحاف",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "der",
+  "word": "Kleiderschrank",
+  "plural": "Kleiderschränke",
+  "fa": "کمد لباس",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "der",
+  "word": "Nachttisch",
+  "plural": "Nachttische",
+  "fa": "پاتختی",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "die",
+  "word": "Kommode",
+  "plural": "Kommoden",
+  "fa": "کمد دراور",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "die",
+  "word": "Nachttischlampe",
+  "plural": "Nachttischlampen",
+  "fa": "آباژور",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "der",
+  "word": "Bettbezug",
+  "plural": "Bettbezüge",
+  "fa": "روکش لحاف",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "der",
+  "word": "Kleiderbügel",
+  "plural": "Kleiderbügel",
+  "fa": "چوب‌لباسی",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "die",
+  "word": "Bettwäsche",
+  "plural": "-",
+  "fa": "ملافه و روکش",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "der",
+  "word": "Wasserhahn",
+  "plural": "Wasserhähne",
+  "fa": "شیر آب",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "die",
+  "word": "Spüle",
+  "plural": "Spülen",
+  "fa": "سینک ظرفشویی",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Mixer",
+  "plural": "Mixer",
+  "fa": "مخلوط‌کن",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Toaster",
+  "plural": "Toaster",
+  "fa": "توستر",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Wasserkocher",
+  "plural": "Wasserkocher",
+  "fa": "کتری برقی",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "die",
+  "word": "Mikrowelle",
+  "plural": "Mikrowellen",
+  "fa": "مایکروویو",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Schneidebrett",
+  "plural": "Schneidebretter",
+  "fa": "تخته‌ی برش",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Kochlöffel",
+  "plural": "Kochlöffel",
+  "fa": "قاشق آشپزی",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Sieb",
+  "plural": "Siebe",
+  "fa": "صافی",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Dosenöffner",
+  "plural": "Dosenöffner",
+  "fa": "قوطی‌باز",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "die",
+  "word": "Reibe",
+  "plural": "Reiben",
+  "fa": "رنده",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Backblech",
+  "plural": "Backbleche",
+  "fa": "سینی فر",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Spielzeug",
+  "plural": "Spielzeuge",
+  "fa": "اسباب‌بازی",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Teddybär",
+  "plural": "Teddybären",
+  "fa": "خرس عروسکی",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "die",
+  "word": "Puppe",
+  "plural": "Puppen",
+  "fa": "عروسک",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Bauklotz",
+  "plural": "Bauklötze",
+  "fa": "مکعب ساختنی",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "das",
+  "word": "Kinderbett",
+  "plural": "Kinderbetten",
+  "fa": "تخت کودک",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Schnuller",
+  "plural": "Schnuller",
+  "fa": "پستانک",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "die",
+  "word": "Windel",
+  "plural": "Windeln",
+  "fa": "پوشک",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "die",
+  "word": "Rassel",
+  "plural": "Rasseln",
+  "fa": "جغجغه",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "das",
+  "word": "Malbuch",
+  "plural": "Malbücher",
+  "fa": "کتاب رنگ‌آمیزی",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "das",
+  "word": "Puzzle",
+  "plural": "Puzzles",
+  "fa": "پازل",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Duschvorhang",
+  "plural": "Duschvorhänge",
+  "fa": "پرده‌ی دوش",
+  "category": "حمام"
+ },
+ {
+  "article": "das",
+  "word": "Badetuch",
+  "plural": "Badetücher",
+  "fa": "حوله‌ی حمام",
+  "category": "حمام"
+ },
+ {
+  "article": "der",
+  "word": "Rasierer",
+  "plural": "Rasierer",
+  "fa": "ریش‌تراش",
+  "category": "حمام"
+ },
+ {
+  "article": "die",
+  "word": "Haarbürste",
+  "plural": "Haarbürsten",
+  "fa": "برس مو",
+  "category": "حمام"
+ },
+ {
+  "article": "der",
+  "word": "Föhn",
+  "plural": "Föhne",
+  "fa": "سشوار",
+  "category": "حمام"
+ },
+ {
+  "article": "die",
+  "word": "Waage",
+  "plural": "Waagen",
+  "fa": "ترازو",
+  "category": "حمام"
+ },
+ {
+  "article": "das",
+  "word": "Duschgel",
+  "plural": "Duschgels",
+  "fa": "ژل دوش",
+  "category": "حمام"
+ },
+ {
+  "article": "der",
+  "word": "Bademantel",
+  "plural": "Bademäntel",
+  "fa": "حوله‌تن‌پوش",
+  "category": "حمام"
+ },
+ {
+  "article": "das",
+  "word": "Toilettenpapier",
+  "plural": "-",
+  "fa": "دستمال توالت",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Toilettenbürste",
+  "plural": "Toilettenbürsten",
+  "fa": "براش توالت",
+  "category": "توالت"
+ },
+ {
+  "article": "der",
+  "word": "Klodeckel",
+  "plural": "Klodeckel",
+  "fa": "درب توالت",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Spülung",
+  "plural": "Spülungen",
+  "fa": "سیفون",
+  "category": "توالت"
+ },
+ {
+  "article": "das",
+  "word": "Klo",
+  "plural": "Klos",
+  "fa": "توالت (محاوره)",
+  "category": "توالت"
+ },
+ {
+  "article": "der",
+  "word": "Seifenspender",
+  "plural": "Seifenspender",
+  "fa": "پمپ صابون",
+  "category": "توالت"
+ },
+ {
+  "article": "der",
+  "word": "Papierkorb",
+  "plural": "Papierkörbe",
+  "fa": "سطل کاغذ",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Damentoilette",
+  "plural": "Damentoiletten",
+  "fa": "توالت زنانه",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Herrentoilette",
+  "plural": "Herrentoiletten",
+  "fa": "توالت مردانه",
+  "category": "توالت"
+ },
+ {
+  "article": "das",
+  "word": "Obst",
+  "plural": "-",
+  "fa": "میوه (کلی)",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Frucht",
+  "plural": "Früchte",
+  "fa": "میوه (یک عدد)",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Ananas",
+  "plural": "Ananas",
+  "fa": "آناناس",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Mango",
+  "plural": "Mangos",
+  "fa": "انبه",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Kiwi",
+  "plural": "Kiwis",
+  "fa": "کیوی",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Himbeere",
+  "plural": "Himbeeren",
+  "fa": "تمشک",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Blaubeere",
+  "plural": "Blaubeeren",
+  "fa": "بلوبری",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Mandarine",
+  "plural": "Mandarinen",
+  "fa": "نارنگی",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Grapefruit",
+  "plural": "Grapefruits",
+  "fa": "گریپ‌فروت",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Nektarine",
+  "plural": "Nektarinen",
+  "fa": "شلیل",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Quitte",
+  "plural": "Quitten",
+  "fa": "به",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Maulbeere",
+  "plural": "Maulbeeren",
+  "fa": "توت",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Kokosnuss",
+  "plural": "Kokosnüsse",
+  "fa": "نارگیل",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Blumenkohl",
+  "plural": "-",
+  "fa": "گل‌کلم",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "der",
+  "word": "Brokkoli",
+  "plural": "-",
+  "fa": "بروکلی",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Rote Bete",
+  "plural": "-",
+  "fa": "چغندر",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "der",
+  "word": "Lauch",
+  "plural": "-",
+  "fa": "تره",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "der",
+  "word": "Sellerie",
+  "plural": "-",
+  "fa": "کرفس",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Petersilie",
+  "plural": "-",
+  "fa": "جعفری",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "das",
+  "word": "Radieschen",
+  "plural": "Radieschen",
+  "fa": "تربچه",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "der",
+  "word": "Rettich",
+  "plural": "Rettiche",
+  "fa": "ترب",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "der",
+  "word": "Rosenkohl",
+  "plural": "-",
+  "fa": "کلم بروکسل",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Süßkartoffel",
+  "plural": "Süßkartoffeln",
+  "fa": "سیب‌زمینی شیرین",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Rübe",
+  "plural": "Rüben",
+  "fa": "شلغم",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Zucchini",
+  "plural": "Zucchini",
+  "fa": "کدو سبز",
+  "category": "صیفی‌جات"
+ },
+ {
+  "article": "der",
+  "word": "Kürbis",
+  "plural": "Kürbisse",
+  "fa": "کدو حلوایی",
+  "category": "صیفی‌جات"
+ },
+ {
+  "article": "der",
+  "word": "Mais",
+  "plural": "-",
+  "fa": "ذرت",
+  "category": "صیفی‌جات"
+ },
+ {
+  "article": "der",
+  "word": "Traktor",
+  "plural": "Traktoren",
+  "fa": "تراکتور",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Pflug",
+  "plural": "Pflüge",
+  "fa": "گاوآهن",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Sense",
+  "plural": "Sensen",
+  "fa": "داس بلند",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Sichel",
+  "plural": "Sicheln",
+  "fa": "داس",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Heugabel",
+  "plural": "Heugabeln",
+  "fa": "چنگک علوفه",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Mähdrescher",
+  "plural": "Mähdrescher",
+  "fa": "کمباین",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Stall",
+  "plural": "Ställe",
+  "fa": "طویله",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Scheune",
+  "plural": "Scheunen",
+  "fa": "انبار کاه",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Bauernhof",
+  "plural": "Bauernhöfe",
+  "fa": "مزرعه",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "das",
+  "word": "Feld",
+  "plural": "Felder",
+  "fa": "زمین کشاورزی",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Ernte",
+  "plural": "Ernten",
+  "fa": "برداشت؛ محصول",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Landwirt",
+  "plural": "Landwirte",
+  "fa": "کشاورز",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Bauer",
+  "plural": "Bauern",
+  "fa": "دهقان",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "das",
+  "word": "Saatgut",
+  "plural": "-",
+  "fa": "بذر",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Bewässerung",
+  "plural": "-",
+  "fa": "آبیاری",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Dünger",
+  "plural": "Dünger",
+  "fa": "کود",
+  "category": "وسایل کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Gartenschere",
+  "plural": "Gartenscheren",
+  "fa": "قیچی باغبانی",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Schaufel",
+  "plural": "Schaufeln",
+  "fa": "بیل دستی",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Spaten",
+  "plural": "Spaten",
+  "fa": "بیل",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Harke",
+  "plural": "Harken",
+  "fa": "شن‌کش",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Gießkanne",
+  "plural": "Gießkannen",
+  "fa": "آب‌پاش",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Gartenschlauch",
+  "plural": "Gartenschläuche",
+  "fa": "شلنگ باغ",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Rasenmäher",
+  "plural": "Rasenmäher",
+  "fa": "چمن‌زن",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Blumentopf",
+  "plural": "Blumentöpfe",
+  "fa": "گلدان",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Blumenerde",
+  "plural": "-",
+  "fa": "خاک گلدان",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Samen",
+  "plural": "Samen",
+  "fa": "دانه؛ بذر",
+  "category": "باغبانی"
+ },
+ {
+  "article": "das",
+  "word": "Beet",
+  "plural": "Beete",
+  "fa": "باغچه",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Zaun",
+  "plural": "Zäune",
+  "fa": "حصار",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Hecke",
+  "plural": "Hecken",
+  "fa": "پرچین",
+  "category": "باغبانی"
+ },
+ {
+  "article": "das",
+  "word": "Unkraut",
+  "plural": "-",
+  "fa": "علف هرز",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Schubkarren",
+  "plural": "Schubkarren",
+  "fa": "فرغون",
+  "category": "باغبانی"
+ },
+ {
+  "article": "das",
+  "word": "Gewächshaus",
+  "plural": "Gewächshäuser",
+  "fa": "گلخانه",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Säge",
+  "plural": "Sägen",
+  "fa": "اره",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Bohrer",
+  "plural": "Bohrer",
+  "fa": "مته",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "die",
+  "word": "Bohrmaschine",
+  "plural": "Bohrmaschinen",
+  "fa": "دریل",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Schraubenschlüssel",
+  "plural": "Schraubenschlüssel",
+  "fa": "آچار",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "die",
+  "word": "Wasserwaage",
+  "plural": "Wasserwaagen",
+  "fa": "تراز",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "das",
+  "word": "Maßband",
+  "plural": "Maßbänder",
+  "fa": "متر نواری",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Pinsel",
+  "plural": "Pinsel",
+  "fa": "قلم‌مو",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "die",
+  "word": "Feile",
+  "plural": "Feilen",
+  "fa": "سوهان",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Meißel",
+  "plural": "Meißel",
+  "fa": "اسکنه",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "die",
+  "word": "Taschenlampe",
+  "plural": "Taschenlampen",
+  "fa": "چراغ‌قوه",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Werkzeugkasten",
+  "plural": "Werkzeugkästen",
+  "fa": "جعبه‌ابزار",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "die",
+  "word": "Kneifzange",
+  "plural": "Kneifzangen",
+  "fa": "انبر",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "das",
+  "word": "Schleifpapier",
+  "plural": "-",
+  "fa": "سمباده",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "das",
+  "word": "Enkelkind",
+  "plural": "Enkelkinder",
+  "fa": "نوه",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Schwiegervater",
+  "plural": "Schwiegerväter",
+  "fa": "پدرشوهر؛ پدرزن",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Schwiegermutter",
+  "plural": "Schwiegermütter",
+  "fa": "مادرشوهر؛ مادرزن",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Schwager",
+  "plural": "Schwäger",
+  "fa": "برادرشوهر؛ برادرزن؛ شوهرخواهر",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Schwägerin",
+  "plural": "Schwägerinnen",
+  "fa": "خواهرشوهر؛ زن‌برادر",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Schwiegersohn",
+  "plural": "Schwiegersöhne",
+  "fa": "داماد",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Schwiegertochter",
+  "plural": "Schwiegertöchter",
+  "fa": "عروس",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Stiefvater",
+  "plural": "Stiefväter",
+  "fa": "ناپدری",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Stiefmutter",
+  "plural": "Stiefmütter",
+  "fa": "نامادری",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Geschwister",
+  "plural": "Geschwister",
+  "fa": "خواهر و برادرها",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Urgroßvater",
+  "plural": "Urgroßväter",
+  "fa": "پدربزرگِ پدربزرگ",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Urgroßmutter",
+  "plural": "Urgroßmütter",
+  "fa": "مادربزرگِ مادربزرگ",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Verwandte",
+  "plural": "Verwandten",
+  "fa": "خویشاوند",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Partner",
+  "plural": "Partner",
+  "fa": "شریک زندگی (مرد)",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Partnerin",
+  "plural": "Partnerinnen",
+  "fa": "شریک زندگی (زن)",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Witwe",
+  "plural": "Witwen",
+  "fa": "زن بیوه",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Witwer",
+  "plural": "Witwer",
+  "fa": "مرد بیوه",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Halbschwester",
+  "plural": "Halbschwestern",
+  "fa": "خواهر ناتنی",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Halbbruder",
+  "plural": "Halbbrüder",
+  "fa": "برادر ناتنی",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Wettervorhersage",
+  "plural": "Wettervorhersagen",
+  "fa": "پیش‌بینی هوا",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Hagel",
+  "plural": "-",
+  "fa": "تگرگ",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Blitz",
+  "plural": "Blitze",
+  "fa": "برق؛ آذرخش",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Donner",
+  "plural": "-",
+  "fa": "رعد",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Frost",
+  "plural": "Fröste",
+  "fa": "یخبندان",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Hitze",
+  "plural": "-",
+  "fa": "گرمای شدید",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Kälte",
+  "plural": "-",
+  "fa": "سرما",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Wärme",
+  "plural": "-",
+  "fa": "گرما",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Feuchtigkeit",
+  "plural": "-",
+  "fa": "رطوبت",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Schauer",
+  "plural": "Schauer",
+  "fa": "رگبار",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Überschwemmung",
+  "plural": "Überschwemmungen",
+  "fa": "سیل",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Dürre",
+  "plural": "Dürren",
+  "fa": "خشکسالی",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Sonnenschein",
+  "plural": "-",
+  "fa": "آفتاب",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "",
+  "word": "sonnig",
+  "plural": "-",
+  "fa": "آفتابی",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "bewölkt",
+  "plural": "-",
+  "fa": "ابری",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "windig",
+  "plural": "-",
+  "fa": "باد‌خیز",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "regnerisch",
+  "plural": "-",
+  "fa": "بارانی",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "neblig",
+  "plural": "-",
+  "fa": "مه‌آلود",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "stürmisch",
+  "plural": "-",
+  "fa": "طوفانی",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "schwül",
+  "plural": "-",
+  "fa": "شرجی",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "trocken",
+  "plural": "-",
+  "fa": "خشک",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "nass",
+  "plural": "-",
+  "fa": "خیس",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "eisig",
+  "plural": "-",
+  "fa": "یخی",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "mild",
+  "plural": "-",
+  "fa": "ملایم",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "heiter",
+  "plural": "-",
+  "fa": "صاف؛ شاد",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "die",
+  "word": "Kommode",
+  "plural": "Kommoden",
+  "fa": "کمد کشویی",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "die",
+  "word": "Nachttischlampe",
+  "plural": "Nachttischlampen",
+  "fa": "چراغ خواب",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "die",
+  "word": "Schublade",
+  "plural": "Schubladen",
+  "fa": "کشو",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "der",
+  "word": "Bettbezug",
+  "plural": "Bettbezüge",
+  "fa": "روتختی؛ کاور لحاف",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "das",
+  "word": "Doppelbett",
+  "plural": "Doppelbetten",
+  "fa": "تخت دونفره",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "das",
+  "word": "Einzelbett",
+  "plural": "Einzelbetten",
+  "fa": "تخت یک‌نفره",
+  "category": "اتاق خواب"
+ },
+ {
+  "article": "das",
+  "word": "Geschirrtuch",
+  "plural": "Geschirrtücher",
+  "fa": "دستمال ظرف",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Kochlöffel",
+  "plural": "Kochlöffel",
+  "fa": "ملاقه؛ قاشق آشپزی",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Sieb",
+  "plural": "Siebe",
+  "fa": "آبکش",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Flaschenöffner",
+  "plural": "Flaschenöffner",
+  "fa": "درباز",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Besteck",
+  "plural": "Bestecke",
+  "fa": "کارد و چنگال",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "die",
+  "word": "Serviette",
+  "plural": "Servietten",
+  "fa": "دستمال سفره",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Tablett",
+  "plural": "Tabletts",
+  "fa": "سینی",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "der",
+  "word": "Gefrierschrank",
+  "plural": "Gefrierschränke",
+  "fa": "فریزر",
+  "category": "آشپزخانه"
+ },
+ {
+  "article": "das",
+  "word": "Bilderbuch",
+  "plural": "Bilderbücher",
+  "fa": "کتاب تصویری",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Hochstuhl",
+  "plural": "Hochstühle",
+  "fa": "صندلی غذاخوری کودک",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Kinderwagen",
+  "plural": "Kinderwagen",
+  "fa": "کالسکه",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "der",
+  "word": "Buntstift",
+  "plural": "Buntstifte",
+  "fa": "مداد رنگی",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "die",
+  "word": "Wiege",
+  "plural": "Wiegen",
+  "fa": "گهواره",
+  "category": "اتاق کودک"
+ },
+ {
+  "article": "die",
+  "word": "Badematte",
+  "plural": "Badematten",
+  "fa": "پادری حمام",
+  "category": "حمام"
+ },
+ {
+  "article": "die",
+  "word": "Bürste",
+  "plural": "Bürsten",
+  "fa": "برس",
+  "category": "حمام"
+ },
+ {
+  "article": "der",
+  "word": "Wäschekorb",
+  "plural": "Wäschekörbe",
+  "fa": "سبد لباس",
+  "category": "حمام"
+ },
+ {
+  "article": "der",
+  "word": "Bademantel",
+  "plural": "Bademäntel",
+  "fa": "حوله‌ی تن‌پوش",
+  "category": "حمام"
+ },
+ {
+  "article": "die",
+  "word": "Nagelschere",
+  "plural": "Nagelscheren",
+  "fa": "ناخن‌گیر؛ قیچی ناخن",
+  "category": "حمام"
+ },
+ {
+  "article": "das",
+  "word": "WC",
+  "plural": "WCs",
+  "fa": "توالت (دستشویی)",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Klobürste",
+  "plural": "Klobürsten",
+  "fa": "برس توالت",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Spülung",
+  "plural": "Spülungen",
+  "fa": "سیفون؛ فلاش",
+  "category": "توالت"
+ },
+ {
+  "article": "das",
+  "word": "Papiertuch",
+  "plural": "Papiertücher",
+  "fa": "دستمال کاغذی (حوله‌ای)",
+  "category": "توالت"
+ },
+ {
+  "article": "das",
+  "word": "Taschentuch",
+  "plural": "Taschentücher",
+  "fa": "دستمال جیبی",
+  "category": "توالت"
+ },
+ {
+  "article": "der",
+  "word": "Lufterfrischer",
+  "plural": "Lufterfrischer",
+  "fa": "خوشبوکننده‌ی هوا",
+  "category": "توالت"
+ },
+ {
+  "article": "die",
+  "word": "Blaubeere",
+  "plural": "Blaubeeren",
+  "fa": "زغال‌اخته",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Brombeere",
+  "plural": "Brombeeren",
+  "fa": "شاه‌توت وحشی",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Rosine",
+  "plural": "Rosinen",
+  "fa": "کشمش",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Olive",
+  "plural": "Oliven",
+  "fa": "زیتون",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "die",
+  "word": "Avocado",
+  "plural": "Avocados",
+  "fa": "آووکادو",
+  "category": "میوه‌ها"
+ },
+ {
+  "article": "der",
+  "word": "Spargel",
+  "plural": "-",
+  "fa": "مارچوبه",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "der",
+  "word": "Dill",
+  "plural": "-",
+  "fa": "شوید",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Minze",
+  "plural": "-",
+  "fa": "نعناع",
+  "category": "سبزیجات"
+ },
+ {
+  "article": "die",
+  "word": "Honigmelone",
+  "plural": "Honigmelonen",
+  "fa": "خربزه‌ی عسلی",
+  "category": "صیفی‌جات"
+ },
+ {
+  "article": "der",
+  "word": "Acker",
+  "plural": "Äcker",
+  "fa": "کشتزار",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Ernte",
+  "plural": "Ernten",
+  "fa": "محصول؛ برداشت",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "die",
+  "word": "Heugabel",
+  "plural": "Heugabeln",
+  "fa": "چنگک",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Stall",
+  "plural": "Ställe",
+  "fa": "طویله؛ آغل",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Bauer",
+  "plural": "Bauern",
+  "fa": "کشاورز",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "das",
+  "word": "Getreide",
+  "plural": "-",
+  "fa": "غلات",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Weizen",
+  "plural": "-",
+  "fa": "گندم",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "das",
+  "word": "Heu",
+  "plural": "-",
+  "fa": "یونجه‌ی خشک؛ کاه",
+  "category": "کشاورزی"
+ },
+ {
+  "article": "der",
+  "word": "Spaten",
+  "plural": "Spaten",
+  "fa": "بیلچه‌ی گود",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Schaufel",
+  "plural": "Schaufeln",
+  "fa": "بیل",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Rechen",
+  "plural": "Rechen",
+  "fa": "شن‌کش؛ چنگک باغ",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Gießkanne",
+  "plural": "Gießkannen",
+  "fa": "آبپاش",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Erde",
+  "plural": "-",
+  "fa": "خاک",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Samen",
+  "plural": "Samen",
+  "fa": "بذر",
+  "category": "باغبانی"
+ },
+ {
+  "article": "das",
+  "word": "Beet",
+  "plural": "Beete",
+  "fa": "باغچه؛ کرت",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Rasen",
+  "plural": "Rasen",
+  "fa": "چمن",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Schubkarre",
+  "plural": "Schubkarren",
+  "fa": "فرغون",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Zaun",
+  "plural": "Zäune",
+  "fa": "حصار؛ نرده",
+  "category": "باغبانی"
+ },
+ {
+  "article": "die",
+  "word": "Wurzel",
+  "plural": "Wurzeln",
+  "fa": "ریشه",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Gärtner",
+  "plural": "Gärtner",
+  "fa": "باغبان",
+  "category": "باغبانی"
+ },
+ {
+  "article": "der",
+  "word": "Nagel",
+  "plural": "Nägel",
+  "fa": "میخ",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "das",
+  "word": "Maßband",
+  "plural": "Maßbänder",
+  "fa": "متر",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "das",
+  "word": "Klebeband",
+  "plural": "Klebebänder",
+  "fa": "چسب نواری",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Werkzeugkasten",
+  "plural": "Werkzeugkästen",
+  "fa": "جعبه‌ی ابزار",
+  "category": "ابزارآلات"
+ },
+ {
+  "article": "der",
+  "word": "Schwiegervater",
+  "plural": "Schwiegerväter",
+  "fa": "پدرزن؛ پدرشوهر",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Schwiegermutter",
+  "plural": "Schwiegermütter",
+  "fa": "مادرزن؛ مادرشوهر",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Schwager",
+  "plural": "Schwäger",
+  "fa": "برادرزن؛ شوهرخواهر؛ برادر شوهر",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Schwägerin",
+  "plural": "Schwägerinnen",
+  "fa": "زن‌برادر؛ خواهرزن؛ خواهرشوهر",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Verwandtschaft",
+  "plural": "-",
+  "fa": "خویشاوندان",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "das",
+  "word": "Einzelkind",
+  "plural": "Einzelkinder",
+  "fa": "تک‌فرزند",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Verlobte",
+  "plural": "Verlobten",
+  "fa": "نامزد (مرد)",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Verlobte",
+  "plural": "Verlobten",
+  "fa": "نامزد (زن)",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "die",
+  "word": "Witwe",
+  "plural": "Witwen",
+  "fa": "بیوه (زن)",
+  "category": "نسبت‌های خانوادگی"
+ },
+ {
+  "article": "der",
+  "word": "Blitz",
+  "plural": "Blitze",
+  "fa": "برق؛ صاعقه",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "die",
+  "word": "Hitze",
+  "plural": "-",
+  "fa": "گرما (شدید)",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Schauer",
+  "plural": "Schauer",
+  "fa": "رگبار کوتاه",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Nieselregen",
+  "plural": "-",
+  "fa": "نم‌نم باران",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Schneefall",
+  "plural": "Schneefälle",
+  "fa": "بارش برف",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "der",
+  "word": "Sonnenschein",
+  "plural": "-",
+  "fa": "نور آفتاب",
+  "category": "آب‌وهوا"
+ },
+ {
+  "article": "",
+  "word": "wolkig",
+  "plural": "-",
+  "fa": "ابری",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "bewölkt",
+  "plural": "-",
+  "fa": "ابری (پوشیده از ابر)",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "windig",
+  "plural": "-",
+  "fa": "بادی",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "frostig",
+  "plural": "-",
+  "fa": "یخ‌زده؛ سرد",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
+ },
+ {
+  "article": "",
+  "word": "heiter",
+  "plural": "-",
+  "fa": "صاف؛ روشن",
+  "category": "آب‌وهوا",
+  "type": "word",
+  "tag": "صفت هوا"
  }
 ]

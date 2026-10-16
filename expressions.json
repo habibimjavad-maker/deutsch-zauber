@@ -542,5 +542,73 @@
     "او عینک می‌زند."
    ]
   ]
+ },
+ {
+  "icon": "☀️",
+  "title": "صحبت درباره‌ی هوا",
+  "items": [
+   [
+    "Wie ist das Wetter heute?",
+    "هوا امروز چطور است؟"
+   ],
+   [
+    "Die Sonne scheint.",
+    "آفتاب است."
+   ],
+   [
+    "Es regnet. / Es schneit.",
+    "باران می‌بارد. / برف می‌بارد."
+   ],
+   [
+    "Es ist windig / kalt / heiß.",
+    "باد می‌آید / سرد است / گرم است."
+   ],
+   [
+    "Wie viel Grad sind es?",
+    "چند درجه است؟"
+   ],
+   [
+    "Es hat zwanzig Grad.",
+    "بیست درجه است."
+   ],
+   [
+    "Morgen wird es regnen.",
+    "فردا باران خواهد آمد."
+   ]
+  ]
+ },
+ {
+  "icon": "⛅",
+  "title": "آب‌وهوا",
+  "items": [
+   [
+    "Wie ist das Wetter heute?",
+    "امروز هوا چطور است؟"
+   ],
+   [
+    "Es regnet. / Es schneit.",
+    "باران می‌آید. / برف می‌آید."
+   ],
+   [
+    "Die Sonne scheint.",
+    "آفتاب است."
+   ],
+   [
+    "Es ist heiß / kalt / windig.",
+    "هوا گرم / سرد / بادی است."
+   ],
+   [
+    "Es sind 25 Grad.",
+    "دما ۲۵ درجه است."
+   ],
+   [
+    "Der Himmel ist bewölkt.",
+    "آسمان ابری است."
+   ],
+   [
+    "Nimm einen Regenschirm mit!",
+    "چتر همراهت ببر!"
+   ]
+  ]
  }
 ]
