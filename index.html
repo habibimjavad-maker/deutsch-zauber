@@ -129,6 +129,35 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 @keyframes blinkL{0%,100%{opacity:.12;transform:translate(0,-50%)}50%{opacity:1;transform:translate(-5px,-50%)}}
 @keyframes blinkR{0%,100%{opacity:.12;transform:translate(0,-50%)}50%{opacity:1;transform:translate(5px,-50%)}}
 .swd .ar{display:none}
+/* ===== v20: چرخش کارت + دسته‌کارت + دکمه‌های آبنباتی ===== */
+.stage{margin-top:40px}
+.cf{position:relative;width:100%;min-height:250px;transform-style:preserve-3d;transition:transform .65s cubic-bezier(.2,.8,.3,1)}
+.cf.flip{transform:rotateY(180deg)}
+.fc{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center}
+.fc.back{transform:rotateY(180deg)}
+.fa.big{font-size:38px;line-height:1.5}
+.ghost{position:absolute;inset:0;border-radius:36px/52px;background:rgba(255,255,255,.07);border:1px solid var(--line);pointer-events:none}
+.ghost.g1{transform:translateY(-15px) scale(.94);opacity:.9}.ghost.g2{transform:translateY(-28px) scale(.87);opacity:.55}
+.ghost span{position:absolute;top:7px;left:0;right:0;text-align:center;font-size:12px;color:var(--mut);direction:ltr}
+button{border:none;border-radius:999px;font-weight:700;font-size:15px;color:#fff;text-shadow:0 1px 0 #0003;padding:12px 20px;position:relative;top:0;background:linear-gradient(180deg,#ff9ad5,#ff5fa8);box-shadow:0 6px 0 #c23a82,0 10px 16px #0006,inset 0 2px 0 #ffffff66;transition:top .1s,box-shadow .1s,filter .15s}
+button:active{top:5px;transform:none;box-shadow:0 1px 0 #c23a82,0 3px 6px #0006,inset 0 2px 0 #ffffff55}
+.b-k{background:linear-gradient(180deg,#9af5c2,#2fd486);box-shadow:0 6px 0 #17935a,0 10px 16px #0006,inset 0 2px 0 #ffffff77}
+.b-r{background:linear-gradient(180deg,#ffd98a,#ff9f43);box-shadow:0 6px 0 #c2701f,0 10px 16px #0006,inset 0 2px 0 #ffffff77}
+.b-h{background:linear-gradient(180deg,#ff9aa8,#ff4d6d);box-shadow:0 6px 0 #b82a45,0 10px 16px #0006,inset 0 2px 0 #ffffff66}
+.gold{color:#4a2a00;text-shadow:0 1px 0 #fff6;background:linear-gradient(180deg,#fff0a8,#ffc13b);box-shadow:0 6px 0 #b97b12,0 10px 16px #0006,inset 0 2px 0 #ffffffaa}
+.speak{background:linear-gradient(180deg,#a8e0ff,#4aa8ff);box-shadow:0 5px 0 #2b72b8,0 8px 14px #0006,inset 0 2px 0 #ffffff88;border-radius:50%;width:46px;height:46px;padding:0;font-size:20px}
+.tabs button{box-shadow:0 4px 0 #c23a82,0 6px 10px #0005,inset 0 2px 0 #ffffff55;padding:9px 16px}
+.tabs button.on{color:#4a2a00;background:linear-gradient(180deg,#fff0a8,#ffc13b);box-shadow:0 4px 0 #b97b12,0 6px 10px #0005,inset 0 2px 0 #ffffffaa}
+.qo button{background:linear-gradient(180deg,#c9b6ff,#8b6cf0);box-shadow:0 5px 0 #5a3fc0,0 8px 14px #0006,inset 0 2px 0 #ffffff77;font-size:17px;text-align:center}
+.x{background:linear-gradient(180deg,#ff9aa8,#ff4d6d);box-shadow:0 4px 0 #b82a45,0 6px 10px #0005,inset 0 2px 0 #ffffff66;border-radius:50%;width:40px;height:40px;padding:0}
+select,input{border-radius:20px;border:2px solid rgba(255,255,255,.25);padding:12px 14px;font-weight:600;box-shadow:inset 0 2px 6px #0004;background-color:rgba(255,255,255,.1)}
+nav{padding:6px 10px calc(8px + env(safe-area-inset-bottom))}
+nav div{max-width:560px;gap:4px;padding:8px;border-radius:30px;box-shadow:0 -4px 24px #0008}
+nav button,nav button:active{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:64px;padding:6px 2px;border-radius:22px;font-size:12px;font-weight:700;color:var(--mut);text-shadow:none;background:transparent;box-shadow:none;border:none;top:0}
+nav button i{font-style:normal;font-size:27px;line-height:1;transition:transform .2s}
+nav button.on{color:#4a2a00;background:linear-gradient(180deg,#fff0a8,#ffc13b);box-shadow:0 6px 0 #b97b12,0 10px 16px #0007,inset 0 2px 0 #ffffffaa;transform:translateY(-8px)}
+nav button.on i{transform:scale(1.18)}
+body{padding-bottom:calc(124px + env(safe-area-inset-bottom))}
 </style>
 </head>
 <body>
@@ -139,7 +168,7 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 <section id="t-cards">
  <div class="filters"><select id="fm"><option value="">📚 همه‌ی کارت‌ها</option><option value="smart">🧠 مرور هوشمند</option></select><select id="fl"><option value="">همه‌ی سطح‌ها</option><option>A1</option><option>A2</option><option>B1</option><option value="A1-A2">A1 تا A2</option></select></div>
  <div class="filters" style="margin-top:0"><select id="fc"></select><select id="fa"></select></div>
- <div class="stage"><span class="ar l">❮</span><div class="glass card" id="card" title="برای دیدن معنی بزن"></div><span class="ar r">❯</span></div>
+ <div class="stage"><div class="ghost g2"></div><div class="ghost g1"><span id="g1t"></span></div><span class="ar l">❮</span><div class="glass card" id="card" title="برای دیدن معنی بزن"></div><span class="ar r">❯</span></div>
  <div class="row">
   <button class="b-h" onclick="mark('h')">💪 سخته</button>
   <button class="b-r" onclick="mark('r')">🔁 مرور</button>
@@ -179,12 +208,12 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 <div class="sheet" id="sheet" onclick="if(event.target===this)closeV()"><div class="panel" id="panel"></div></div>
 
 <nav><div class="glass">
- <button class="on" data-t="cards">🃏 کارت</button>
- <button data-t="dict">📚 لغت</button>
- <button data-t="quiz">🎯 آزمون</button>
- <button data-t="exp">💬 عبارت</button>
- <button data-t="gram">📖 گرامر</button>
- <button data-t="prog">📈 پیشرفت</button>
+ <button class="on" data-t="cards"><i>🃏</i><span>کارت</span></button>
+ <button data-t="dict"><i>📚</i><span>لغت</span></button>
+ <button data-t="quiz"><i>🎯</i><span>آزمون</span></button>
+ <button data-t="exp"><i>💬</i><span>عبارت</span></button>
+ <button data-t="gram"><i>📖</i><span>گرامر</span></button>
+ <button data-t="prog"><i>📈</i><span>پیشرفت</span></button>
 </div></nav>
 
 <script>
@@ -223,7 +252,7 @@ function smartDeck(b){const n=Date.now();return b.filter(w=>L[key(w)]&&L[key(w)]
 function mk(){const b=baseDeck();deck=$('#fm').value==='smart'?smartDeck(b):b}
 function smartLabel(){const o=$('#fm').options[1];if(o)o.textContent='🧠 مرور هوشمند ('+smartDeck(baseDeck()).length+')'}
 function card(){
- const el=$('#card'),w=deck[idx];shown=false;
+ const el=$('#card'),w=deck[idx];shown=false;$('#g1t').textContent='';
  if(!w){el.innerHTML=$('#fm').value==='smart'?'<div class="empty">🎉 مرورهای امروز تمام شد!<br>فردا دوباره بیا، یا حالت «همه‌ی کارت‌ها» را انتخاب کن.</div>':'<div class="empty">این فیلتر فعلاً واژه‌ای ندارد؛ دستهٔ دیگری را انتخاب کن.</div>';return}
  const st=P[key(w)]||'';
  let front,sub;
@@ -234,13 +263,15 @@ function card(){
   front=`<span class="de">${w.bg?`<i class="sw" style="background:${w.bg}"></i>`:''}${w.article?`<span class="art ${w.article}">${w.article}</span> `:''}${esc(w.word)}</span>`;
   sub=w.sub?esc(w.sub):w.article?(w.plural&&w.plural!=='-'?`Plural: die ${esc(w.plural)}`:'Plural: —'):'';
  }
- el.innerHTML=`<span class="cnt">${idx+1} / ${deck.length}${st?' · '+({k:'✅',r:'🔁',h:'💪'}[st]):''}</span>
+ const nx=deck[(idx+1)%deck.length];$('#g1t').textContent=deck.length>1&&nx?lab(nx):'';
+ const echo=(isV(w)||!w.article?'':w.article+' ')+w.word;
+ el.innerHTML=`<div class="cf" id="cf"><div class="fc front"><span class="cnt">${idx+1} / ${deck.length}${st?' · '+({k:'✅',r:'🔁',h:'💪'}[st]):''}</span>
  <span class="tag">${esc(w.category)} · ${LV(w)}${isV(w)?KS(w):''}</span>${front}<div class="sub">${sub}</div>
  <button class="speak" onclick="event.stopPropagation();say()">🔊</button>
- <div class="fa" id="fav"></div><button class="gold reveal" id="hn" onclick="event.stopPropagation();flip()">👁 نمایش معنی فارسی</button>
- ${isV(w)?'<button class="gold" style="padding:8px 14px" onclick="event.stopPropagation();openV(deck[idx])">📖 جدول صرف</button>':''}`;
+ ${isV(w)?'<button class="gold" style="padding:8px 14px" onclick="event.stopPropagation();openV(deck[idx])">📖 جدول صرف</button>':''}</div>
+ <div class="fc back"><span class="tag">${esc(w.category)} · ${LV(w)}</span><div class="fa big">${esc(w.fa)}</div><div class="sub">${esc(echo)}</div>${!isV(w)&&w.sub?`<div class="sub" style="font-size:14px">${esc(w.sub)}</div>`:''}<button class="speak" onclick="event.stopPropagation();say()">🔊</button></div></div>`;
 }
-function flip(){const w=deck[idx];if(!w)return;shown=!shown;const f=$('#fav');f.textContent=shown?w.fa:'';f.style.animation='none';f.offsetWidth;f.style.animation='';$('#hn').textContent=shown?'🙈 پنهان کردن معنی':'👁 نمایش معنی فارسی'}
+function flip(){const w=deck[idx],cf=$('#cf');if(!w||!cf)return;shown=!shown;cf.classList.toggle('flip',shown)}
 $('#card').onclick=flip;
 try{if(localStorage.getItem('dz4'))document.documentElement.classList.add('swd')}catch(_){}
 (function(){
