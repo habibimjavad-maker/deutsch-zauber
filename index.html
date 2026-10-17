@@ -125,7 +125,7 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 <header><div class="flags"><img class="flag" src="flag-ir.png" alt="ایران" width="54" height="32"><span class="arrow">⇄</span><svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none" role="img" aria-label="Deutschland"><rect width="30" height="6.7" fill="#111"/><rect y="6.67" width="30" height="6.7" fill="#dd0000"/><rect y="13.33" width="30" height="6.7" fill="#ffce00"/></svg></div><h1>✨ Deutsch Zauber</h1><p>جادوی آلمانی · هر روز یک قدم جلوتر</p></header>
 
 <section id="t-cards">
- <div class="filters"><select id="fm"><option value="">📚 همه‌ی کارت‌ها</option><option value="smart">🧠 مرور هوشمند</option></select></div>
+ <div class="filters"><select id="fm"><option value="">📚 همه‌ی کارت‌ها</option><option value="smart">🧠 مرور هوشمند</option></select><select id="fl"><option value="">همه‌ی سطح‌ها</option><option>A1</option><option>A2</option><option>B1</option><option value="A1-A2">A1 تا A2</option></select></div>
  <div class="filters" style="margin-top:0"><select id="fc"></select><select id="fa"></select></div>
  <div class="glass card" id="card" title="برای دیدن معنی بزن"></div>
  <div class="row">
@@ -141,7 +141,7 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 </section>
 
 <section id="t-dict" hidden>
- <div class="filters" style="margin-top:14px"><input id="q" placeholder="🔍 جستجو (آلمانی یا فارسی)"><select id="dc"></select></div>
+ <div class="filters" style="margin-top:14px"><input id="q" placeholder="🔍 جستجو (آلمانی یا فارسی)"><select id="dc"></select><select id="dl"><option value="">همه‌ی سطح‌ها</option><option>A1</option><option>A2</option><option>B1</option><option value="A1-A2">A1 تا A2</option></select></div>
  <div class="hint" id="dn" style="margin:0 4px 6px"></div>
  <div class="list" id="list"></div>
 </section>
@@ -157,7 +157,7 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
  <div class="row"><button class="b-h" onclick="resetP()">🗑 پاک‌کردن پیشرفت</button></div>
 </section>
 <section id="t-quiz" hidden>
- <div class="filters" style="margin-top:14px"><select id="qc"></select><select id="qd"><option value="de">آلمانی ← فارسی</option><option value="fa">فارسی ← آلمانی</option></select></div>
+ <div class="filters" style="margin-top:14px"><select id="qc"></select><select id="ql"><option value="">همه‌ی سطح‌ها</option><option>A1</option><option>A2</option><option>B1</option><option value="A1-A2">A1 تا A2</option></select><select id="qd"><option value="de">آلمانی ← فارسی</option><option value="fa">فارسی ← آلمانی</option></select></div>
  <div class="glass" id="qbox" style="padding:22px;text-align:center"><div class="fa" style="margin:6px 0">آماده‌ای؟ 🎯</div><div class="hint">۱۰ سؤال چهارگزینه‌ای؛ جواب‌هایت در «مرور هوشمند» ثبت می‌شود</div><div class="row"><button class="gold" onclick="qStart()">🎯 شروع آزمون</button></div></div>
 </section>
 <section id="t-exp" hidden><div class="list" id="exl" style="margin-top:14px"></div></section>
@@ -187,6 +187,8 @@ const key=w=>w.word+'|'+w.fa;
 const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const isV=w=>w.type==='verb';
 const KS=w=>w.kasus?' · '+({Akk:'آکوزاتیوساز (+Akk)',Dat:'داتیوساز (+Dat)','Akk+Dat':'آکوزاتیو + داتیو'}[w.kasus]):'';
+const LV=w=>w.level||'B1';
+const lvOK=(v,w)=>!v||(v==='A1-A2'?['A1','A2'].includes(LV(w)):LV(w)===v);
 const strip=s=>s.replace(/^(ich|du|er\/sie\/es|wir|ihr|sie|Sie) /,'');
 
 Promise.all([fetch('words.json',{cache:'no-cache'}).then(r=>r.json()),fetch('verbs.json',{cache:'no-cache'}).then(r=>r.json())])
@@ -200,13 +202,13 @@ function init(){
  $('#dc').innerHTML=opt('همه دسته‌ها',cats);
  $('#qc').innerHTML=opt('همه دسته‌ها',cats);
  $('#fa').innerHTML='<option value="">همه</option><option>der</option><option>die</option><option>das</option><option value="verb">افعال</option>';
- $('#fc').onchange=$('#fa').onchange=$('#fm').onchange=()=>{mk();idx=0;card();smartLabel()};
- $('#q').oninput=$('#dc').onchange=dict;
+ $('#fc').onchange=$('#fa').onchange=$('#fm').onchange=$('#fl').onchange=()=>{mk();idx=0;card();smartLabel()};
+ $('#q').oninput=$('#dc').onchange=$('#dl').onchange=dict;
  mk();card();dict();prog();smartLabel();
 }
 const DAY=864e5,IV=[0,1,3,7,14,30];
 function sched(w,s){const k=key(w);let b=(L[k]||{b:0}).b;b=s==='k'?Math.min(b+1,5):s==='h'?0:Math.max(1,b-1);L[k]={b,t:Date.now()+(b?IV[b]*DAY:6e5)}}
-function baseDeck(){const c=$('#fc').value,a=$('#fa').value;return ALL.filter(w=>(!c||w.category===c)&&(!a||(a==='verb'?isV(w):w.article===a)))}
+function baseDeck(){const c=$('#fc').value,a=$('#fa').value;return ALL.filter(w=>(!c||w.category===c)&&(!a||(a==='verb'?isV(w):w.article===a))&&lvOK($('#fl').value,w))}
 function smartDeck(b){const n=Date.now();return b.filter(w=>L[key(w)]&&L[key(w)].t<=n).sort((x,y)=>L[key(x)].b-L[key(y)].b).concat(b.filter(w=>!L[key(w)]).slice(0,15))}
 function mk(){const b=baseDeck();deck=$('#fm').value==='smart'?smartDeck(b):b}
 function smartLabel(){const o=$('#fm').options[1];if(o)o.textContent='🧠 مرور هوشمند ('+smartDeck(baseDeck()).length+')'}
@@ -223,7 +225,7 @@ function card(){
   sub=w.sub?esc(w.sub):w.article?(w.plural&&w.plural!=='-'?`Plural: die ${esc(w.plural)}`:'Plural: —'):'';
  }
  el.innerHTML=`<span class="cnt">${idx+1} / ${deck.length}${st?' · '+({k:'✅',r:'🔁',h:'💪'}[st]):''}</span>
- <span class="tag">${esc(w.category)}${isV(w)?KS(w):''}</span>${front}<div class="sub">${sub}</div>
+ <span class="tag">${esc(w.category)} · ${LV(w)}${isV(w)?KS(w):''}</span>${front}<div class="sub">${sub}</div>
  <button class="speak" onclick="event.stopPropagation();say()">🔊</button>
  <div class="fa" id="fav"></div><button class="gold reveal" id="hn" onclick="event.stopPropagation();flip()">👁 نمایش معنی فارسی</button>
  ${isV(w)?'<button class="gold" style="padding:8px 14px" onclick="event.stopPropagation();openV(deck[idx])">📖 جدول صرف</button>':''}`;
@@ -240,15 +242,15 @@ function say(){const w=deck[idx];if(!w||!window.speechSynthesis)return;const u=n
 function dict(){
  if(!ALL.length)return;
  const q=$('#q').value.trim().toLowerCase(),c=$('#dc').value;
- const r=ALL.filter(w=>(!c||w.category===c)&&(!q||w.word.toLowerCase().includes(q)||w.fa.includes(q)||(w.plural||'').toLowerCase().includes(q)));
+ const r=ALL.filter(w=>(!c||w.category===c)&&lvOK($('#dl').value,w)&&(!q||w.word.toLowerCase().includes(q)||w.fa.includes(q)||(w.plural||'').toLowerCase().includes(q)));
  $('#dn').textContent=r.length+' واژه';
  $('#list').innerHTML=r.slice(0,300).map(w=>{const i=ALL.indexOf(w);
   const b=isV(w)?'<span class="art vb" style="font-size:14px">فعل</span>':w.article?`<span class="art ${w.article}" style="font-size:16px">${w.article}</span>`:(w.bg?`<i class="sw" style="background:${w.bg}"></i>`:`<span class="art vb" style="font-size:14px">${esc(w.tag||'کلمه')}</span>`);
-  return `<div class="glass item" onclick="pick(${i})"><i class="dot ${P[key(w)]||''}"></i>${b}<b>${esc(w.word)}</b><span class="f">${esc(w.fa)}</span></div>`}).join('')
+  return `<div class="glass item" onclick="pick(${i})"><i class="dot ${P[key(w)]||''}"></i>${b}<b>${esc(w.word)}</b><small class="lv">${LV(w)}</small><span class="f">${esc(w.fa)}</span></div>`}).join('')
   +(r.length>300?'<div class="empty">برای دیدن بقیه جستجو کن…</div>':'');
 }
 function pick(i){const w=ALL[i];if(isV(w))return openV(w);
- $('#fc').value='';$('#fa').value='';$('#fm').value='';mk();idx=Math.max(0,deck.indexOf(w));go('cards');card()}
+ $('#fc').value='';$('#fa').value='';$('#fm').value='';$('#fl').value='';mk();idx=Math.max(0,deck.indexOf(w));go('cards');card()}
 
 const TN={praesens:'Präsens',praeteritum:'Präteritum',perfekt:'Perfekt',plusquamperfekt:'Plusquamperfekt',futur1:'Futur I',futur2:'Futur II',konjunktiv1_praesens:'Konjunktiv I · Präsens',konjunktiv2_praeteritum:'Konjunktiv II · Präteritum'};
 const tcard=(h,o,pers)=>`<div class="tc"><h4>${h}</h4>${Object.entries(o).map(([k,v])=>{let a=k,b=v;if(pers){const i=v.indexOf(' ');a=v.slice(0,i);b=v.slice(i+1)}return `<div><em>${esc(a)}</em>${esc(b)}</div>`}).join('')}</div>`;
@@ -280,7 +282,7 @@ const shuf2=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i
 const lab=w=>isV(w)||!w.article?w.word:w.article+' '+w.word;
 let Q=null;
 function qStart(){
- const c=$('#qc').value;let pool=ALL.filter(w=>!c||w.category===c);if(pool.length<4)pool=ALL;
+ const c=$('#qc').value;let pool=ALL.filter(w=>(!c||w.category===c)&&lvOK($('#ql').value,w));if(pool.length<4)pool=ALL;
  Q={qs:shuf2(pool.slice()).slice(0,10),i:0,ok:0,d:$('#qd').value};qShow();
 }
 function qShow(){
