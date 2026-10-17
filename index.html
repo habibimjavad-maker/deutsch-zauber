@@ -128,6 +128,7 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 .ar.l{left:-22px;animation:blinkL 1.4s ease-in-out infinite}.ar.r{right:-22px;animation:blinkR 1.4s ease-in-out infinite;animation-delay:.7s}
 @keyframes blinkL{0%,100%{opacity:.12;transform:translate(0,-50%)}50%{opacity:1;transform:translate(-5px,-50%)}}
 @keyframes blinkR{0%,100%{opacity:.12;transform:translate(0,-50%)}50%{opacity:1;transform:translate(5px,-50%)}}
+.swd .ar{display:none}
 </style>
 </head>
 <body>
@@ -139,7 +140,6 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
  <div class="filters"><select id="fm"><option value="">📚 همه‌ی کارت‌ها</option><option value="smart">🧠 مرور هوشمند</option></select><select id="fl"><option value="">همه‌ی سطح‌ها</option><option>A1</option><option>A2</option><option>B1</option><option value="A1-A2">A1 تا A2</option></select></div>
  <div class="filters" style="margin-top:0"><select id="fc"></select><select id="fa"></select></div>
  <div class="stage"><span class="ar l">❮</span><div class="glass card" id="card" title="برای دیدن معنی بزن"></div><span class="ar r">❯</span></div>
- <div class="hint" style="text-align:center;margin:10px 0 0">با انگشت به چپ یا راست بکش تا کارت عوض شود</div>
  <div class="row">
   <button class="b-h" onclick="mark('h')">💪 سخته</button>
   <button class="b-r" onclick="mark('r')">🔁 مرور</button>
@@ -242,6 +242,7 @@ function card(){
 }
 function flip(){const w=deck[idx];if(!w)return;shown=!shown;const f=$('#fav');f.textContent=shown?w.fa:'';f.style.animation='none';f.offsetWidth;f.style.animation='';$('#hn').textContent=shown?'🙈 پنهان کردن معنی':'👁 نمایش معنی فارسی'}
 $('#card').onclick=flip;
+try{if(localStorage.getItem('dz4'))document.documentElement.classList.add('swd')}catch(_){}
 (function(){
  const el=$('#card');let x0=0,y0=0,dx=0,t0=0,drag=false,moved=false,lock=null;
  const reset=()=>{el.style.transition='';el.style.transform='';el.style.opacity='';el.style.animation=''};
@@ -251,7 +252,7 @@ $('#card').onclick=flip;
   if(!drag)return;drag=false;
   const fast=Math.abs(dx)/Math.max(1,Date.now()-t0)>.5;
   if(lock==='x'&&deck.length>1&&(Math.abs(dx)>70||(fast&&Math.abs(dx)>25))){
-   const left=dx<0;
+   const left=dx<0;try{localStorage.setItem('dz4','1')}catch(_){}document.documentElement.classList.add('swd');
    el.style.transition='transform .2s ease-in,opacity .2s';el.style.transform=`translateX(${left?'-115%':'115%'}) rotateY(${left?-50:50}deg)`;el.style.opacity='0';
    setTimeout(()=>{step(left?1:-1);el.style.transition='none';el.style.transform=`translateX(${left?'70%':'-70%'}) rotateY(${left?42:-42}deg)`;el.style.opacity='0';void el.offsetWidth;el.style.transition='transform .28s cubic-bezier(.2,.8,.3,1),opacity .28s';el.style.transform='';el.style.opacity='1';setTimeout(reset,300)},200);
   }else{el.style.transition='transform .2s ease-out,opacity .2s';el.style.transform='';el.style.opacity='1';setTimeout(reset,220)}
