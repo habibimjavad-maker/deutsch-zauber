@@ -35,7 +35,7 @@ header p{margin:2px 0 0;color:var(--mut);font-size:13px}
 select,input{flex:1;min-width:0;background:var(--glass);border:1px solid var(--line);color:var(--tx);border-radius:14px;padding:10px 12px;font:inherit;font-size:14px;outline:none}
 select option{color:#111}
 input:focus,select:focus{border-color:var(--gold)}
-.card{padding:26px 18px;text-align:center;min-height:300px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;animation:float 5s ease-in-out infinite;position:relative;cursor:pointer}
+.card{padding:26px 18px;text-align:center;min-height:300px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;animation:sway 7s ease-in-out infinite;position:relative;cursor:pointer}
 @keyframes float{50%{transform:translateY(-6px)}}
 .cnt{position:absolute;top:12px;inset-inline-start:16px;color:var(--mut);font-size:12px}
 .tag{font-size:12px;color:var(--mut);background:#fff1;border-radius:99px;padding:3px 10px}
@@ -118,6 +118,16 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 .vg{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin:10px 0}.vg figure{margin:0;text-align:center}.vg svg{width:100%;max-width:130px}.vg figcaption{font-size:13px;direction:ltr}.vg small{display:block;color:var(--mut)}
 .cls{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:10px;margin:10px 0}.cl{text-align:center;direction:ltr}.cl svg{width:100%;max-width:110px}.cl b{display:block;font-size:13px}.cl small{color:var(--mut)}.vis{padding:0 14px 14px}
 #card{touch-action:pan-y;user-select:none;-webkit-user-select:none;will-change:transform,opacity}
+/* ---- کارت استوانه‌ای ---- */
+.stage{position:relative;perspective:900px;margin:0 22px}
+.stage .card{border-radius:36px/52px;transform-origin:50% 50%;backface-visibility:hidden}
+.card::before{border-radius:inherit}
+.card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(90deg,rgba(5,8,32,.62),rgba(5,8,32,0) 20%,rgba(5,8,32,0) 80%,rgba(5,8,32,.62)),radial-gradient(120% 60% at 50% 0%,rgba(255,255,255,.14),transparent 60%),linear-gradient(0deg,rgba(5,8,32,.28),transparent 35%)}
+@keyframes sway{0%,100%{transform:rotateY(-11deg) rotateX(3deg)}50%{transform:rotateY(11deg) rotateX(3deg) translateY(-6px)}}
+.ar{position:absolute;top:50%;width:22px;text-align:center;font-size:30px;line-height:1;color:var(--gold);text-shadow:0 0 14px #ffd66b;pointer-events:none;z-index:3}
+.ar.l{left:-22px;animation:blinkL 1.4s ease-in-out infinite}.ar.r{right:-22px;animation:blinkR 1.4s ease-in-out infinite;animation-delay:.7s}
+@keyframes blinkL{0%,100%{opacity:.12;transform:translate(0,-50%)}50%{opacity:1;transform:translate(-5px,-50%)}}
+@keyframes blinkR{0%,100%{opacity:.12;transform:translate(0,-50%)}50%{opacity:1;transform:translate(5px,-50%)}}
 </style>
 </head>
 <body>
@@ -128,17 +138,15 @@ nav button{font-size:12px}.ex{padding:0;overflow:hidden}.ex summary{padding:14px
 <section id="t-cards">
  <div class="filters"><select id="fm"><option value="">📚 همه‌ی کارت‌ها</option><option value="smart">🧠 مرور هوشمند</option></select><select id="fl"><option value="">همه‌ی سطح‌ها</option><option>A1</option><option>A2</option><option>B1</option><option value="A1-A2">A1 تا A2</option></select></div>
  <div class="filters" style="margin-top:0"><select id="fc"></select><select id="fa"></select></div>
- <div class="glass card" id="card" title="برای دیدن معنی بزن"></div>
- <div class="hint" style="text-align:center;margin:8px 0 0">👈 برای عوض کردن کارت، آن را به چپ یا راست بکش 👉</div>
+ <div class="stage"><span class="ar l">❮</span><div class="glass card" id="card" title="برای دیدن معنی بزن"></div><span class="ar r">❯</span></div>
+ <div class="hint" style="text-align:center;margin:10px 0 0">با انگشت به چپ یا راست بکش تا کارت عوض شود</div>
  <div class="row">
   <button class="b-h" onclick="mark('h')">💪 سخته</button>
   <button class="b-r" onclick="mark('r')">🔁 مرور</button>
   <button class="b-k" onclick="mark('k')">✅ بلدم</button>
  </div>
  <div class="row">
-  <button onclick="step(-1)">→ قبلی</button>
   <button class="gold" onclick="shuf()">🔀 مخلوط</button>
-  <button onclick="step(1)">بعدی ←</button>
  </div>
 </section>
 
@@ -238,14 +246,14 @@ $('#card').onclick=flip;
  const el=$('#card');let x0=0,y0=0,dx=0,t0=0,drag=false,moved=false,lock=null;
  const reset=()=>{el.style.transition='';el.style.transform='';el.style.opacity='';el.style.animation=''};
  el.addEventListener('pointerdown',e=>{if(e.target.closest&&e.target.closest('button'))return;drag=true;moved=false;lock=null;x0=e.clientX;y0=e.clientY;dx=0;t0=Date.now();el.style.transition='none';el.style.animation='none';try{el.setPointerCapture(e.pointerId)}catch(_){}});
- el.addEventListener('pointermove',e=>{if(!drag)return;dx=e.clientX-x0;const dy=e.clientY-y0;if(lock===null&&(Math.abs(dx)>8||Math.abs(dy)>8))lock=Math.abs(dx)>Math.abs(dy)?'x':'y';if(lock!=='x')return;moved=true;el.style.transform=`translateX(${dx}px) rotate(${dx/16}deg)`;el.style.opacity=String(1-Math.min(.55,Math.abs(dx)/450))});
+ el.addEventListener('pointermove',e=>{if(!drag)return;dx=e.clientX-x0;const dy=e.clientY-y0;if(lock===null&&(Math.abs(dx)>8||Math.abs(dy)>8))lock=Math.abs(dx)>Math.abs(dy)?'x':'y';if(lock!=='x')return;moved=true;el.style.transform=`translateX(${dx}px) rotateY(${dx/6}deg)`;el.style.opacity=String(1-Math.min(.55,Math.abs(dx)/450))});
  const end=()=>{
   if(!drag)return;drag=false;
   const fast=Math.abs(dx)/Math.max(1,Date.now()-t0)>.5;
   if(lock==='x'&&deck.length>1&&(Math.abs(dx)>70||(fast&&Math.abs(dx)>25))){
    const left=dx<0;
-   el.style.transition='transform .2s ease-in,opacity .2s';el.style.transform=`translateX(${left?'-115%':'115%'}) rotate(${left?-14:14}deg)`;el.style.opacity='0';
-   setTimeout(()=>{step(left?1:-1);el.style.transition='none';el.style.transform=`translateX(${left?'70%':'-70%'}) rotate(${left?8:-8}deg)`;el.style.opacity='0';void el.offsetWidth;el.style.transition='transform .28s cubic-bezier(.2,.8,.3,1),opacity .28s';el.style.transform='';el.style.opacity='1';setTimeout(reset,300)},200);
+   el.style.transition='transform .2s ease-in,opacity .2s';el.style.transform=`translateX(${left?'-115%':'115%'}) rotateY(${left?-50:50}deg)`;el.style.opacity='0';
+   setTimeout(()=>{step(left?1:-1);el.style.transition='none';el.style.transform=`translateX(${left?'70%':'-70%'}) rotateY(${left?42:-42}deg)`;el.style.opacity='0';void el.offsetWidth;el.style.transition='transform .28s cubic-bezier(.2,.8,.3,1),opacity .28s';el.style.transform='';el.style.opacity='1';setTimeout(reset,300)},200);
   }else{el.style.transition='transform .2s ease-out,opacity .2s';el.style.transform='';el.style.opacity='1';setTimeout(reset,220)}
  };
  el.addEventListener('pointerup',end);el.addEventListener('pointercancel',end);

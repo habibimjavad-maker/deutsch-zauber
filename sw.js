@@ -1,4 +1,4 @@
-const V='dz-v18',SHELL=['./','index.html','words.json','verbs.json','expressions.json','grammar.json','manifest.json','icon-192.png','flag-ir.png','icon-512.png'];
+const V='dz-v19',SHELL=['./','index.html','words.json','verbs.json','expressions.json','grammar.json','manifest.json','icon-192.png','flag-ir.png','icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(
  caches.open(V).then(c=>Promise.all(SHELL.map(u=>fetch(new Request(u,{cache:'reload'})).then(r=>r.ok&&c.put(u,r)).catch(()=>{}))))
  .then(()=>self.skipWaiting())));
